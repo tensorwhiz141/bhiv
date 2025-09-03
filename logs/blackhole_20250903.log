@@ -5,3 +5,86 @@
 2025-09-03 13:37:01,837 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
 2025-09-03 13:37:01,837 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
 2025-09-03 13:37:06,581 - INFO - __main__ - ✅ Nipun adapter loaded successfully
+2025-09-03 13:58:30,159 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:30,596 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:30,597 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:31,063 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:31,064 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:31,078 - INFO - composer.compose - Starting composition for task test_task_001
+2025-09-03 13:58:31,078 - INFO - composer.compose - Policy selected template test_template for task test_task_001
+2025-09-03 13:58:31,078 - INFO - composer.compose - Composition completed for task test_task_001. Template: test_template, Grounded: True, Time: 0.000s
+2025-09-03 13:58:31,452 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:31,453 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:31,465 - INFO - composer.compose - Starting composition for task test_task_001
+2025-09-03 13:58:31,465 - INFO - composer.compose - Policy selected template generative_standard for task test_task_001
+2025-09-03 13:58:31,466 - WARNING - composer.compose - Grounding failed for task test_task_001. Score: 0.240
+2025-09-03 13:58:31,466 - INFO - composer.compose - Fallback applied for task test_task_001. New score: 0.750
+2025-09-03 13:58:31,466 - INFO - composer.compose - Composition completed for task test_task_001. Template: extractive_heavy, Grounded: True, Time: 0.001s
+2025-09-03 13:58:31,853 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:31,853 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:31,868 - INFO - composer.compose - Starting composition for task test_task_001
+2025-09-03 13:58:31,869 - INFO - composer.compose - Using explicit template balanced_hybrid for task test_task_001
+2025-09-03 13:58:31,869 - INFO - composer.compose - Composition completed for task test_task_001. Template: balanced_hybrid, Grounded: True, Time: 0.000s
+2025-09-03 13:58:32,256 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:32,257 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:32,275 - INFO - composer.compose - Starting composition for task test_task_001
+2025-09-03 13:58:32,275 - ERROR - composer.compose - Composition failed for task test_task_001: Test error
+2025-09-03 13:58:32,710 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:32,710 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:33,169 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:33,169 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:33,598 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:33,598 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:33,993 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:33,993 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:34,385 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:34,385 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:34,768 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:34,768 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:35,144 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:35,144 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:35,524 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:35,524 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:35,534 - INFO - composer.compose - Updated composition reward for task test_task: template=test_template, reward=0.800
+2025-09-03 13:58:35,557 - INFO - composer.gru - GRUResponseModel initialized with vocab_size=1000, hidden_dim=256, num_layers=2
+2025-09-03 13:58:35,560 - INFO - composer.gru - GRUResponseModel initialized with vocab_size=100, hidden_dim=64, num_layers=2
+2025-09-03 13:58:35,646 - INFO - composer.gru - GRUComposer initialized (stub)
+2025-09-03 13:58:35,648 - INFO - composer.gru - GRUComposer initialized (stub)
+2025-09-03 13:58:35,648 - WARNING - composer.gru - GRU composition not implemented - using fallback
+2025-09-03 13:58:35,650 - INFO - composer.gru - GRUTemplateAdapter initialized (stub)
+2025-09-03 13:58:36,064 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:36,064 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:36,064 - INFO - composer.compose - Starting composition for task integration_test
+2025-09-03 13:58:36,064 - INFO - reinforcement.template_selector - Template exploitation: selected generative_standard for task integration_test
+2025-09-03 13:58:36,064 - INFO - composer.compose - Policy selected template generative_standard for task integration_test
+2025-09-03 13:58:36,152 - INFO - utils.grounding_verifier - Grounding verification: overlap=0.060, citations=0.000, consistency=0.000, overall=0.024, grounded=False
+2025-09-03 13:58:36,152 - WARNING - composer.compose - Grounding failed for task integration_test. Score: 0.019
+2025-09-03 13:58:36,153 - WARNING - reinforcement.template_selector - Grounding failure for template generative_standard in task integration_test. Score: 0.019
+2025-09-03 13:58:36,153 - INFO - reinforcement.template_selector - Fallback to template balanced_hybrid for task integration_test
+2025-09-03 13:58:36,186 - INFO - utils.grounding_verifier - Grounding verification: overlap=0.282, citations=0.000, consistency=0.500, overall=0.263, grounded=False
+2025-09-03 13:58:36,186 - INFO - composer.compose - Fallback applied for task integration_test. New score: 0.263
+2025-09-03 13:58:36,186 - INFO - composer.compose - Composition completed for task integration_test. Template: balanced_hybrid, Grounded: False, Time: 0.122s
+2025-09-03 13:58:36,580 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:36,580 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:36,580 - INFO - composer.compose - Starting composition for task no_sources_test
+2025-09-03 13:58:36,580 - INFO - reinforcement.template_selector - Template exploitation: selected generative_standard for task no_sources_test
+2025-09-03 13:58:36,580 - INFO - composer.compose - Policy selected template generative_standard for task no_sources_test
+2025-09-03 13:58:36,580 - WARNING - utils.grounding_verifier - No source texts provided for grounding verification
+2025-09-03 13:58:36,580 - WARNING - composer.compose - Grounding failed for task no_sources_test. Score: 0.000
+2025-09-03 13:58:36,580 - WARNING - reinforcement.template_selector - Grounding failure for template generative_standard in task no_sources_test. Score: 0.000
+2025-09-03 13:58:36,581 - INFO - reinforcement.template_selector - Fallback to template balanced_hybrid for task no_sources_test
+2025-09-03 13:58:36,581 - WARNING - utils.grounding_verifier - No source texts provided for grounding verification
+2025-09-03 13:58:36,581 - INFO - composer.compose - Fallback applied for task no_sources_test. New score: 0.000
+2025-09-03 13:58:36,581 - INFO - composer.compose - Composition completed for task no_sources_test. Template: balanced_hybrid, Grounded: False, Time: 0.001s
+2025-09-03 13:58:36,988 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-03 13:58:36,988 - INFO - composer.compose - ResponseComposer initialized
+2025-09-03 13:58:36,989 - INFO - composer.compose - Starting composition for task timing_test
+2025-09-03 13:58:36,989 - INFO - reinforcement.template_selector - Template exploitation: selected generative_standard for task timing_test
+2025-09-03 13:58:36,989 - INFO - composer.compose - Policy selected template generative_standard for task timing_test
+2025-09-03 13:58:37,016 - INFO - utils.grounding_verifier - Grounding verification: overlap=0.021, citations=0.000, consistency=0.333, overall=0.108, grounded=False
+2025-09-03 13:58:37,016 - WARNING - composer.compose - Grounding failed for task timing_test. Score: 0.087
+2025-09-03 13:58:37,016 - WARNING - reinforcement.template_selector - Grounding failure for template generative_standard in task timing_test. Score: 0.087
+2025-09-03 13:58:37,016 - INFO - reinforcement.template_selector - Fallback to template balanced_hybrid for task timing_test
+2025-09-03 13:58:37,032 - INFO - utils.grounding_verifier - Grounding verification: overlap=0.100, citations=0.167, consistency=0.000, overall=0.090, grounded=False
+2025-09-03 13:58:37,032 - INFO - composer.compose - Fallback applied for task timing_test. New score: 0.072
+2025-09-03 13:58:37,032 - INFO - composer.compose - Composition completed for task timing_test. Template: balanced_hybrid, Grounded: False, Time: 0.044s
