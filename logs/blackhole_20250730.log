@@ -1,0 +1,269 @@
+2025-07-30 10:03:12,776 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-30 10:10:20,564 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-30 10:10:20,571 - INFO - __main__ - Sending request to http://localhost:8002/query-kb with payload: {
+  "query": "What is the meaning of life according to Rigveda",
+  "filters": {
+    "book": "rigveda"
+  },
+  "task_id": "713a6ccd-c36a-4ad5-9a3a-5e0420430a5a",
+  "tags": [
+    "semantic_search"
+  ]
+}
+2025-07-30 10:10:24,661 - WARNING - __main__ - Attempt 1/3 failed: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /query-kb (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019C90C636D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-07-30 10:10:29,741 - WARNING - __main__ - Attempt 2/3 failed: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /query-kb (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019C90C62AA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-07-30 10:10:34,821 - WARNING - __main__ - Attempt 3/3 failed: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /query-kb (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019C90C62F80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-07-30 10:10:34,822 - ERROR - __main__ - Task failed after 3 attempts: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /query-kb (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019C90C62F80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-07-30 10:20:56,687 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-30 10:20:56,690 - INFO - __main__ - Sending request to http://localhost:8002/query-kb with payload: {
+  "query": "What is the meaning of life according to Rigveda",
+  "filters": {
+    "book": "rigveda"
+  },
+  "task_id": "8d70816a-6be7-424e-9ef9-db3200637cd0",
+  "tags": [
+    "semantic_search"
+  ]
+}
+2025-07-30 10:20:58,751 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 8d70816a-6be7-424e-9ef9-db3200637cd0 | Query: What is the meaning of life according to Rigveda
+2025-07-30 10:20:58,755 - ERROR - mcp_bridge - Knowledge base query failed: local variable 'KnowledgeAgent' referenced before assignment
+2025-07-30 10:21:29,273 - ERROR - mcp_bridge - Failed to log task to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6889a4925266b8b2e0133c03, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-30 10:21:29,275 - WARNING - __main__ - Attempt 1/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/query-kb
+2025-07-30 10:21:32,329 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 8d70816a-6be7-424e-9ef9-db3200637cd0 | Query: What is the meaning of life according to Rigveda
+2025-07-30 10:21:32,331 - ERROR - mcp_bridge - Knowledge base query failed: local variable 'KnowledgeAgent' referenced before assignment
+2025-07-30 10:22:02,786 - ERROR - mcp_bridge - Failed to log task to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6889a4925266b8b2e0133c03, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-30 10:22:02,788 - WARNING - __main__ - Attempt 2/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/query-kb
+2025-07-30 10:22:05,850 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 8d70816a-6be7-424e-9ef9-db3200637cd0 | Query: What is the meaning of life according to Rigveda
+2025-07-30 10:22:05,850 - ERROR - mcp_bridge - Knowledge base query failed: local variable 'KnowledgeAgent' referenced before assignment
+2025-07-30 10:22:36,327 - ERROR - mcp_bridge - Failed to log task to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6889a4925266b8b2e0133c03, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-30 10:22:36,332 - WARNING - __main__ - Attempt 3/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/query-kb
+2025-07-30 10:22:36,334 - ERROR - __main__ - Task failed after 3 attempts: 500 Server Error: Internal Server Error for url: http://localhost:8002/query-kb
+2025-07-30 10:24:33,106 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-30 10:24:33,107 - INFO - __main__ - Sending request to http://localhost:8002/query-kb with payload: {
+  "query": "What is the meaning of life according to Rigveda",
+  "filters": {
+    "book": "rigveda"
+  },
+  "task_id": "0128ead2-e015-4e24-8441-ed2f093eccd2",
+  "tags": [
+    "semantic_search"
+  ]
+}
+2025-07-30 10:24:35,157 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 0128ead2-e015-4e24-8441-ed2f093eccd2 | Query: What is the meaning of life according to Rigveda
+2025-07-30 10:24:35,157 - ERROR - mcp_bridge - Knowledge base query failed: local variable 'KnowledgeAgent' referenced before assignment
+2025-07-30 10:25:05,584 - ERROR - mcp_bridge - Failed to log task to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6889a4925266b8b2e0133c03, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-30 10:25:05,678 - INFO - mcp_bridge - MongoDB client closed
+2025-07-30 10:30:54,791 - INFO - mcp_bridge - MongoDB client closed
+2025-07-30 10:34:33,346 - INFO - mcp_bridge - MongoDB client closed
+2025-07-30 14:32:12,998 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 59b516c9-1e24-4ba7-a1e0-373fd90d3016 | Query: What is the meaning of life according to Rigveda
+2025-07-30 14:32:13,175 - INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-07-30 14:32:13,181 - INFO - agents.knowledge_agent - [KnowledgeAgent] Task 59b516c9-1e24-4ba7-a1e0-373fd90d3016: Querying Qdrant with query: What is the meaning of life according to Rigveda, filters: {'book': 'rigveda'}, tags: ['semantic_search']
+2025-07-30 14:32:13,193 - ERROR - agents.knowledge_agent - [KnowledgeAgent] Task 59b516c9-1e24-4ba7-a1e0-373fd90d3016: Query failed: 1 validation error for SearchRequest
+filter.book
+  Extra inputs are not permitted [type=extra_forbidden, input_value='rigveda', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+2025-07-30 14:32:43,678 - ERROR - mcp_bridge - Failed to log task to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6889a7ef34d71b61f12695b5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-30 14:32:43,680 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 59b516c9-1e24-4ba7-a1e0-373fd90d3016
+2025-07-30 14:32:43,680 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '59b516c9-1e24-4ba7-a1e0-373fd90d3016', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-30T14:32:43.680005'}
+2025-07-30 14:32:43,681 - ERROR - mcp_bridge - Knowledge base query failed: RLContext.log_action() got an unexpected keyword argument 'reward'
+2025-07-30 14:32:57,829 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-30 14:32:57,829 - INFO - __main__ - Sending request to http://localhost:8002/query-kb with payload: {
+  "query": "What is the meaning of life according to Rigveda",
+  "filters": {
+    "book": "rigveda"
+  },
+  "task_id": "21af1c47-9d8e-43b4-aef3-1abd000203aa",
+  "tags": [
+    "semantic_search"
+  ]
+}
+2025-07-30 14:32:59,899 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 21af1c47-9d8e-43b4-aef3-1abd000203aa | Query: What is the meaning of life according to Rigveda
+2025-07-30 14:32:59,944 - INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-07-30 14:32:59,945 - INFO - agents.knowledge_agent - [KnowledgeAgent] Task 21af1c47-9d8e-43b4-aef3-1abd000203aa: Querying Qdrant with query: What is the meaning of life according to Rigveda, filters: {'book': 'rigveda'}, tags: ['semantic_search']
+2025-07-30 14:32:59,945 - ERROR - agents.knowledge_agent - [KnowledgeAgent] Task 21af1c47-9d8e-43b4-aef3-1abd000203aa: Query failed: 1 validation error for SearchRequest
+filter.book
+  Extra inputs are not permitted [type=extra_forbidden, input_value='rigveda', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+2025-07-30 14:33:14,147 - ERROR - mcp_bridge - Failed to log task to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6889a7ef34d71b61f12695b5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-30 14:33:30,386 - ERROR - mcp_bridge - Failed to log task to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6889a7ef34d71b61f12695b5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-30 14:33:30,386 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 21af1c47-9d8e-43b4-aef3-1abd000203aa
+2025-07-30 14:33:30,386 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '21af1c47-9d8e-43b4-aef3-1abd000203aa', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-30T14:33:30.386632'}
+2025-07-30 14:33:30,388 - ERROR - mcp_bridge - Knowledge base query failed: RLContext.log_action() got an unexpected keyword argument 'reward'
+2025-07-30 14:34:00,888 - ERROR - mcp_bridge - Failed to log task to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6889a7ef34d71b61f12695b5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-30 14:34:00,894 - WARNING - __main__ - Attempt 1/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/query-kb
+2025-07-30 14:34:03,953 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 21af1c47-9d8e-43b4-aef3-1abd000203aa | Query: What is the meaning of life according to Rigveda
+2025-07-30 14:34:04,005 - INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-07-30 14:34:04,005 - INFO - agents.knowledge_agent - [KnowledgeAgent] Task 21af1c47-9d8e-43b4-aef3-1abd000203aa: Querying Qdrant with query: What is the meaning of life according to Rigveda, filters: {'book': 'rigveda'}, tags: ['semantic_search']
+2025-07-30 14:34:04,005 - ERROR - agents.knowledge_agent - [KnowledgeAgent] Task 21af1c47-9d8e-43b4-aef3-1abd000203aa: Query failed: 1 validation error for SearchRequest
+filter.book
+  Extra inputs are not permitted [type=extra_forbidden, input_value='rigveda', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+2025-07-30 14:34:34,439 - ERROR - mcp_bridge - Failed to log task to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6889a7ef34d71b61f12695b5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-30 14:34:34,439 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 21af1c47-9d8e-43b4-aef3-1abd000203aa
+2025-07-30 14:34:34,439 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '21af1c47-9d8e-43b4-aef3-1abd000203aa', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-30T14:34:34.439042'}
+2025-07-30 14:34:34,443 - ERROR - mcp_bridge - Knowledge base query failed: RLContext.log_action() got an unexpected keyword argument 'reward'
+2025-07-30 14:35:04,557 - ERROR - mcp_bridge - Failed to log task to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6889a7ef34d71b61f12695b5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-30 14:35:04,560 - WARNING - __main__ - Attempt 2/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/query-kb
+2025-07-30 14:35:07,623 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 21af1c47-9d8e-43b4-aef3-1abd000203aa | Query: What is the meaning of life according to Rigveda
+2025-07-30 14:35:07,672 - INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-07-30 14:35:07,672 - INFO - agents.knowledge_agent - [KnowledgeAgent] Task 21af1c47-9d8e-43b4-aef3-1abd000203aa: Querying Qdrant with query: What is the meaning of life according to Rigveda, filters: {'book': 'rigveda'}, tags: ['semantic_search']
+2025-07-30 14:35:07,674 - ERROR - agents.knowledge_agent - [KnowledgeAgent] Task 21af1c47-9d8e-43b4-aef3-1abd000203aa: Query failed: 1 validation error for SearchRequest
+filter.book
+  Extra inputs are not permitted [type=extra_forbidden, input_value='rigveda', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+2025-07-30 14:35:38,089 - ERROR - mcp_bridge - Failed to log task to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6889a7ef34d71b61f12695b5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-30 14:35:38,091 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 21af1c47-9d8e-43b4-aef3-1abd000203aa
+2025-07-30 14:35:38,091 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '21af1c47-9d8e-43b4-aef3-1abd000203aa', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-30T14:35:38.091439'}
+2025-07-30 14:35:38,091 - ERROR - mcp_bridge - Knowledge base query failed: RLContext.log_action() got an unexpected keyword argument 'reward'
+2025-07-30 14:36:08,118 - ERROR - mcp_bridge - Failed to log task to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6889a7ef34d71b61f12695b5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-30 14:36:08,146 - WARNING - __main__ - Attempt 3/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/query-kb
+2025-07-30 14:36:08,162 - ERROR - __main__ - Task failed after 3 attempts: 500 Server Error: Internal Server Error for url: http://localhost:8002/query-kb
+2025-07-30 15:16:30,938 - INFO - mcp_bridge - MongoDB client closed
+2025-07-30 15:17:05,464 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-30 15:17:05,467 - INFO - __main__ - Sending request to http://localhost:8002/query-kb with payload: {
+  "query": "What is the meaning of life according to Rigveda",
+  "filters": {
+    "book": "rigveda"
+  },
+  "task_id": "6760b0b2-7cb1-4877-a31c-c9dbd3da03a5",
+  "tags": [
+    "semantic_search"
+  ]
+}
+2025-07-30 15:17:07,528 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 6760b0b2-7cb1-4877-a31c-c9dbd3da03a5 | Query: What is the meaning of life according to Rigveda
+2025-07-30 15:17:11,715 - INFO - agents.knowledge_agent - [KnowledgeAgent] Task 6760b0b2-7cb1-4877-a31c-c9dbd3da03a5: Querying Qdrant with query: What is the meaning of life according to Rigveda, filters: {'book': 'rigveda'}, tags: ['semantic_search']
+2025-07-30 15:17:11,729 - ERROR - agents.knowledge_agent - [KnowledgeAgent] Task 6760b0b2-7cb1-4877-a31c-c9dbd3da03a5: Query failed: 1 validation error for SearchRequest
+filter.book
+  Extra inputs are not permitted [type=extra_forbidden, input_value='rigveda', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+2025-07-30 15:17:11,795 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 6760b0b2-7cb1-4877-a31c-c9dbd3da03a5
+2025-07-30 15:17:11,796 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '6760b0b2-7cb1-4877-a31c-c9dbd3da03a5', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-30T15:17:11.796791'}
+2025-07-30 15:17:11,797 - ERROR - mcp_bridge - Knowledge base query failed: RLContext.log_action() got an unexpected keyword argument 'reward'
+2025-07-30 15:17:11,801 - WARNING - __main__ - Attempt 1/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/query-kb
+2025-07-30 15:17:14,876 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 6760b0b2-7cb1-4877-a31c-c9dbd3da03a5 | Query: What is the meaning of life according to Rigveda
+2025-07-30 15:17:19,009 - INFO - agents.knowledge_agent - [KnowledgeAgent] Task 6760b0b2-7cb1-4877-a31c-c9dbd3da03a5: Querying Qdrant with query: What is the meaning of life according to Rigveda, filters: {'book': 'rigveda'}, tags: ['semantic_search']
+2025-07-30 15:17:19,011 - ERROR - agents.knowledge_agent - [KnowledgeAgent] Task 6760b0b2-7cb1-4877-a31c-c9dbd3da03a5: Query failed: 1 validation error for SearchRequest
+filter.book
+  Extra inputs are not permitted [type=extra_forbidden, input_value='rigveda', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+2025-07-30 15:17:19,014 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 6760b0b2-7cb1-4877-a31c-c9dbd3da03a5
+2025-07-30 15:17:19,015 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '6760b0b2-7cb1-4877-a31c-c9dbd3da03a5', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-30T15:17:19.015070'}
+2025-07-30 15:17:19,015 - ERROR - mcp_bridge - Knowledge base query failed: RLContext.log_action() got an unexpected keyword argument 'reward'
+2025-07-30 15:17:19,019 - WARNING - __main__ - Attempt 2/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/query-kb
+2025-07-30 15:17:22,091 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 6760b0b2-7cb1-4877-a31c-c9dbd3da03a5 | Query: What is the meaning of life according to Rigveda
+2025-07-30 15:17:26,237 - INFO - agents.knowledge_agent - [KnowledgeAgent] Task 6760b0b2-7cb1-4877-a31c-c9dbd3da03a5: Querying Qdrant with query: What is the meaning of life according to Rigveda, filters: {'book': 'rigveda'}, tags: ['semantic_search']
+2025-07-30 15:17:26,238 - ERROR - agents.knowledge_agent - [KnowledgeAgent] Task 6760b0b2-7cb1-4877-a31c-c9dbd3da03a5: Query failed: 1 validation error for SearchRequest
+filter.book
+  Extra inputs are not permitted [type=extra_forbidden, input_value='rigveda', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+2025-07-30 15:17:26,242 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 6760b0b2-7cb1-4877-a31c-c9dbd3da03a5
+2025-07-30 15:17:26,243 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '6760b0b2-7cb1-4877-a31c-c9dbd3da03a5', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-30T15:17:26.243607'}
+2025-07-30 15:17:26,244 - ERROR - mcp_bridge - Knowledge base query failed: RLContext.log_action() got an unexpected keyword argument 'reward'
+2025-07-30 15:17:26,250 - WARNING - __main__ - Attempt 3/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/query-kb
+2025-07-30 15:17:26,251 - ERROR - __main__ - Task failed after 3 attempts: 500 Server Error: Internal Server Error for url: http://localhost:8002/query-kb
+2025-07-30 15:19:35,331 - INFO - mcp_bridge - MongoDB client closed
+2025-07-30 15:22:17,871 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-30 15:22:17,876 - INFO - __main__ - Sending request to http://localhost:8002/query-kb with payload: {
+  "query": "What is the meaning of life according to Rigveda",
+  "filters": {
+    "book": "rigveda"
+  },
+  "task_id": "fd109465-e667-4f3c-8815-dec64a64ad9f",
+  "tags": [
+    "semantic_search"
+  ]
+}
+2025-07-30 15:22:19,952 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: fd109465-e667-4f3c-8815-dec64a64ad9f | Query: What is the meaning of life according to Rigveda
+2025-07-30 15:22:24,119 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-30 15:22:24,120 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-30 15:22:29,488 - INFO - agents.knowledge_agent - [KnowledgeAgent] Task fd109465-e667-4f3c-8815-dec64a64ad9f: Querying Qdrant with query: What is the meaning of life according to Rigveda, filters: {'book': 'rigveda'}, tags: ['semantic_search']
+2025-07-30 15:22:33,859 - ERROR - agents.knowledge_agent - [KnowledgeAgent] Task fd109465-e667-4f3c-8815-dec64a64ad9f: Query failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-30 15:22:33,893 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task fd109465-e667-4f3c-8815-dec64a64ad9f
+2025-07-30 15:22:33,894 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': 'fd109465-e667-4f3c-8815-dec64a64ad9f', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-30T15:22:33.894659'}
+2025-07-30 15:22:33,895 - INFO - reinforcement.rl_context - Logged RL action: {'task_id': 'fd109465-e667-4f3c-8815-dec64a64ad9f', 'agent': 'knowledge_agent', 'model': 'knowledge_agent', 'action': 'query_knowledge_base', 'reward': 0.0, 'metadata': {'filters': {'book': 'rigveda'}, 'tags': ['semantic_search']}, 'timestamp': '2025-07-30T15:22:33.895650'}
+2025-07-30 15:22:33,899 - INFO - __main__ - Task completed: fd109465-e667-4f3c-8815-dec64a64ad9f, Status: success
+2025-07-30 15:22:52,935 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-30 15:22:52,938 - INFO - __main__ - Sending request to http://localhost:8002/query-kb with payload: {
+  "query": "What is the meaning of life according to Rigveda",
+  "filters": {
+    "book": "rigveda"
+  },
+  "task_id": "451f3c34-82b5-49dc-878e-7256471b154f",
+  "tags": [
+    "semantic_search"
+  ]
+}
+2025-07-30 15:22:55,017 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 451f3c34-82b5-49dc-878e-7256471b154f | Query: What is the meaning of life according to Rigveda
+2025-07-30 15:22:59,161 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-30 15:22:59,162 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-30 15:23:02,831 - INFO - agents.knowledge_agent - [KnowledgeAgent] Task 451f3c34-82b5-49dc-878e-7256471b154f: Querying Qdrant with query: What is the meaning of life according to Rigveda, filters: {'book': 'rigveda'}, tags: ['semantic_search']
+2025-07-30 15:23:06,943 - ERROR - agents.knowledge_agent - [KnowledgeAgent] Task 451f3c34-82b5-49dc-878e-7256471b154f: Query failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-30 15:23:06,947 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 451f3c34-82b5-49dc-878e-7256471b154f
+2025-07-30 15:23:06,949 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '451f3c34-82b5-49dc-878e-7256471b154f', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-30T15:23:06.949402'}
+2025-07-30 15:23:06,950 - INFO - reinforcement.rl_context - Logged RL action: {'task_id': '451f3c34-82b5-49dc-878e-7256471b154f', 'agent': 'knowledge_agent', 'model': 'knowledge_agent', 'action': 'query_knowledge_base', 'reward': 0.0, 'metadata': {'filters': {'book': 'rigveda'}, 'tags': ['semantic_search']}, 'timestamp': '2025-07-30T15:23:06.950428'}
+2025-07-30 15:23:06,956 - INFO - __main__ - Task completed: 451f3c34-82b5-49dc-878e-7256471b154f, Status: success
+2025-07-30 15:25:24,763 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-30 15:25:24,768 - INFO - __main__ - Sending request to http://localhost:8002/query-kb with payload: {
+  "query": "What is the meaning of life according to Rigveda",
+  "filters": {
+    "book": "rigveda"
+  },
+  "task_id": "edf2031c-03ee-4b6e-9cc4-97897f2b838d",
+  "tags": [
+    "semantic_search"
+  ]
+}
+2025-07-30 15:25:26,851 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: edf2031c-03ee-4b6e-9cc4-97897f2b838d | Query: What is the meaning of life according to Rigveda
+2025-07-30 15:25:31,017 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-30 15:25:31,017 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-30 15:25:34,786 - INFO - agents.knowledge_agent - [KnowledgeAgent] Task edf2031c-03ee-4b6e-9cc4-97897f2b838d: Querying Qdrant with query: What is the meaning of life according to Rigveda, filters: {'book': 'rigveda'}, tags: ['semantic_search']
+2025-07-30 15:25:38,912 - ERROR - agents.knowledge_agent - [KnowledgeAgent] Task edf2031c-03ee-4b6e-9cc4-97897f2b838d: Query failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-30 15:25:38,916 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task edf2031c-03ee-4b6e-9cc4-97897f2b838d
+2025-07-30 15:25:38,918 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': 'edf2031c-03ee-4b6e-9cc4-97897f2b838d', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-30T15:25:38.918028'}
+2025-07-30 15:25:38,918 - INFO - reinforcement.rl_context - Logged RL action: {'task_id': 'edf2031c-03ee-4b6e-9cc4-97897f2b838d', 'agent': 'knowledge_agent', 'model': 'knowledge_agent', 'action': 'query_knowledge_base', 'reward': 0.0, 'metadata': {'filters': {'book': 'rigveda'}, 'tags': ['semantic_search']}, 'timestamp': '2025-07-30T15:25:38.918941'}
+2025-07-30 15:25:38,924 - INFO - __main__ - Task completed: edf2031c-03ee-4b6e-9cc4-97897f2b838d, Status: success
+2025-07-30 15:40:31,555 - INFO - mcp_bridge - MongoDB client closed
+2025-07-30 15:41:14,233 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-30 15:41:14,236 - INFO - __main__ - Sending request to http://localhost:8002/query-kb with payload: {
+  "query": "What is the meaning of life according to Rigveda",
+  "filters": {
+    "book": "rigveda"
+  },
+  "task_id": "12d5882c-9bfc-4e7a-aa20-4dd8cbb9f5d0",
+  "tags": [
+    "semantic_search"
+  ]
+}
+2025-07-30 15:41:16,313 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 12d5882c-9bfc-4e7a-aa20-4dd8cbb9f5d0 | Query: What is the meaning of life according to Rigveda
+2025-07-30 15:41:16,411 - INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-07-30 15:41:16,418 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-30 15:41:16,419 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-30 15:41:21,935 - INFO - agents.knowledge_agent - [KnowledgeAgent] Task 12d5882c-9bfc-4e7a-aa20-4dd8cbb9f5d0: Querying Qdrant with query: What is the meaning of life according to Rigveda, filters: {'book': 'rigveda'}, tags: ['semantic_search']
+2025-07-30 15:41:21,996 - INFO - httpx - HTTP Request: POST http://localhost:6333/collections/vedas_knowledge_base/points/search "HTTP/1.1 404 Not Found"
+2025-07-30 15:41:21,997 - ERROR - agents.knowledge_agent - [KnowledgeAgent] Task 12d5882c-9bfc-4e7a-aa20-4dd8cbb9f5d0: Query failed: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'{"status":{"error":"Not found: Collection `vedas_knowledge_base` doesn\'t exist!"},"time":4.209e-6}'
+2025-07-30 15:41:22,004 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 12d5882c-9bfc-4e7a-aa20-4dd8cbb9f5d0
+2025-07-30 15:41:22,005 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '12d5882c-9bfc-4e7a-aa20-4dd8cbb9f5d0', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-30T15:41:22.005589'}
+2025-07-30 15:41:22,005 - INFO - reinforcement.rl_context - Logged RL action: {'task_id': '12d5882c-9bfc-4e7a-aa20-4dd8cbb9f5d0', 'agent': 'knowledge_agent', 'model': 'knowledge_agent', 'action': 'query_knowledge_base', 'reward': 0.0, 'metadata': {'filters': {'book': 'rigveda'}, 'tags': ['semantic_search']}, 'timestamp': '2025-07-30T15:41:22.005589'}
+2025-07-30 15:41:22,007 - INFO - __main__ - Task completed: 12d5882c-9bfc-4e7a-aa20-4dd8cbb9f5d0, Status: success
+2025-07-30 23:46:32,410 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-30 23:46:32,414 - INFO - __main__ - Sending request to http://localhost:8002/query-kb with payload: {
+  "query": "What is the meaning of life according to Rigveda",
+  "filters": {
+    "book": "rigveda"
+  },
+  "task_id": "5950bcb1-88a2-4ead-a3b4-b4c32c50e69a",
+  "tags": [
+    "semantic_search"
+  ]
+}
+2025-07-30 23:46:34,495 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 5950bcb1-88a2-4ead-a3b4-b4c32c50e69a | Query: What is the meaning of life according to Rigveda
+2025-07-30 23:46:38,688 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-30 23:46:38,689 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-30 23:46:44,244 - INFO - agents.knowledge_agent - [KnowledgeAgent] Task 5950bcb1-88a2-4ead-a3b4-b4c32c50e69a: Querying Qdrant with query: What is the meaning of life according to Rigveda, filters: {'book': 'rigveda'}, tags: ['semantic_search']
+2025-07-30 23:46:48,548 - ERROR - agents.knowledge_agent - [KnowledgeAgent] Task 5950bcb1-88a2-4ead-a3b4-b4c32c50e69a: Query failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-30 23:46:48,581 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 5950bcb1-88a2-4ead-a3b4-b4c32c50e69a
+2025-07-30 23:46:48,582 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '5950bcb1-88a2-4ead-a3b4-b4c32c50e69a', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-30T23:46:48.582376'}
+2025-07-30 23:46:48,582 - INFO - reinforcement.rl_context - Logged RL action: {'task_id': '5950bcb1-88a2-4ead-a3b4-b4c32c50e69a', 'agent': 'knowledge_agent', 'model': 'knowledge_agent', 'action': 'query_knowledge_base', 'reward': 0.0, 'metadata': {'filters': {'book': 'rigveda'}, 'tags': ['semantic_search']}, 'timestamp': '2025-07-30T23:46:48.582376'}
+2025-07-30 23:46:48,585 - INFO - __main__ - Task completed: 5950bcb1-88a2-4ead-a3b4-b4c32c50e69a, Status: success

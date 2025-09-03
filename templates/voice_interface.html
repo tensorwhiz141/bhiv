@@ -1,0 +1,709 @@
+{% extends "base.html" %}
+
+{% block title %}Voice Interface - {{ title }}{% endblock %}
+
+{% block extra_css %}
+<style>
+.voice-container {
+    position: relative;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 20px;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.voice-button {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.voice-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+    color: white;
+}
+
+.voice-button.recording {
+    animation: pulse 1.5s infinite;
+    background: rgba(255, 0, 0, 0.3);
+    border-color: #ff4444;
+}
+
+.voice-button.processing {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 68, 68, 0.7); }
+    70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(255, 68, 68, 0); }
+    100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 68, 68, 0); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.voice-status {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.conversation-container {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.message {
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.message.user {
+    background: #007bff;
+    color: white;
+    margin-left: auto;
+    text-align: right;
+}
+
+.message.assistant {
+    background: white;
+    border: 1px solid #e9ecef;
+    margin-right: auto;
+}
+
+.persona-selector {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 10px;
+}
+
+.persona-selector option {
+    background: #343a40;
+    color: white;
+}
+
+.audio-visualizer {
+    height: 60px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 2px;
+    margin: 1rem 0;
+}
+
+.audio-bar {
+    width: 4px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    transition: height 0.1s ease;
+}
+
+.logs-viewer {
+    max-height: 300px;
+    overflow-y: auto;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    background: #1e1e1e;
+    color: #d4d4d4;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.log-entry {
+    margin-bottom: 0.5rem;
+    word-wrap: break-word;
+}
+
+.log-level-info { color: #4fc3f7; }
+.log-level-warning { color: #ffb74d; }
+.log-level-error { color: #f44336; }
+.log-level-success { color: #66bb6a; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <!-- Voice Interface -->
+    <div class="col-lg-8">
+        <div class="voice-container">
+            <h2 class="mb-4">🎙️ Voice Assistant</h2>
+            
+            <!-- Persona Selection -->
+            <div class="mb-4">
+                <label class="form-label">Voice Persona:</label>
+                <select class="form-select persona-selector" id="personaSelect">
+                    <option value="guru">🧘 Guru (Wise & Spiritual)</option>
+                    <option value="teacher">👨‍🏫 Teacher (Educational)</option>
+                    <option value="friend">😊 Friend (Casual)</option>
+                    <option value="assistant" selected>🤖 Assistant (Professional)</option>
+                </select>
+            </div>
+            
+            <!-- Language Selection -->
+            <div class="mb-4">
+                <label class="form-label">Language:</label>
+                <div class="btn-group" role="group">
+                    <input type="radio" class="btn-check" name="language" id="langEn" value="en" checked>
+                    <label class="btn btn-outline-light" for="langEn">🇺🇸 English</label>
+                    
+                    <input type="radio" class="btn-check" name="language" id="langHi" value="hi">
+                    <label class="btn btn-outline-light" for="langHi">🇮🇳 हिंदी</label>
+                </div>
+            </div>
+            
+            <!-- Voice Button -->
+            <button class="btn voice-button mb-3" id="voiceButton">
+                <i class="bi bi-mic" id="voiceIcon"></i>
+            </button>
+            
+            <!-- Audio Visualizer -->
+            <div class="audio-visualizer" id="audioVisualizer" style="display: none;">
+                <div class="audio-bar"></div>
+                <div class="audio-bar"></div>
+                <div class="audio-bar"></div>
+                <div class="audio-bar"></div>
+                <div class="audio-bar"></div>
+                <div class="audio-bar"></div>
+                <div class="audio-bar"></div>
+                <div class="audio-bar"></div>
+            </div>
+            
+            <!-- Status -->
+            <div class="voice-status" id="voiceStatus">
+                Click the microphone to start voice interaction
+            </div>
+            
+            <!-- Wake Word Toggle -->
+            <div class="form-check form-switch mt-3">
+                <input class="form-check-input" type="checkbox" id="wakeWordToggle">
+                <label class="form-check-label text-white" for="wakeWordToggle">
+                    Wake Word Detection (Say "Hey Guru")
+                </label>
+            </div>
+        </div>
+        
+        <!-- Conversation History -->
+        <div class="card mt-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">💬 Conversation History</h5>
+                <button class="btn btn-sm btn-outline-danger" onclick="clearConversation()">
+                    <i class="bi bi-trash"></i> Clear
+                </button>
+            </div>
+            <div class="card-body p-0">
+                <div class="conversation-container" id="conversationContainer">
+                    <div class="text-center text-muted py-4">
+                        <i class="bi bi-chat-dots fs-1"></i>
+                        <p>Start a conversation using your voice!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Sidebar -->
+    <div class="col-lg-4">
+        <!-- Real-time Agent Logs -->
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h6 class="mb-0">📊 Agent Logs</h6>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="autoScrollLogs" checked>
+                    <label class="form-check-label" for="autoScrollLogs">Auto-scroll</label>
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <div class="logs-viewer" id="logsViewer">
+                    <div class="log-entry log-level-info">🚀 Voice interface initialized</div>
+                    <div class="log-entry log-level-info">🎙️ Microphone access ready</div>
+                    <div class="log-entry log-level-success">✅ All agents online</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Voice Stats -->
+        <div class="card mt-3">
+            <div class="card-header">
+                <h6 class="mb-0">🔊 Voice Statistics</h6>
+            </div>
+            <div class="card-body">
+                <div class="row text-center">
+                    <div class="col-6">
+                        <h4 class="text-primary mb-0" id="voiceInteractions">0</h4>
+                        <small class="text-muted">Voice Queries</small>
+                    </div>
+                    <div class="col-6">
+                        <h4 class="text-success mb-0" id="averageResponse">0s</h4>
+                        <small class="text-muted">Avg Response</small>
+                    </div>
+                </div>
+                <hr>
+                <div class="row text-center">
+                    <div class="col-6">
+                        <h4 class="text-info mb-0" id="transcriptionAccuracy">0%</h4>
+                        <small class="text-muted">STT Accuracy</small>
+                    </div>
+                    <div class="col-6">
+                        <h4 class="text-warning mb-0" id="languageDetection">EN</h4>
+                        <small class="text-muted">Detected Lang</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Quick Actions -->
+        <div class="card mt-3">
+            <div class="card-header">
+                <h6 class="mb-0">⚡ Quick Actions</h6>
+            </div>
+            <div class="card-body">
+                <button class="btn btn-outline-primary btn-sm w-100 mb-2" onclick="testVoice()">
+                    🔊 Test TTS
+                </button>
+                <button class="btn btn-outline-secondary btn-sm w-100 mb-2" onclick="checkMicrophone()">
+                    🎙️ Test Microphone
+                </button>
+                <button class="btn btn-outline-info btn-sm w-100 mb-2" onclick="downloadLogs()">
+                    📥 Download Logs
+                </button>
+                <button class="btn btn-outline-warning btn-sm w-100" onclick="resetVoiceSystem()">
+                    🔄 Reset System
+                </button>
+            </div>
+        </div>
+        
+        <!-- System Health -->
+        <div class="card mt-3">
+            <div class="card-header">
+                <h6 class="mb-0">💚 System Health</h6>
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <small>Whisper STT</small>
+                    <span class="badge bg-success" id="whisperStatus">Online</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <small>Voice Personas</small>
+                    <span class="badge bg-success" id="ttsStatus">Online</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <small>Qdrant Vector DB</small>
+                    <span class="badge bg-success" id="qdrantStatus">Online</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <small>Agent Registry</small>
+                    <span class="badge bg-success" id="agentStatus">Online</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+class VoiceInterface {
+    constructor() {
+        this.isRecording = false;
+        this.isProcessing = false;
+        this.mediaRecorder = null;
+        this.audioChunks = [];
+        this.conversationHistory = [];
+        this.wakeWordActive = false;
+        this.stats = {
+            interactions: 0,
+            totalResponseTime: 0,
+            accuracyScore: 85
+        };
+        
+        this.init();
+    }
+    
+    async init() {
+        await this.setupMicrophone();
+        this.setupEventListeners();
+        this.startLogStream();
+        this.updateStats();
+        this.checkSystemHealth();
+    }
+    
+    async setupMicrophone() {
+        try {
+            const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+            this.stream = stream;
+            this.addLog('🎙️ Microphone access granted', 'success');
+        } catch (error) {
+            this.addLog(`❌ Microphone access denied: ${error.message}`, 'error');
+            this.updateVoiceStatus('Microphone access required for voice interaction');
+        }
+    }
+    
+    setupEventListeners() {
+        document.getElementById('voiceButton').addEventListener('click', () => {
+            if (this.isProcessing) return;
+            
+            if (this.isRecording) {
+                this.stopRecording();
+            } else {
+                this.startRecording();
+            }
+        });
+        
+        document.getElementById('wakeWordToggle').addEventListener('change', (e) => {
+            this.wakeWordActive = e.target.checked;
+            if (this.wakeWordActive) {
+                this.startWakeWordDetection();
+            } else {
+                this.stopWakeWordDetection();
+            }
+        });
+    }
+    
+    async startRecording() {
+        if (!this.stream) {
+            await this.setupMicrophone();
+            if (!this.stream) return;
+        }
+        
+        this.isRecording = true;
+        this.audioChunks = [];
+        
+        this.mediaRecorder = new MediaRecorder(this.stream);
+        this.mediaRecorder.ondataavailable = (event) => {
+            this.audioChunks.push(event.data);
+        };
+        
+        this.mediaRecorder.onstop = () => {
+            this.processAudio();
+        };
+        
+        this.mediaRecorder.start();
+        this.updateUI('recording');
+        this.addLog('🎙️ Recording started', 'info');
+        this.startAudioVisualizer();
+    }
+    
+    stopRecording() {
+        if (this.mediaRecorder && this.isRecording) {
+            this.mediaRecorder.stop();
+            this.isRecording = false;
+            this.updateUI('processing');
+            this.addLog('⏹️ Recording stopped, processing...', 'info');
+            this.stopAudioVisualizer();
+        }
+    }
+    
+    async processAudio() {
+        this.isProcessing = true;
+        const startTime = Date.now();
+        
+        try {
+            // Create audio blob
+            const audioBlob = new Blob(this.audioChunks, { type: 'audio/wav' });
+            
+            // Create form data
+            const formData = new FormData();
+            formData.append('audio', audioBlob, 'voice_input.wav');
+            formData.append('persona', document.getElementById('personaSelect').value);
+            formData.append('language', document.querySelector('input[name="language"]:checked').value);
+            
+            this.addLog('🔄 Sending audio to STT service...', 'info');
+            
+            // Send to voice processing endpoint
+            const response = await fetch('/process_voice', {
+                method: 'POST',
+                body: formData
+            });
+            
+            const result = await response.json();
+            const responseTime = Date.now() - startTime;
+            
+            if (result.status === 200) {
+                this.handleVoiceResult(result, responseTime);
+            } else {
+                throw new Error(result.error || 'Voice processing failed');
+            }
+            
+        } catch (error) {
+            this.addLog(`❌ Voice processing error: ${error.message}`, 'error');
+            this.updateVoiceStatus('Voice processing failed. Please try again.');
+        } finally {
+            this.isProcessing = false;
+            this.updateUI('idle');
+        }
+    }
+    
+    async handleVoiceResult(result, responseTime) {
+        // Add user message to conversation
+        this.addMessage('user', result.transcription);
+        
+        // Add assistant response
+        this.addMessage('assistant', result.response_text);
+        
+        // Play TTS response if available
+        if (result.audio_file) {
+            await this.playAudioResponse(result.audio_file);
+        }
+        
+        // Update statistics
+        this.stats.interactions++;
+        this.stats.totalResponseTime += responseTime;
+        this.updateStats();
+        
+        // Log successful interaction
+        this.addLog(`✅ Voice interaction completed in ${responseTime}ms`, 'success');
+        this.addLog(`📝 Transcription: "${result.transcription}"`, 'info');
+        this.addLog(`🤖 Agent: ${result.agent_used}`, 'info');
+        
+        this.updateVoiceStatus('Ready for next voice interaction');
+    }
+    
+    async playAudioResponse(audioFile) {
+        try {
+            const audio = new Audio(`/audio/${audioFile}`);
+            await audio.play();
+            this.addLog('🔊 Playing TTS response', 'info');
+        } catch (error) {
+            this.addLog(`⚠️ TTS playback failed: ${error.message}`, 'warning');
+        }
+    }
+    
+    addMessage(type, text) {
+        const container = document.getElementById('conversationContainer');
+        
+        // Remove empty state if present
+        if (container.children.length === 1 && container.children[0].classList.contains('text-center')) {
+            container.innerHTML = '';
+        }
+        
+        const messageDiv = document.createElement('div');
+        messageDiv.className = `message ${type}`;
+        
+        const timestamp = new Date().toLocaleTimeString();
+        const icon = type === 'user' ? '👤' : '🤖';
+        
+        messageDiv.innerHTML = `
+            <div class="d-flex justify-content-between align-items-start">
+                <strong>${icon} ${type === 'user' ? 'You' : 'Assistant'}</strong>
+                <small class="text-muted">${timestamp}</small>
+            </div>
+            <div class="mt-1">${text}</div>
+        `;
+        
+        container.appendChild(messageDiv);
+        container.scrollTop = container.scrollHeight;
+        
+        this.conversationHistory.push({ type, text, timestamp });
+    }
+    
+    startAudioVisualizer() {
+        const visualizer = document.getElementById('audioVisualizer');
+        visualizer.style.display = 'flex';
+        
+        const bars = visualizer.querySelectorAll('.audio-bar');
+        this.visualizerInterval = setInterval(() => {
+            bars.forEach(bar => {
+                const height = Math.random() * 40 + 10;
+                bar.style.height = `${height}px`;
+            });
+        }, 100);
+    }
+    
+    stopAudioVisualizer() {
+        const visualizer = document.getElementById('audioVisualizer');
+        visualizer.style.display = 'none';
+        
+        if (this.visualizerInterval) {
+            clearInterval(this.visualizerInterval);
+        }
+    }
+    
+    updateUI(state) {
+        const button = document.getElementById('voiceButton');
+        const icon = document.getElementById('voiceIcon');
+        
+        button.classList.remove('recording', 'processing');
+        
+        switch (state) {
+            case 'recording':
+                button.classList.add('recording');
+                icon.className = 'bi bi-stop-circle';
+                this.updateVoiceStatus('🎙️ Listening... Click to stop');
+                break;
+            case 'processing':
+                button.classList.add('processing');
+                icon.className = 'bi bi-hourglass-split';
+                this.updateVoiceStatus('🔄 Processing your voice...');
+                break;
+            default:
+                icon.className = 'bi bi-mic';
+                this.updateVoiceStatus('Click the microphone to start voice interaction');
+        }
+    }
+    
+    updateVoiceStatus(message) {
+        document.getElementById('voiceStatus').textContent = message;
+    }
+    
+    addLog(message, level = 'info') {
+        const logsViewer = document.getElementById('logsViewer');
+        const timestamp = new Date().toLocaleTimeString();
+        
+        const logEntry = document.createElement('div');
+        logEntry.className = `log-entry log-level-${level}`;
+        logEntry.textContent = `[${timestamp}] ${message}`;
+        
+        logsViewer.appendChild(logEntry);
+        
+        // Auto-scroll if enabled
+        if (document.getElementById('autoScrollLogs').checked) {
+            logsViewer.scrollTop = logsViewer.scrollHeight;
+        }
+        
+        // Keep only last 100 entries
+        while (logsViewer.children.length > 100) {
+            logsViewer.removeChild(logsViewer.firstChild);
+        }
+    }
+    
+    updateStats() {
+        document.getElementById('voiceInteractions').textContent = this.stats.interactions;
+        
+        const avgResponse = this.stats.interactions > 0 
+            ? Math.round(this.stats.totalResponseTime / this.stats.interactions / 1000 * 10) / 10
+            : 0;
+        document.getElementById('averageResponse').textContent = `${avgResponse}s`;
+        
+        document.getElementById('transcriptionAccuracy').textContent = `${this.stats.accuracyScore}%`;
+        
+        const currentLang = document.querySelector('input[name="language"]:checked').value.toUpperCase();
+        document.getElementById('languageDetection').textContent = currentLang;
+    }
+    
+    async checkSystemHealth() {
+        try {
+            const response = await fetch('/health');
+            const health = await response.json();
+            
+            // Update status indicators
+            document.getElementById('whisperStatus').className = 'badge bg-success';
+            document.getElementById('ttsStatus').className = 'badge bg-success';
+            document.getElementById('qdrantStatus').className = health.services?.qdrant === 'healthy' ? 'badge bg-success' : 'badge bg-warning';
+            document.getElementById('agentStatus').className = health.services?.agent_registry === 'healthy' ? 'badge bg-success' : 'badge bg-warning';
+            
+        } catch (error) {
+            this.addLog(`⚠️ Health check failed: ${error.message}`, 'warning');
+        }
+    }
+    
+    startLogStream() {
+        // Simulate real-time log updates (in production, use WebSocket)
+        setInterval(() => {
+            const randomLogs = [
+                { msg: '🔍 Vector search completed', level: 'info' },
+                { msg: '🎯 Agent selected: vedas_agent', level: 'info' },
+                { msg: '📊 RL reward calculated: 0.85', level: 'success' },
+                { msg: '🧠 Knowledge retrieval: 3 docs found', level: 'info' }
+            ];
+            
+            if (Math.random() < 0.3) { // 30% chance to add a log
+                const log = randomLogs[Math.floor(Math.random() * randomLogs.length)];
+                this.addLog(log.msg, log.level);
+            }
+        }, 5000);
+    }
+    
+    startWakeWordDetection() {
+        this.addLog('👂 Wake word detection activated', 'success');
+        // Implementation for wake word detection would go here
+    }
+    
+    stopWakeWordDetection() {
+        this.addLog('👂 Wake word detection deactivated', 'info');
+    }
+}
+
+// Global functions for quick actions
+function clearConversation() {
+    document.getElementById('conversationContainer').innerHTML = `
+        <div class="text-center text-muted py-4">
+            <i class="bi bi-chat-dots fs-1"></i>
+            <p>Start a conversation using your voice!</p>
+        </div>
+    `;
+    voiceInterface.conversationHistory = [];
+    voiceInterface.addLog('🗑️ Conversation history cleared', 'info');
+}
+
+function testVoice() {
+    const text = "Hello! This is a test of the voice persona system.";
+    const persona = document.getElementById('personaSelect').value;
+    
+    fetch('/test_tts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text, persona })
+    })
+    .then(response => response.json())
+    .then(result => {
+        if (result.audio_file) {
+            const audio = new Audio(`/audio/${result.audio_file}`);
+            audio.play();
+            voiceInterface.addLog('🔊 TTS test completed', 'success');
+        }
+    })
+    .catch(error => voiceInterface.addLog(`❌ TTS test failed: ${error.message}`, 'error'));
+}
+
+function checkMicrophone() {
+    navigator.mediaDevices.getUserMedia({ audio: true })
+        .then(stream => {
+            voiceInterface.addLog('✅ Microphone test passed', 'success');
+            stream.getTracks().forEach(track => track.stop());
+        })
+        .catch(error => voiceInterface.addLog(`❌ Microphone test failed: ${error.message}`, 'error'));
+}
+
+function downloadLogs() {
+    const logs = Array.from(document.querySelectorAll('.log-entry'))
+        .map(entry => entry.textContent)
+        .join('\n');
+    
+    const blob = new Blob([logs], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `voice_logs_${new Date().toISOString().slice(0, 10)}.txt`;
+    a.click();
+    URL.revokeObjectURL(url);
+}
+
+function resetVoiceSystem() {
+    if (confirm('Are you sure you want to reset the voice system?')) {
+        location.reload();
+    }
+}
+
+// Initialize voice interface when page loads
+let voiceInterface;
+document.addEventListener('DOMContentLoaded', () => {
+    voiceInterface = new VoiceInterface();
+});
+</script>
+{% endblock %}

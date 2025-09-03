@@ -1,0 +1,51 @@
+2025-07-29 13:55:39,517 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-29 13:55:39,527 - INFO - agents.agent_registry - Loaded 8 agents from config/agent_configs.json
+2025-07-29 13:55:39,535 - INFO - utils.mongo_logger - MongoDB logger initialized successfully
+2025-07-29 14:29:58,285 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-29 14:29:58,290 - INFO - __main__ - RL Configuration: use_rl=True, exploration_rate=0.2
+2025-07-29 14:30:00,380 - INFO - mcp_bridge - [MCP_BRIDGE] Task ID: 5d1d40bd-debf-4205-bf3d-d3d239771ccc | Agent: vedas_agent | Input: What is life... | File:  | Type: text | Tags: []
+2025-07-29 14:30:00,382 - ERROR - mcp_bridge - [MCP_BRIDGE] Error processing task 5d1d40bd-debf-4205-bf3d-d3d239771ccc: name 'uuid' is not defined
+2025-07-29 14:30:00,451 - WARNING - __main__ - Attempt 1/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/handle_task
+2025-07-29 14:30:04,521 - INFO - mcp_bridge - [MCP_BRIDGE] Task ID: 5798a126-110f-4399-a952-3a72837d13f0 | Agent: vedas_agent | Input: What is life... | File:  | Type: text | Tags: []
+2025-07-29 14:30:04,521 - ERROR - mcp_bridge - [MCP_BRIDGE] Error processing task 5798a126-110f-4399-a952-3a72837d13f0: name 'uuid' is not defined
+2025-07-29 14:30:04,521 - WARNING - __main__ - Attempt 2/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/handle_task
+2025-07-29 14:30:08,571 - INFO - mcp_bridge - [MCP_BRIDGE] Task ID: b9388697-3a29-4242-b669-171e99344f0e | Agent: vedas_agent | Input: What is life... | File:  | Type: text | Tags: []
+2025-07-29 14:30:08,573 - ERROR - mcp_bridge - [MCP_BRIDGE] Error processing task b9388697-3a29-4242-b669-171e99344f0e: name 'uuid' is not defined
+2025-07-29 14:30:08,576 - WARNING - __main__ - Attempt 3/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/handle_task
+2025-07-29 14:30:08,576 - ERROR - __main__ - Error running CLI task: 500 Server Error: Internal Server Error for url: http://localhost:8002/handle_task
+2025-07-29 14:30:08,576 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task f2be1de4-12b4-4ae1-837c-6f8114529bf9
+2025-07-29 14:30:08,576 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': 'f2be1de4-12b4-4ae1-837c-6f8114529bf9', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-29T14:30:08.576921'}
+2025-07-29 14:30:08,584 - INFO - reinforcement.replay_buffer - Saved replay buffer to logs/learning_log.json
+2025-07-29 14:30:08,584 - INFO - reinforcement.replay_buffer - Added run to replay buffer: f2be1de4-12b4-4ae1-837c-6f8114529bf9
+2025-07-29 14:30:08,585 - INFO - reinforcement.rl_context - Logged RL task: {'task_id': 'f2be1de4-12b4-4ae1-837c-6f8114529bf9', 'input': 'What is life', 'output': {'error': 'Task execution failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/handle_task', 'status': 500, 'processing_time': 10.286389, 'file_path': '', 'input_type': 'text', 'agent': 'vedas_agent', 'task_id': 'f2be1de4-12b4-4ae1-837c-6f8114529bf9'}, 'agent': 'vedas_agent', 'model': 'vedas_agent', 'timestamp': '2025-07-29T14:30:08.585349'}
+2025-07-29 15:27:06,028 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-29 15:27:06,031 - INFO - __main__ - RL Configuration: use_rl=True, exploration_rate=0.2
+2025-07-29 15:27:08,107 - INFO - mcp_bridge - [MCP_BRIDGE] Task ID: 5128d616-c81b-42a2-a613-2ebe97d347a3 | Agent: vedas_agent | Input: What is life... | File:  | Type: text | Tags: []
+2025-07-29 15:27:08,107 - ERROR - mcp_bridge - [MCP_BRIDGE] Error processing task 5128d616-c81b-42a2-a613-2ebe97d347a3: name 'uuid' is not defined
+2025-07-29 15:27:08,107 - WARNING - __main__ - Attempt 1/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/handle_task
+2025-07-29 15:27:12,174 - INFO - mcp_bridge - [MCP_BRIDGE] Task ID: 983ea185-60ac-4773-a03c-69ca8f5ee3cb | Agent: vedas_agent | Input: What is life... | File:  | Type: text | Tags: []
+2025-07-29 15:27:12,174 - ERROR - mcp_bridge - [MCP_BRIDGE] Error processing task 983ea185-60ac-4773-a03c-69ca8f5ee3cb: name 'uuid' is not defined
+2025-07-29 15:27:12,181 - WARNING - __main__ - Attempt 2/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/handle_task
+2025-07-29 15:27:16,258 - INFO - mcp_bridge - [MCP_BRIDGE] Task ID: 15e7b0d5-5a12-46e5-94ba-5946fd0d6a24 | Agent: vedas_agent | Input: What is life... | File:  | Type: text | Tags: []
+2025-07-29 15:27:16,259 - ERROR - mcp_bridge - [MCP_BRIDGE] Error processing task 15e7b0d5-5a12-46e5-94ba-5946fd0d6a24: name 'uuid' is not defined
+2025-07-29 15:27:16,261 - WARNING - __main__ - Attempt 3/3 failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/handle_task
+2025-07-29 15:27:16,261 - ERROR - __main__ - Error running CLI task: 500 Server Error: Internal Server Error for url: http://localhost:8002/handle_task
+2025-07-29 15:27:16,261 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 8769e2d6-811f-4e34-a694-fe55378ced0f
+2025-07-29 15:27:16,261 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '8769e2d6-811f-4e34-a694-fe55378ced0f', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-29T15:27:16.261417'}
+2025-07-29 15:27:16,270 - INFO - reinforcement.replay_buffer - Saved replay buffer to logs/learning_log.json
+2025-07-29 15:27:16,270 - INFO - reinforcement.replay_buffer - Added run to replay buffer: 8769e2d6-811f-4e34-a694-fe55378ced0f
+2025-07-29 15:27:16,271 - INFO - reinforcement.rl_context - Logged RL task: {'task_id': '8769e2d6-811f-4e34-a694-fe55378ced0f', 'input': 'What is life', 'output': {'error': 'Task execution failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/handle_task', 'status': 500, 'processing_time': 10.22867, 'file_path': '', 'input_type': 'text', 'agent': 'vedas_agent', 'task_id': '8769e2d6-811f-4e34-a694-fe55378ced0f'}, 'agent': 'vedas_agent', 'model': 'vedas_agent', 'timestamp': '2025-07-29T15:27:16.271304'}
+2025-07-29 15:29:57,876 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-29 15:29:57,876 - INFO - agents.agent_registry - Loaded 8 agents from config/agent_configs.json
+2025-07-29 15:29:57,892 - INFO - utils.mongo_logger - MongoDB logger initialized successfully
+2025-07-29 15:31:34,952 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-29 15:31:34,953 - INFO - agents.agent_registry - Loaded 8 agents from config/agent_configs.json
+2025-07-29 15:31:34,959 - INFO - utils.mongo_logger - MongoDB logger initialized successfully
+2025-07-29 15:34:42,430 - INFO - mcp_bridge - [MCP_BRIDGE] Task ID: ca64b49d-57dc-4281-8531-3913a39086dd | Agent: vedas_agent | Input: What is life... | File:  | Type: text | Tags: []
+2025-07-29 15:34:42,438 - ERROR - mcp_bridge - [MCP_BRIDGE] Error processing task ca64b49d-57dc-4281-8531-3913a39086dd: name 'uuid' is not defined
+2025-07-29 15:48:17,736 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: b6dd8c46-1260-4fc9-b033-b445833b3138 | Query: What is the meaning of life according to Rigveda... | Filters: {'book': 'rigveda'} | Tags: ['semantic_search']
+2025-07-29 15:48:17,736 - ERROR - mcp_bridge - [MCP_BRIDGE] Error processing query-kb task b6dd8c46-1260-4fc9-b033-b445833b3138: name 'uuid' is not defined
+2025-07-29 15:48:28,689 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-29 15:52:53,036 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-29 15:52:53,037 - INFO - agents.agent_registry - Loaded 8 agents from config/agent_configs.json
+2025-07-29 15:52:53,047 - INFO - utils.mongo_logger - MongoDB logger initialized successfully

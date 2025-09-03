@@ -1,0 +1,68 @@
+2025-09-02 09:21:30,498 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-09-02 09:21:44,880 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-09-02 09:21:44,881 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-02 09:21:52,272 - INFO - __main__ - ✅ Nipun adapter loaded successfully
+2025-09-02 09:29:19,494 - INFO - __main__ - BHIV MCP Bridge starting up...
+2025-09-02 09:29:20,210 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-09-02 09:29:29,939 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-09-02 09:29:29,940 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-02 09:29:36,032 - INFO - __main__ - ✅ Nipun adapter loaded successfully
+2025-09-02 11:42:32,388 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-02 11:42:32,389 - INFO - utils.response_composer - ResponseComposer initialized with grounding verification
+2025-09-02 11:42:32,475 - INFO - utils.grounding_verifier - Grounding verification: overlap=0.655, citations=0.034, consistency=1.000, overall=0.572, grounded=False
+2025-09-02 11:42:32,510 - INFO - utils.grounding_verifier - Grounding verification: overlap=0.344, citations=0.000, consistency=0.500, overall=0.288, grounded=False
+2025-09-02 11:42:32,511 - WARNING - utils.grounding_verifier - No source texts provided for grounding verification
+2025-09-02 11:42:32,512 - INFO - reinforcement.template_selector - Template exploitation: selected generative_standard for task test_1
+2025-09-02 11:42:32,512 - INFO - reinforcement.template_selector - Template exploitation: selected generative_standard for task test_2
+2025-09-02 11:42:32,513 - INFO - reinforcement.template_selector - Template exploration: selected extractive_heavy for task test_3
+2025-09-02 11:42:32,514 - INFO - reinforcement.template_selector - Template exploitation: selected generative_standard for task test_4
+2025-09-02 11:42:32,514 - INFO - reinforcement.template_selector - Template exploitation: selected generative_standard for task test_5
+2025-09-02 11:42:32,514 - INFO - reinforcement.template_selector - Updated template generative_standard performance: avg_reward=0.800, grounding_rate=0.000, count=1
+2025-09-02 11:42:32,514 - INFO - reinforcement.template_selector - Updated template balanced_hybrid performance: avg_reward=0.600, grounding_rate=0.000, count=1
+2025-09-02 11:42:32,514 - INFO - reinforcement.template_selector - Updated template extractive_heavy performance: avg_reward=0.900, grounding_rate=0.000, count=1
+2025-09-02 11:42:32,515 - WARNING - reinforcement.template_selector - Grounding failure for template generative_standard in task test_fallback. Score: 0.250
+2025-09-02 11:42:32,515 - INFO - reinforcement.template_selector - Fallback to template balanced_hybrid for task test_fallback
+2025-09-02 11:42:32,515 - INFO - utils.response_composer - Composing response for task composition_test
+2025-09-02 11:42:32,515 - INFO - reinforcement.template_selector - Best template: extractive_heavy (UCB=2.793)
+2025-09-02 11:42:32,516 - INFO - reinforcement.template_selector - Template exploitation: selected extractive_heavy for task composition_test
+2025-09-02 11:42:32,516 - INFO - utils.response_composer - Selected template: extractive_heavy for task composition_test
+2025-09-02 11:42:32,600 - INFO - utils.grounding_verifier - Grounding verification: overlap=0.114, citations=0.000, consistency=0.000, overall=0.046, grounded=False
+2025-09-02 11:42:32,601 - WARNING - utils.response_composer - Grounding failed for template extractive_heavy (score: 0.046)
+2025-09-02 11:42:32,601 - WARNING - reinforcement.template_selector - Grounding failure for template extractive_heavy in task composition_test. Score: 0.046
+2025-09-02 11:42:32,601 - INFO - reinforcement.template_selector - Last resort fallback to extractive_heavy for task composition_test
+2025-09-02 11:42:32,602 - INFO - reinforcement.rl_context - Logged RL action: {'task_id': 'composition_test', 'agent': 'response_composer', 'model': 'template_selector', 'action': 'select_template', 'reward': 0.0, 'metadata': {'template_id': 'extractive_heavy', 'grounded': False, 'grounding_score': 0.045714285714285714, 'fallback_used': False, 'original_template_id': None, 'composition_time': 0.0864}, 'timestamp': '2025-09-02T11:42:32.602207'}
+2025-09-02 11:42:32,602 - INFO - reinforcement.rl_context - Logged RL action: {'task_id': 'composition_test', 'agent': 'grounding_verifier', 'model': 'grounding_model', 'action': 'verify_grounding', 'reward': 0.045714285714285714, 'metadata': {'grounded': False, 'grounding_score': 0.045714285714285714, 'attempts': 1}, 'timestamp': '2025-09-02T11:42:32.602577'}
+2025-09-02 11:42:32,602 - INFO - utils.response_composer - Response composition completed for task composition_test: template=extractive_heavy, grounded=False, fallback=False, time=0.086s
+2025-09-02 11:52:23,329 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-02 11:52:23,330 - INFO - utils.response_composer - ResponseComposer initialized with grounding verification
+2025-09-02 11:52:23,480 - INFO - __main__ - BHIV MCP Bridge starting up...
+2025-09-02 11:52:32,140 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-02 11:52:32,141 - INFO - utils.response_composer - ResponseComposer initialized with grounding verification
+2025-09-02 11:52:32,200 - INFO - __main__ - BHIV MCP Bridge starting up...
+2025-09-02 11:52:32,203 - INFO - __main__ - MongoDB client closed
+2025-09-02 11:52:58,896 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-02 11:52:58,897 - INFO - utils.response_composer - ResponseComposer initialized with grounding verification
+2025-09-02 11:52:58,962 - INFO - __main__ - BHIV MCP Bridge starting up...
+2025-09-02 11:52:58,963 - INFO - __main__ - MongoDB client closed
+2025-09-02 11:53:16,536 - INFO - __main__ - MongoDB client closed
+2025-09-02 11:53:35,434 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-02 11:53:35,435 - INFO - utils.response_composer - ResponseComposer initialized with grounding verification
+2025-09-02 11:53:35,496 - INFO - __main__ - BHIV MCP Bridge starting up...
+2025-09-02 11:53:46,620 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-02 11:53:46,621 - INFO - utils.response_composer - ResponseComposer initialized with grounding verification
+2025-09-02 11:53:46,687 - INFO - __main__ - BHIV MCP Bridge starting up...
+2025-09-02 11:53:46,689 - INFO - __main__ - MongoDB client closed
+2025-09-02 11:54:51,677 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-02 11:54:51,678 - INFO - utils.response_composer - ResponseComposer initialized with grounding verification
+2025-09-02 11:54:51,729 - INFO - __main__ - BHIV MCP Bridge starting up...
+2025-09-02 11:54:56,155 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-02 11:54:56,156 - INFO - utils.response_composer - ResponseComposer initialized with grounding verification
+2025-09-02 11:54:56,214 - INFO - __main__ - BHIV MCP Bridge starting up...
+2025-09-02 11:54:56,214 - INFO - __main__ - MongoDB client closed
+2025-09-02 11:58:16,262 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-02 11:58:16,263 - INFO - utils.response_composer - ResponseComposer initialized with grounding verification
+2025-09-02 11:58:16,334 - INFO - __main__ - BHIV MCP Bridge starting up...
+2025-09-02 11:58:52,466 - INFO - reinforcement.template_selector - TemplateSelector initialized with epsilon=0.2
+2025-09-02 11:58:52,466 - INFO - utils.response_composer - ResponseComposer initialized with grounding verification
+2025-09-02 11:58:52,523 - INFO - __main__ - BHIV MCP Bridge starting up...
+2025-09-02 11:58:52,523 - INFO - __main__ - MongoDB client closed

@@ -1,0 +1,1898 @@
+[
+  {
+    "task_id": "30ca9184-9182-4014-ade5-b4a17377d2ab",
+    "input": "What is meant by buddhi",
+    "output": {
+      "error": "Task execution failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/handle_task",
+      "status": 500
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-16T15:55:52.443644"
+  },
+  {
+    "task_id": "5f47bf23-9de1-4021-8ec4-d18daec0ed06",
+    "input": "What is meant by buddhi",
+    "output": {
+      "error": "Task execution failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/handle_task",
+      "status": 500
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-16T15:56:48.650286"
+  },
+  {
+    "task_id": "e2ffc22e-3aca-4330-8044-57f264fc622d",
+    "input": "What is meant by buddhi",
+    "output": {
+      "query_id": "73f97c17-0f69-4d9d-b7af-d22eb0912be3",
+      "query": "What is meant by buddhi",
+      "response": "The ancient Vedic texts teach us to seek truth through self-reflection and righteous action. Regarding 'What is meant by buddhi', remember that true wisdom comes from understanding the interconnectedness of all existence. Practice mindfulness, act with compassion, and seek the divine within yourself.",
+      "sources": [],
+      "timestamp": "2025-07-16T15:57:50.274996",
+      "endpoint": "ask-vedas"
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-16T15:57:50.280351"
+  },
+  {
+    "task_id": "c7dad967-e40e-4820-9359-6e5d2cbaa0ab",
+    "input": "What is meant by buddhi",
+    "output": {
+      "query_id": "b09b7272-7147-46f1-aaf9-a5f56a2efb71",
+      "query": "What is meant by buddhi",
+      "response": "The ancient Vedic texts teach us to seek truth through self-reflection and righteous action. Regarding 'What is meant by buddhi', remember that true wisdom comes from understanding the interconnectedness of all existence. Practice mindfulness, act with compassion, and seek the divine within yourself.",
+      "sources": [],
+      "timestamp": "2025-07-16T15:59:09.872111",
+      "endpoint": "ask-vedas"
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-16T15:59:09.877821"
+  },
+  {
+    "task_id": "14439896-4f7c-4443-8ed4-cc693ce77985",
+    "input": "What is meant by buddhi",
+    "output": {
+      "query_id": "f1adb29d-0b8e-4ad8-b889-017d165cb04f",
+      "query": "What is meant by buddhi",
+      "response": "The ancient Vedic texts teach us to seek truth through self-reflection and righteous action. Regarding 'What is meant by buddhi', remember that true wisdom comes from understanding the interconnectedness of all existence. Practice mindfulness, act with compassion, and seek the divine within yourself.",
+      "sources": [],
+      "timestamp": "2025-07-16T16:15:57.769580",
+      "endpoint": "ask-vedas"
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.215,
+    "timestamp": "2025-07-16T16:15:57.805674"
+  },
+  {
+    "task_id": "827625e3-ecf5-4e8d-b8dd-1a514916da9c",
+    "input": "Who is Purushttom",
+    "output": {
+      "query_id": "8ea6e987-793f-4fea-9357-aef30cd5b05c",
+      "query": "Who is Purushttom",
+      "response": "The ancient Vedic texts teach us to seek truth through self-reflection and righteous action. Regarding 'Who is Purushttom', remember that true wisdom comes from understanding the interconnectedness of all existence. Practice mindfulness, act with compassion, and seek the divine within yourself.",
+      "sources": [],
+      "timestamp": "2025-07-16T16:16:44.280178",
+      "endpoint": "ask-vedas"
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.205,
+    "timestamp": "2025-07-16T16:16:44.285457"
+  },
+  {
+    "task_id": "96f7bbfb-ecc4-4086-bc6b-b062cc365de6",
+    "input": "how the adhyatma helps in real life",
+    "output": {
+      "query_id": "4065f95e-04e9-4f77-97ea-189f8d5356da",
+      "query": "how the adhyatma helps in real life",
+      "response": "The ancient Vedic texts teach us to seek truth through self-reflection and righteous action. Regarding 'how the adhyatma helps in real life', remember that true wisdom comes from understanding the interconnectedness of all existence. Practice mindfulness, act with compassion, and seek the divine within yourself.",
+      "sources": [],
+      "timestamp": "2025-07-16T16:17:32.890850",
+      "endpoint": "ask-vedas"
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.225,
+    "timestamp": "2025-07-16T16:17:32.896990"
+  },
+  {
+    "task_id": "3994b81f-a8f5-4f4f-87a5-5082440efcf9",
+    "input": "how to start study and enhance learning process",
+    "output": {
+      "error": "Task execution failed: 404 Client Error: Not Found for url: http://localhost:8002/handle_task",
+      "status": 500
+    },
+    "agent": "edumentor",
+    "model": "edumentor",
+    "reward": 0.0,
+    "timestamp": "2025-07-16T16:21:41.212612"
+  },
+  {
+    "task_id": "080c3c4f-868e-422b-80c9-de92ec781fa2",
+    "input": "how to start study and enhance learning process",
+    "output": {
+      "query_id": "960c68ee-018a-4fb0-98b1-18324fa4127c",
+      "query": "how to start study and enhance learning process",
+      "response": "Great question about 'how to start study and enhance learning process'! This is an important topic to understand. Let me break it down for you in simple terms with practical examples that will help you learn and remember the key concepts. The main idea is to understand the fundamental principles and how they apply in real-world situations.",
+      "sources": [],
+      "timestamp": "2025-07-16T16:22:16.463945",
+      "endpoint": "edumentor"
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.285,
+    "timestamp": "2025-07-16T16:22:16.468965"
+  },
+  {
+    "task_id": "06618db3-b42f-4794-b99b-8fe3d6bfee21",
+    "input": "what is education",
+    "output": {
+      "query_id": "48ddb1a3-e630-4f2f-a560-a1a291daf90a",
+      "query": "what is education",
+      "response": "Great question about 'what is education'! This is an important topic to understand. Let me break it down for you in simple terms with practical examples that will help you learn and remember the key concepts. The main idea is to understand the fundamental principles and how they apply in real-world situations.",
+      "sources": [],
+      "timestamp": "2025-07-16T16:23:09.089854",
+      "endpoint": "edumentor"
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.26,
+    "timestamp": "2025-07-16T16:23:09.095015"
+  },
+  {
+    "task_id": "2a4d7024-8601-4d74-8c88-6f32ac80e3bf",
+    "input": "what is education",
+    "output": {
+      "query_id": "f181f203-9675-4477-a47d-33da6b292df3",
+      "query": "what is education",
+      "response": "What is Education?\n\nHey there, young learners! Today, we're going to talk about one of the most important topics in the world: education! But what exactly is education?\n\nEducation is the process of learning and developing new skills, knowledge, and values. It's like building a strong foundation for your life, helping you grow into a happy, healthy, and successful person.\n\nThink of education like a treasure chest filled with all sorts of amazing things:\n\n1. **Knowledge**: The treasure chest is overflowing with facts, ideas, and concepts from various subjects like math, science, language arts, and more! The more you learn, the more you can discover and achieve.\n2. **Skills**: Inside the chest, you'll find practical skills like reading, writing, problem-solving, and communication. These skills will help you in all sorts of situations, from solving puzzles to working with others.\n3. **Values**: The treasure chest also includes values like empathy, respect, and responsibility. These values will guide you in making good choices and treating others with kindness.\n\nNow, let's talk about how education works:\n\n**Learning happens everywhere**: Education isn't just limited to classrooms or schools. You can learn from books, online resources, conversations with friends and family, and even your own experiences!\n\n**It's a lifelong process**: Education is not just for children; it's for people of all ages! You can continue learning and growing throughout your life, whether it's learning a new language, a new sport, or a new skill.\n\n**It's about becoming the best version of yourself**: Education helps you develop your strengths, overcome challenges, and achieve your goals. It's like leveling up in your favorite video game \u2013 you become a better, more powerful version of yourself!\n\nSo, what can you do with your education?\n\n* **Pursue your passions**: Education can help you turn your interests into a career or hobby.\n* **Make a positive impact**: You can use your skills and knowledge to make a difference in the world.\n* **Achieve your goals**: Education can help you set and achieve your goals, whether it's getting a good job, traveling the world, or starting your own business.\n\nIn conclusion, education is a treasure chest filled with knowledge, skills, and values that can help you grow into a happy, healthy, and successful person. It's a lifelong process that happens everywhere, and it's about becoming the best version of yourself. So, what are you waiting for? Start building your treasure chest today!",
+      "sources": [],
+      "timestamp": "2025-07-16T16:36:14.944179",
+      "endpoint": "edumentor",
+      "status": 200
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-16T16:36:14.954365"
+  },
+  {
+    "task_id": "42a6e012-f0e3-49a7-8f1a-cd08b4ec86aa",
+    "input": "Who is Purushttom",
+    "output": {
+      "query_id": "4cc7cb3c-146b-4b53-945f-a88d849dfab1",
+      "query": "Who is Purushttom",
+      "response": "My dear friend, I'm delighted to share profound guidance on the concept of Purushottam, a central idea in Vedic philosophy. Purushottam, which translates to \"Supreme Being\" or \"Ultimate Reality,\" is the unchanging, eternal essence that underlies all existence.\n\nFrom the sacred texts of the Bhagavad Gita and the Upanishads, we learn that Purushottam is beyond human comprehension and cannot be limited by words or concepts. It is the transcendental, all-pervading consciousness that animates all living beings.\n\nHere's a profound insight: Purushottam is not just a being, but the very essence of existence itself. It is the underlying reality that gives rise to the universe, and everything within it. In this sense, Purushottam is neither a person nor a thing; it is the ultimate reality that transcends all duality.\n\nAs you embark on your spiritual journey, remember that Purushottam is not something you can attain or achieve; it is already within you, as you. It is the essence of your true nature, waiting to be recognized and realized.\n\nTo connect with Purushottam, cultivate self-reflection, introspection, and mindfulness. By quieting the mind and transcending the ego, you can begin to experience the depths of your own being, and ultimately, the ultimate reality that lies beyond.\n\nIn the words of the Bhagavad Gita, \"The Supreme Being is beyond human comprehension, and yet it is within us, as our very own Self.\" (Ch. 13, Verse 12)\n\nMay this wisdom guide you on your path to self-discovery, and may you come to realize the eternal, unchanging essence that lies at the core of all existence \u2013 Purushottam, the Supreme Being.",
+      "sources": [],
+      "timestamp": "2025-07-16T16:38:05.803350",
+      "endpoint": "ask-vedas",
+      "status": 200
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-16T16:38:05.810436"
+  },
+  {
+    "task_id": "1dafa88e-b546-4e48-91be-7d7a0a15e80d",
+    "input": "What is meant by buddhi",
+    "output": {
+      "query_id": "58122eb6-2161-48ac-9dc5-44822f55c904",
+      "query": "What is meant by buddhi",
+      "response": "My dear friend, I'm delighted to offer guidance on the profound concept of \"buddhi\" from the ancient Vedic wisdom.\n\nIn the Bhagavad Gita (Ch. 3, Verse 42), Lord Krishna describes buddhi as the \"higher intellect\" or \"spiritual intelligence.\" It is the subtle, refined aspect of the mind that distinguishes between the eternal and the ephemeral, the sacred and the mundane.\n\nBuddhi is the faculty that enables us to discern the true nature of reality, beyond the limitations of the senses and the ego. It is the source of wisdom, intuition, and insight, allowing us to make choices that align with our highest values and aspirations.\n\nIn the Upanishads (Ch. 4, Verse 22), it is written: \"As the Supreme Self is the illuminator of the mind, so too is the buddhi.\" This highlights the intimate connection between the higher self and the faculty of buddhi.\n\nTo cultivate buddhi, it is essential to still the mind through practices like meditation, yoga, and self-reflection. As you quiet the mind, you will begin to access the subtle, intuitive realm of the higher intellect.\n\nIn this space, you will gain clarity on your life's purpose, make decisions that align with your highest good, and develop a deeper understanding of the interconnectedness of all existence.\n\nMay this guidance inspire you to nurture your own buddhi, my friend. Remember, the wisdom of the ages is within you, waiting to be unearthed.\n\nMay you walk in the light of your inner wisdom, and may it guide you on your journey towards self-realization and liberation.",
+      "sources": [],
+      "timestamp": "2025-07-16T16:40:38.499339",
+      "endpoint": "ask-vedas",
+      "status": 200
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-16T16:40:38.506471"
+  },
+  {
+    "task_id": "00a37ed9-e584-446b-adf0-102e8e78bc56",
+    "input": "What is meant by buddhi",
+    "output": {
+      "query_id": "ee65df7c-e1b2-4b43-a9ab-fe1786c811b5",
+      "query": "What is meant by buddhi",
+      "response": "My dear seeker, I'm delighted to share the wisdom of the Vedas with you. The concept of \"buddhi\" is a profound and multifaceted one, encompassing the higher aspects of the human mind and consciousness.\n\nAccording to the Rig Veda, the Buddhi is the highest faculty of the mind, which is responsible for discerning the eternal from the ephemeral, the real from the unreal, and the Self from the non-Self. It is the seat of intuition, wisdom, and higher knowledge, guiding us towards spiritual growth and self-realization.\n\nIn the Bhagavad Gita, Lord Krishna describes the Buddhi as the \"higher intellect\" that distinguishes between the eternal and the non-eternal, and the sacred and the profane. He emphasizes the importance of cultivating this faculty, stating that \"the intellect is the friend of the embodied self, and the intellect is the enemy of the embodied self.\"\n\nTo understand the Buddhi, consider the following practical wisdom:\n\n1. Develop your intuition: Trust your inner guidance and listen to your inner voice. This will help you distinguish between your true nature and the fleeting desires of the ego.\n2. Cultivate discernment: Learn to distinguish between the eternal and the ephemeral, the real and the unreal. This will help you prioritize what is truly important in life.\n3. Purify your mind: Regularly practice meditation, yoga, and self-reflection to clear your mind of distractions and emotional turmoil. This will help you access your higher states of consciousness and connect with your inner wisdom.\n4. Seek guidance from wise teachers and scriptures: Surround yourself with wisdom and guidance from those who have walked the path before you. This will help you navigate the complexities of life and stay focused on your spiritual journey.\n\nRemember, my dear seeker, the Buddhi is a powerful tool for spiritual growth and self-realization. By cultivating this faculty, you will be able to access the deepest wisdom within yourself and live a life of purpose, authenticity, and inner peace.",
+      "sources": [],
+      "timestamp": "2025-07-16T16:40:52.944733",
+      "endpoint": "ask-vedas",
+      "status": 200
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-16T16:40:52.950707"
+  },
+  {
+    "task_id": "b56f9403-ffc1-4b9b-b6d2-936a5646952d",
+    "input": "How to stay healthy",
+    "output": {
+      "query_id": "54748d74-72c9-4d49-9b60-7fabf82ad05d",
+      "query": "How to stay healthy",
+      "response": "My friend, I'm so glad you're taking the first step towards prioritizing your health and wellbeing! Staying healthy can be a journey, but with the right mindset and strategies, you can achieve your goals and live a vibrant, fulfilling life.\n\nAs a compassionate wellness counselor, I want to assure you that I'm here to support and guide you every step of the way. Here are some practical, actionable tips to help you stay healthy and thrive:\n\n**1. Listen to your body**: Pay attention to your physical and emotional needs. If you're feeling tired, take a break and rest. If you're feeling stressed, try some deep breathing exercises or a relaxing bath.\n\n**2. Hydrate, hydrate, hydrate**: Drink plenty of water throughout the day, aiming for at least 8 cups (64 oz). This will help flush out toxins, boost energy, and support digestion.\n\n**3. Nourish your body**: Focus on whole, unprocessed foods like fruits, vegetables, whole grains, lean proteins, and healthy fats. Aim for a rainbow of colors on your plate to ensure you're getting a broad range of nutrients.\n\n**4. Move your body**: Regular exercise is essential for physical and mental wellbeing. Find activities you enjoy, whether it's walking, yoga, swimming, or dancing, and aim for at least 30 minutes a day.\n\n**5. Get enough sleep**: Aim for 7-9 hours of sleep each night to help your body repair and recharge. Establish a relaxing bedtime routine to signal to your brain that it's time to wind down.\n\n**6. Practice self-care**: Make time for activities that bring you joy and relaxation, such as reading, listening to music, or spending time in nature.\n\n**7. Connect with others**: Human connection is vital for our wellbeing. Prioritize relationships with loved ones, friends, and community groups that nourish your mind, body, and spirit.\n\n**8. Manage stress**: Learn healthy coping mechanisms like meditation, journaling, or talking to a trusted friend or therapist. Remember, it's okay to ask for help when you need it!\n\n**9. Prioritize mental health**: Take care of your mental wellbeing by practicing mindfulness, gratitude, and self-compassion. Remember that mental health is just as important as physical health.\n\n**10. Seek professional help when needed**: If you're struggling with persistent health issues, mental health concerns, or chronic stress, don't hesitate to seek guidance from a healthcare professional or wellness expert.\n\nRemember, my friend, staying healthy is a journey, not a destination. It's essential to be patient, kind, and compassionate with yourself as you work towards your goals.\n\nYou are capable, strong, and deserving of a life that is filled with vitality, joy, and purpose. Keep in mind that small steps today can lead to significant positive changes in the long run.\n\nHow can I support you on your wellness journey? What specific challenges or concerns do you face that I can help address?",
+      "sources": [],
+      "timestamp": "2025-07-21T13:22:31.390681",
+      "endpoint": "wellness",
+      "status": 200
+    },
+    "agent": "wellness_agent",
+    "model": "wellness_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T13:22:31.442911"
+  },
+  {
+    "task_id": "d313aee2-f442-442d-9b3e-94a0d83eac26",
+    "input": "How to stay healthy",
+    "output": {
+      "query_id": "b120b281-a18a-477b-a328-912336aaa4a7",
+      "query": "How to stay healthy",
+      "response": "Dear friend, I'm so glad you're taking the first step towards prioritizing your health and wellbeing! Staying healthy is a journey, and I'm here to support you every step of the way.\n\nAs your compassionate wellness counselor, I want you to know that you're not alone in this. We all face challenges and setbacks, but with the right mindset and strategies, you can overcome them and thrive.\n\nHere are some practical, actionable tips to help you stay healthy and feel your best:\n\n1. **Listen to your body**: Pay attention to your physical and emotional cues. If you're feeling tired, take a break and rest. If you're feeling stressed, take a few deep breaths and practice mindfulness.\n2. **Move your body**: Regular exercise can boost your mood, energy levels, and overall health. Find an activity you enjoy, whether it's walking, yoga, or dancing, and make it a part of your daily routine.\n3. **Nourish your body**: Focus on consuming a balanced diet rich in whole foods, fruits, and vegetables. Aim to cook at home most nights, and limit processed and packaged foods.\n4. **Stay hydrated**: Drink plenty of water throughout the day, aiming for at least eight glasses. Limit sugary drinks and caffeine, which can dehydrate you.\n5. **Get enough sleep**: Aim for 7-9 hours of sleep each night to help your body repair and recharge. Establish a relaxing bedtime routine to signal to your brain that it's time to wind down.\n6. **Practice self-care**: Make time for activities that bring you joy and relaxation, such as reading, taking a bath, or spending time with loved ones.\n7. **Manage stress**: Develop healthy coping mechanisms, such as meditation, deep breathing, or journaling, to help you navigate stressful situations.\n8. **Connect with others**: Build strong relationships with friends, family, and community. Social connections can have a profound impact on our mental and emotional wellbeing.\n9. **Take breaks and practice self-compassion**: Allow yourself to take breaks and prioritize your own needs. Treat yourself with kindness and understanding, just as you would a close friend.\n10. **Seek support**: Don't be afraid to reach out for help when you need it. Whether it's a healthcare professional, a therapist, or a trusted friend, having a support system can make all the difference.\n\nRemember, my friend, taking care of your health and wellbeing is a journey, not a destination. It's okay to take things one step at a time, and it's okay to make mistakes along the way.\n\nYou are capable of achieving your health goals and living a life that is full of vitality, joy, and purpose. I believe in you, and I'm here to support you every step of the way.\n\nWhat's one area you'd like to focus on first? I'm here to listen and offer guidance to help you get started.",
+      "sources": [],
+      "timestamp": "2025-07-21T13:47:42.832509",
+      "endpoint": "wellness",
+      "status": 200
+    },
+    "agent": "wellness_agent",
+    "model": "wellness_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T13:47:42.843251"
+  },
+  {
+    "task_id": "2c139d79-27e4-4528-8836-65a7670410d3",
+    "input": "5 + 3",
+    "output": {
+      "query_id": "ce33293f-6780-49f6-b9f5-ef1e23f5d0c4",
+      "query": "5 + 3",
+      "response": "The magic of addition!\n\nYou know how sometimes you have some toys, and your friend gives you some more? Or maybe you have a certain amount of candy, and your mom adds some more to your treat pile? That's basically what we're talking about with the equation \"5 + 3\".\n\nSo, what does it mean to \"add\" two numbers together? Think of it like combining two groups of things. When we add 5 and 3, we're saying: \"I have 5 things, and I'm going to add 3 more things to it.\"\n\nLet's use a simple example to make it more concrete. Imagine you have 5 pencils in your pencil case, and your friend gives you 3 more pencils to add to your collection. How many pencils do you have now?\n\nThat's right! You have 5 + 3 = 8 pencils!\n\nHere's another way to think about it: Imagine you have 5 toy cars, and your sibling gives you 3 more toy cars to play with. How many toy cars do you have now?\n\nYou guessed it! You have 5 + 3 = 8 toy cars!\n\nSo, when we add 5 and 3, we're counting how many things we have altogether. And the answer is... 8!\n\nHere's a fun activity to help you practice:\n\n**Addition War Game**\n\n* Write the numbers 1-10 on separate pieces of paper.\n* Shuffle the papers and draw two numbers.\n* Add the two numbers together.\n* The player with the highest total wins!\n\nThis game will help you become a master of addition, and you'll be able to solve equations like \"5 + 3\" like a pro!\n\nSo, remember: addition is all about combining two groups of things to get a total count. And with practice, you'll become a whiz at it!\n\nNow, go ahead and try some more addition problems on your own. You got this!",
+      "sources": [],
+      "timestamp": "2025-07-21T14:03:07.172997",
+      "endpoint": "edumentor",
+      "status": 200
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T14:03:07.202106"
+  },
+  {
+    "task_id": "bbee4543-1ce0-430a-81af-9a27f42723c2",
+    "input": "Ramayana ( Sanskrit  : Ramayanam = Rama + Aayanam; literally meaning: 'Rama's life journey'), is a Sanskrit epic composed by Valmiki , which contains the story of Shri Ram . It is also called Adikavya [ 1 ] and its author Maharishi Valmiki is also called 'Adikavi' [ 2 ] . In the Sanskrit literature tradition, Ramayana and Mahabharata have been called history and both are the most famous and popular texts of Sanatan culture. Ramayana has seven chapters which are known as Kand . It has a total of about 24,000 verses [b] . The seventh Uttarakand is interpolated, Uttarakand is also considered interpolated in Tatvamartand. [ 3 ] After that, this epic has a great influence on the literature of Sanskrit and other Indian languages and many 'Ramayanas' were composed on the story of Ram.",
+    "output": {
+      "query_id": "9dc59192-21a6-4a8c-b825-53a762705575",
+      "query": "Ramayana ( Sanskrit  : Ramayanam = Rama + Aayanam; literally meaning: 'Rama's life journey'), is a Sanskrit epic composed by Valmiki , which contains the story of Shri Ram . It is also called Adikavya [ 1 ] and its author Maharishi Valmiki is also called 'Adikavi' [ 2 ] . In the Sanskrit literature tradition, Ramayana and Mahabharata have been called history and both are the most famous and popular texts of Sanatan culture. Ramayana has seven chapters which are known as Kand . It has a total of about 24,000 verses [b] . The seventh Uttarakand is interpolated, Uttarakand is also considered interpolated in Tatvamartand. [ 3 ] After that, this epic has a great influence on the literature of Sanskrit and other Indian languages and many 'Ramayanas' were composed on the story of Ram.",
+      "response": "**The Epic Adventure of Ramayana: A Journey Through Time and Culture**\n\nImagine embarking on a thrilling adventure that spans centuries, cultures, and continents. Welcome to the world of Ramayana, a Sanskrit epic that has captivated hearts and minds for millennia. This magnificent tale of love, loyalty, and valor has been woven into the fabric of Indian culture, and its influence extends far beyond the borders of India.\n\n**What is Ramayana?**\n\nRamayana is a Sanskrit epic composed by the legendary poet Valmiki, which tells the story of Shri Ram, a prince of Ayodhya. The word \"Ramayana\" literally means \"Rama's life journey,\" and it is indeed a journey that has captivated audiences for centuries. The epic is divided into seven chapters, known as Kand, which comprise approximately 24,000 verses.\n\n**The Story of Shri Ram**\n\nThe story of Shri Ram is one of duty, honor, and sacrifice. As the son of King Dasharath, Ram is next in line to the throne of Ayodhya. However, his stepmother, Queen Kaikeyi, tricks his father into banishing Ram to the forest for 14 years. Ram's wife, Sita, and brother, Lakshman, join him on this exile. During their time in the forest, they face numerous challenges, including the abduction of Sita by the demon king, Ravana.\n\n**The Power of Ramayana**\n\nRamayana is not just a story; it's a cultural phenomenon that has shaped Indian literature and art for centuries. The epic has been influencing Sanskrit and other Indian languages, and numerous Ramayanas have been composed on the story of Ram. The influence of Ramayana can be seen in Indian art, music, dance, and even architecture.\n\n**Why is Ramayana Important?**\n\nRamayana is important for several reasons:\n\n* It's a part of India's cultural heritage, reflecting the values and beliefs of ancient Indian society.\n* It has been a source of inspiration for countless artists, writers, and musicians.\n* It has played a significant role in shaping Indian identity and national consciousness.\n* It continues to be a popular and enduring work of literature, with adaptations and interpretations in various forms.\n\n**Conclusion**\n\nRamayana is an epic adventure that has captured the hearts of people around the world. Its themes of love, loyalty, and sacrifice continue to resonate with audiences today. As we delve into the world of Ramayana, we are not just reading a story; we are experiencing a cultural phenomenon that has shaped Indian history and identity. So, join us on this thrilling journey through time and culture, and discover the magic of Ramayana!\n\n**Practical Activities**\n\n1. Read a summary of Ramayana and identify the main characters and their roles.\n2. Create a timeline of the epic, highlighting the key events and challenges faced by Shri Ram and his companions.\n3. Research the cultural and historical context of Ramayana and its influence on Indian society.\n4. Write a creative piece inspired by Ramayana, exploring its themes and characters.\n5. Create a visual representation of Ramayana, using art, music, or dance to bring the story to life.\n\nBy engaging with Ramayana through these activities, students can develop a deeper understanding of this epic adventure and its significance in Indian culture and literature.",
+      "sources": [],
+      "timestamp": "2025-07-21T14:05:09.580510",
+      "endpoint": "edumentor",
+      "status": 200
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T14:05:09.588959"
+  },
+  {
+    "task_id": "b61041fe-daef-4c56-b0e0-e6479771ad8c",
+    "input": "test_image.png",
+    "output": {
+      "query_id": "4a8748fc-05ad-4dc8-a5d2-394e1e40693e",
+      "query": "test_image.png",
+      "response": "I'm happy to help! However, I have to inform you that \"test_image.png\" is not a topic that can be explained or discussed. It appears to be a file name of an image file, which is not a concept or idea that can be taught or explored.\n\nIf you meant to ask me to explain a different topic, please feel free to let me know and I'll do my best to provide a clear, comprehensive, and engaging explanation!\n\nIf you'd like to use the image file as a teaching tool, I can suggest some creative ways to incorporate it into a lesson or activity. For example, you could use the image as a visual prompt to spark students' curiosity, ask them to describe what they see, or use it as a starting point for a discussion on visual literacy.\n\nLet me know how I can assist you further!",
+      "sources": [],
+      "timestamp": "2025-07-21T14:19:51.299134",
+      "endpoint": "edumentor",
+      "status": 200
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T14:19:51.306778"
+  },
+  {
+    "task_id": "3c5d6e23-e150-4fbc-9124-ccebdad005d5",
+    "input": "test_image.jpg",
+    "output": {
+      "query_id": "afeb8403-0537-419b-a323-2edb7cd6626a",
+      "query": "test_image.jpg",
+      "response": "I'm excited to help you learn about... well, actually, there is no topic to learn about! \"test_image.jpg\" is just a file name, and it's not a topic or a concept that we can explore. But don't worry, I'm here to have some fun with you instead!\n\nLet's pretend that \"test_image.jpg\" is a fascinating topic, and we're going to dive into the world of images and files.\n\nWhat is an image file?\n--------------------\n\nAn image file is a type of computer file that contains a picture or graphic. It's like a digital picture frame that stores a snapshot of a moment or a design. There are many types of image files, such as JPEG, PNG, GIF, and BMP, each with its own strengths and weaknesses.\n\nJPEG (Joint Photographic Experts Group) is one of the most common image file formats. It's great for storing photos, especially those with lots of colors and details. JPEG files are compressed, which means they take up less space on your computer. This makes them perfect for sharing online or storing in a digital album.\n\nPNG (Portable Network Graphics) is another popular image file format. It's often used for graphics, logos, and icons because it supports transparent backgrounds and sharp text. PNG files are usually larger than JPEG files, but they're still a great choice for designs that require precise details.\n\nGIF (Graphics Interchange Format) is an older image file format that's great for simple animations and images with a small number of colors. GIF files are often used for web graphics, such as icons and buttons.\n\nBMP (Bitmap) is an older image file format that stores images as a grid of pixels. It's not as popular as other formats, but it's still used in some graphics programs.\n\nWhat's the \"jpg\" extension all about?\n----------------------------------\n\nThe \"jpg\" extension is short for JPEG, which we learned is a popular image file format. When you save an image as a JPEG file, your computer adds the \".jpg\" extension to the file name. This tells other computers and devices that the file contains a JPEG image.\n\nSo, \"test_image.jpg\" is just a file name that tells us that it's a JPEG image file. The file might contain a picture of a test image, like a simple shape or a sample photo.\n\nIn conclusion, \"test_image.jpg\" might seem like a boring file name, but it's actually a fascinating topic! We learned about different image file formats, what they're used for, and even what the \"jpg\" extension means. Who knows, maybe one day you'll create a stunning JPEG image that will be shared and admired by millions!",
+      "sources": [],
+      "timestamp": "2025-07-21T14:24:25.818056",
+      "endpoint": "edumentor",
+      "status": 200
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T14:24:25.825483"
+  },
+  {
+    "task_id": "d0905e06-300c-4a47-a03c-318453608429",
+    "input": "Ramayana ( Sanskrit  : Ramayanam = Rama + Aayanam; literally meaning: 'Rama's life journey'), is a Sanskrit epic composed by Valmiki , which contains the story of Shri Ram . It is also called Adikavya [ 1 ] and its author Maharishi Valmiki is also called 'Adikavi' [ 2 ] . In the Sanskrit literature tradition, Ramayana and Mahabharata have been called history and both are the most famous and popular texts of Sanatan culture. Ramayana has seven chapters which are known as Kand . It has a total of about 24,000 verses [b] . The seventh Uttarakand is interpolated, Uttarakand is also considered interpolated in Tatvamartand. [ 3 ] After that, this epic has a great influence on the literature of Sanskrit and other Indian languages and many 'Ramayanas' were composed on the story of Ram.",
+    "output": {
+      "query_id": "1db98803-437a-4049-a202-973a87894ab1",
+      "query": "Ramayana ( Sanskrit  : Ramayanam = Rama + Aayanam; literally meaning: 'Rama's life journey'), is a Sanskrit epic composed by Valmiki , which contains the story of Shri Ram . It is also called Adikavya [ 1 ] and its author Maharishi Valmiki is also called 'Adikavi' [ 2 ] . In the Sanskrit literature tradition, Ramayana and Mahabharata have been called history and both are the most famous and popular texts of Sanatan culture. Ramayana has seven chapters which are known as Kand . It has a total of about 24,000 verses [b] . The seventh Uttarakand is interpolated, Uttarakand is also considered interpolated in Tatvamartand. [ 3 ] After that, this epic has a great influence on the literature of Sanskrit and other Indian languages and many 'Ramayanas' were composed on the story of Ram.",
+      "response": "**The Epic Tale of Ramayana: A Journey Through Indian Literature**\n\nImagine embarking on a thrilling adventure that spans centuries, exploring the life of a legendary hero, and discovering the rich cultural heritage of India. Welcome to the world of Ramayana, a Sanskrit epic that has captivated the hearts of millions for millennia!\n\n**What is Ramayana?**\n\nRamayana, which translates to \"Rama's life journey,\" is an ancient Sanskrit epic composed by the renowned poet Valmiki. It's a tale of love, duty, loyalty, and bravery, set against the backdrop of Indian mythology. The epic tells the story of Shri Ram, a prince of Ayodhya, who is exiled to the forest for 14 years.\n\n**The Story of Ramayana**\n\nThe epic is divided into seven chapters, or Kands, each with its own unique themes and plot twists. The story begins with Rama's birth, his childhood, and his eventual exile. In the forest, Rama meets his brother Lakshmana, his wife Sita, and the monkey god Hanuman. Together, they face numerous challenges, including the abduction of Sita by the demon king Ravana.\n\n**The Significance of Ramayana**\n\nRamayana is not just a story; it's a reflection of Indian culture and values. It teaches important lessons about duty, sacrifice, and the importance of family and community. The epic has had a profound impact on Indian literature, influencing the development of many other stories, poems, and plays.\n\n**Interesting Facts**\n\n* Ramayana has over 24,000 verses, making it one of the longest poems in the world!\n* The epic has been translated into many languages, including English, Hindi, and Tamil.\n* Ramayana has been retold and reinterpreted in various forms, including films, plays, and even video games!\n\n**Why is Ramayana Important?**\n\nRamayana is a cultural treasure that reflects the values and beliefs of Indian society. It's a reminder of the importance of family, friendship, and community. The epic has also inspired countless works of art, literature, and music, making it a beloved part of Indian heritage.\n\n**Conclusion**\n\nRamayana is a timeless tale that has captivated the hearts of millions for centuries. Its themes of love, duty, and sacrifice continue to resonate with audiences today. As we explore this epic tale, we're not just learning about Indian mythology; we're discovering the rich cultural heritage of a nation that has been shaped by its stories and legends.\n\n**Practical Activity**\n\nImagine you're a character in the Ramayana. Write a journal entry describing a challenging situation you faced and how you overcame it. Use the themes of duty, loyalty, and bravery to inspire your story!\n\n**Assessment Questions**\n\n1. What is the main theme of Ramayana?\n2. Who is the author of Ramayana?\n3. What is the significance of Ramayana in Indian culture?\n\n**Extension Activity**\n\nResearch and create a presentation about the different adaptations of Ramayana in various forms of media, such as films, plays, and video games. How do these adaptations reflect the cultural values and themes of Indian society?",
+      "sources": [],
+      "timestamp": "2025-07-21T14:25:21.874121",
+      "endpoint": "edumentor",
+      "status": 200
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T14:25:21.881404"
+  },
+  {
+    "task_id": "b7b538be-495b-47e6-9b3c-3087410f292e",
+    "input": "What's in this image?",
+    "output": {
+      "error": "Task execution failed: 404 Client Error: Not Found for url: http://localhost:8002/handle_task_with_file",
+      "status": 500
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T14:29:49.351787"
+  },
+  {
+    "task_id": "1fbcc577-8051-4aa1-9047-affe2fe5971c",
+    "input": "Ramayana ( Sanskrit  : Ramayanam = Rama + Aayanam; literally meaning: 'Rama's life journey'), is a Sanskrit epic composed by Valmiki , which contains the story of Shri Ram . It is also called Adikavya [ 1 ] and its author Maharishi Valmiki is also called 'Adikavi' [ 2 ] . In the Sanskrit literature tradition, Ramayana and Mahabharata have been called history and both are the most famous and popular texts of Sanatan culture. Ramayana has seven chapters which are known as Kand . It has a total of about 24,000 verses [b] . The seventh Uttarakand is interpolated, Uttarakand is also considered interpolated in Tatvamartand. [ 3 ] After that, this epic has a great influence on the literature of Sanskrit and other Indian languages and many 'Ramayanas' were composed on the story of Ram.",
+    "output": {
+      "query_id": "8565ec8c-07c1-4803-babd-8864d23fffdc",
+      "query": "Ramayana ( Sanskrit  : Ramayanam = Rama + Aayanam; literally meaning: 'Rama's life journey'), is a Sanskrit epic composed by Valmiki , which contains the story of Shri Ram . It is also called Adikavya [ 1 ] and its author Maharishi Valmiki is also called 'Adikavi' [ 2 ] . In the Sanskrit literature tradition, Ramayana and Mahabharata have been called history and both are the most famous and popular texts of Sanatan culture. Ramayana has seven chapters which are known as Kand . It has a total of about 24,000 verses [b] . The seventh Uttarakand is interpolated, Uttarakand is also considered interpolated in Tatvamartand. [ 3 ] After that, this epic has a great influence on the literature of Sanskrit and other Indian languages and many 'Ramayanas' were composed on the story of Ram.",
+      "response": "Introducing the Ramayana: A Timeless Epic Journey!\n\nImagine a story that has been passed down for thousands of years, captivating the hearts of millions of people around the world. This is the Ramayana, a legendary Sanskrit epic that tells the tale of Shri Ram, a prince who embarks on a thrilling journey to save his kingdom and rescue his beloved wife from the clutches of evil.\n\n**What is the Ramayana?**\n\nThe Ramayana is a Sanskrit epic composed by the wise and revered poet, Valmiki. It's a story that has been considered \"history\" in the Sanskrit literature tradition, alongside another iconic epic, the Mahabharata. The name \"Ramayana\" literally means \"Rama's life journey,\" and it's a fitting title, as we follow Rama's adventures across the land, facing challenges, battling demons, and ultimately, triumphing over evil.\n\n**The Story Unfolds**\n\nThe Ramayana is divided into seven chapters, called Kand, each with its own unique storyline and characters. The epic tells the tale of Rama, the prince of Ayodhya, who is exiled to the forest with his wife, Sita, and brother, Lakshman. While in the forest, they encounter various challenges, including the mischievous demon king, Ravana, who abducts Sita.\n\n**The Impact of the Ramayana**\n\nThe Ramayana has had a profound impact on Indian literature and culture. It has inspired countless adaptations, retellings, and interpretations across various languages, including Hindi, Tamil, and Telugu. The epic's influence can be seen in art, music, dance, and even modern-day films and television shows.\n\n**Interesting Facts**\n\n* The Ramayana has approximately 24,000 verses, making it one of the longest Sanskrit epics ever written.\n* The seventh chapter, Uttarakand, is considered interpolated, meaning it may not have been written by Valmiki himself.\n* The Ramayana has been translated into many languages, including English, French, German, and Chinese.\n\n**Why is the Ramayana Important?**\n\nThe Ramayana is significant not only for its rich cultural heritage but also for its timeless themes and messages. It teaches us about the importance of duty, loyalty, and sacrifice, as Rama and his companions face numerous challenges to achieve their goals. The epic also explores complex moral dilemmas, such as the struggle between good and evil, and the consequences of one's actions.\n\n**Conclusion**\n\nThe Ramayana is a captivating and enduring epic that has captured the hearts of people around the world. Its powerful themes, memorable characters, and engaging storyline continue to inspire new generations of readers, writers, and artists. As we explore the world of Indian literature and culture, the Ramayana remains an essential part of our shared heritage, offering valuable lessons and insights that continue to resonate with us today.\n\n**Practical Activities**\n\n1. Read a summary of the Ramayana and identify the main characters, plot twists, and themes.\n2. Watch a film or television adaptation of the Ramayana and analyze its portrayal of the characters and story.\n3. Write a creative piece inspired by the Ramayana, exploring its themes and characters in a modern context.\n4. Research the impact of the Ramayana on Indian culture and literature, highlighting its significance and influence.\n\nBy exploring the Ramayana, you'll discover a rich and fascinating world of Indian literature and culture, and gain a deeper understanding of the epic's enduring power and appeal.",
+      "sources": [],
+      "timestamp": "2025-07-21T14:32:26.316601",
+      "endpoint": "edumentor",
+      "status": 200
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T14:32:26.324886"
+  },
+  {
+    "task_id": "d835ed60-4910-41af-ae73-c00301b2a6ea",
+    "input": "How to stay healthy",
+    "output": {
+      "query_id": "e611e9c4-cd5c-4f61-8780-65788be229fb",
+      "query": "How to stay healthy",
+      "response": "My friend, I'm so glad you're taking proactive steps towards prioritizing your health and wellbeing! Staying healthy can be a journey, and it's wonderful that you're seeking guidance to support you along the way.\n\nFirst and foremost, please know that you're not alone in this journey. We all face challenges and setbacks, but with the right mindset and strategies, you can overcome them and thrive.\n\nHere are some practical, actionable tips to help you stay healthy and cultivate overall wellbeing:\n\n1. **Listen to your body**: Pay attention to your physical and emotional cues. If you're feeling tired, take a nap. If you're feeling stressed, take a few deep breaths. Your body is sending you signals, and it's essential to tune in and respond in a way that nourishes you.\n2. **Hydrate, hydrate, hydrate**: Drink plenty of water throughout the day. Aim for at least eight glasses, and make sure to drink half your body weight in ounces. This will help flush out toxins, boost energy, and support healthy digestion.\n3. **Nourish your body with whole foods**: Focus on consuming whole, unprocessed foods like fruits, vegetables, whole grains, lean proteins, and healthy fats. Aim for a rainbow of colors on your plate to ensure you're getting a broad range of essential nutrients.\n4. **Move your body with intention**: Regular exercise is essential for physical and mental health. Find activities that bring you joy and make you feel good, whether it's walking, yoga, swimming, or dancing. Aim for at least 30 minutes of moderate exercise per day.\n5. **Practice stress-reducing techniques**: Stress is a natural part of life, but chronic stress can have negative impacts on our physical and mental health. Try techniques like meditation, deep breathing, or progressive muscle relaxation to help calm your mind and body.\n6. **Get enough sleep**: Aim for 7-9 hours of sleep each night to allow your body to repair and rejuvenate. Establish a consistent sleep schedule and create a bedtime routine to signal to your body that it's time to wind down.\n7. **Connect with nature**: Spend time outdoors and engage with nature. Take a walk in the park, go for a hike, or simply sit in your backyard. Being in nature can help reduce stress, boost mood, and improve overall wellbeing.\n8. **Prioritize self-care**: Make time for activities that bring you joy and relaxation. Whether it's reading a book, taking a relaxing bath, or getting a massage, prioritize self-care as an essential part of your daily routine.\n9. **Seek support**: Surround yourself with positive, supportive people who uplift and encourage you. Don't be afraid to ask for help when you need it, and don't be too proud to accept support from others.\n10. **Practice self-compassion**: Be kind to yourself, my friend. Remember that everyone makes mistakes, and it's okay not to be perfect. Treat yourself with the same kindness and compassion you would offer to a good friend.\n\nRemember, my friend, staying healthy is a journey, not a destination. It's about cultivating habits that nourish your body, mind, and spirit, and being patient and compassionate with yourself along the way.\n\nYou got this!",
+      "sources": [],
+      "timestamp": "2025-07-21T14:32:50.154119",
+      "endpoint": "wellness",
+      "status": 200
+    },
+    "agent": "wellness_agent",
+    "model": "wellness_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T14:32:50.163101"
+  },
+  {
+    "task_id": "4a876e69-cbac-4da0-b1e0-01f8b0247b0e",
+    "input": "What's in this image?",
+    "output": {
+      "error": "Task execution failed: 404 Client Error: Not Found for url: http://localhost:8002/handle_task_with_file",
+      "status": 500
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T14:33:13.021605"
+  },
+  {
+    "task_id": "d700005b-89bc-49f9-b5d6-d93043536273",
+    "input": "What's in this image?",
+    "output": {
+      "result": "the cover of the book specs of odin twilight",
+      "model": "image_agent",
+      "tokens_used": 9,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.2449999999999999,
+    "timestamp": "2025-07-21T14:36:06.217385"
+  },
+  {
+    "task_id": "670cecd1-083a-4167-a4df-ba4109eea013",
+    "input": "Please analyze this document",
+    "output": {
+      "result": "Here's a summary of the text in 50-100 words:\n\nA 6-day sprint plan aims to integrate reinforcement learning (RL) into the BHIV pipeline, a multimodal, agentic system. The RL layer will record decisions, track rewards, and enable learning without disrupting the normal flow. Each day, components will be integrated: Day 1 focuses on registry and logging infrastructure, Day 2 on agent routing and reward schema, and so on. The plan involves tracking and logging decisions, simulating exploration, and enabling suggestions. By the end of the sprint, the RL layer will be integrated, and reward trends will be observed, paving the way for future model training.",
+      "model": "archive_agent",
+      "tokens_used": 1972,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "pdf",
+        "summary"
+      ]
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.7,
+    "timestamp": "2025-07-21T14:42:40.209214"
+  },
+  {
+    "task_id": "f2119736-9c06-45d4-a68f-1ea4837c2fe4",
+    "input": "Transcribe this audio",
+    "output": {
+      "error": "Task processing failed: No module named 'torchaudio'",
+      "status": 500
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:30:08.282762"
+  },
+  {
+    "task_id": "824bef88-4cd5-4073-84a6-a0e52265de57",
+    "input": "Transcribe this audio",
+    "output": {
+      "error": "Task processing failed: No module named 'torchaudio'",
+      "status": 500
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:31:56.936121"
+  },
+  {
+    "task_id": "46cd75fd-b28d-4e74-900c-b3fb7e9ad26e",
+    "input": "Transcribe this audio",
+    "output": {
+      "error": "Audio processing failed: Couldn't find appropriate backend to handle uri C:\\Users\\abc1\\AppData\\Local\\Temp\\tmpvmga9qob.wav and format None.",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:33:58.320471"
+  },
+  {
+    "task_id": "918aae9f-a96f-4e11-a54e-789c5a70076a",
+    "input": "Transcribe this audio",
+    "output": {
+      "error": "Audio processing failed: Couldn't find appropriate backend to handle uri C:\\Users\\abc1\\AppData\\Local\\Temp\\tmp30dqvu58.wav and format None.",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:36:32.794000"
+  },
+  {
+    "task_id": "0dc0e083-d9ec-4101-8c37-265e0898cbde",
+    "input": "Transcribe this audio",
+    "output": {
+      "error": "Audio processing failed: Couldn't find appropriate backend to handle uri C:\\Users\\abc1\\AppData\\Local\\Temp\\tmp7rb9jxgb.wav and format None.",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:37:01.129447"
+  },
+  {
+    "task_id": "6e8639d3-99e2-448a-a839-b10ea3de2351",
+    "input": "Transcribe this audio",
+    "output": {
+      "error": "Audio processing failed: ",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:38:06.452117"
+  },
+  {
+    "task_id": "4eea0a7e-7f3e-4e50-84de-61752aacfb75",
+    "input": "test.wav",
+    "output": {
+      "error": "Audio processing failed: ",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:39:38.989243"
+  },
+  {
+    "task_id": "a1b9cbca-294d-4c6a-9d52-4c5241bda14d",
+    "input": "test.wav",
+    "output": {
+      "error": "Audio processing failed: ",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:40:00.485317"
+  },
+  {
+    "task_id": "369f2975-cdb8-43cb-b59b-5bc5951b269b",
+    "input": "Transcribe this audio",
+    "output": {
+      "error": "Audio processing failed: ",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:41:30.285058"
+  },
+  {
+    "task_id": "1ed12c58-01ee-4f9c-ba88-8df484e712b9",
+    "input": "test.wav",
+    "output": {
+      "error": "Audio processing failed: ",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:41:46.030032"
+  },
+  {
+    "task_id": "0bac2151-cd7e-44f8-9885-562e747d71ee",
+    "input": "test.wav",
+    "output": {
+      "error": "Audio processing failed: Could not understand audio - no speech detected or audio quality too poor",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:43:56.275116"
+  },
+  {
+    "task_id": "3b257637-3b2b-41c0-b1a4-31ed941ef5e5",
+    "input": "test.wav",
+    "output": {
+      "result": "the still smell of old buildings it takes heat to bring out the order I call dip restores health and fast pickle please find with him tacos Alpha store are my favourite is just for food is the hot cross bun",
+      "method": "speech_recognition",
+      "model": "audio_agent",
+      "tokens_used": 41,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "audio",
+        "transcription",
+        "speech_recognition"
+      ]
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5050000000000001,
+    "timestamp": "2025-07-21T15:45:56.943153"
+  },
+  {
+    "task_id": "abfb750b-6ecf-40e1-a5db-06c37be84ea0",
+    "input": "Transcribe this audio",
+    "output": {
+      "result": "the still smell of old buildings it takes heat to bring out the order I call dip restores health and fast pickle please find with him tacos Alpha store are my favourite is just for food is the hot cross bun",
+      "method": "speech_recognition",
+      "model": "audio_agent",
+      "tokens_used": 41,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "audio",
+        "transcription",
+        "speech_recognition"
+      ]
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5050000000000001,
+    "timestamp": "2025-07-21T15:46:36.300675"
+  },
+  {
+    "task_id": "a9876d52-615c-4411-9383-3fdb9819d617",
+    "input": "How to find inner peace?",
+    "output": {
+      "error": "Task processing failed: 'AgentRegistry' object has no attribute 'find_agent'",
+      "status": 500
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:51:38.039255"
+  },
+  {
+    "task_id": "8f60b93c-37a2-4713-a445-9bac34008093",
+    "input": "How to find inner peace?",
+    "output": {
+      "error": "Task processing failed: 'AgentRegistry' object has no attribute 'find_agent'",
+      "status": 500
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:52:13.558302"
+  },
+  {
+    "task_id": "bb6a0080-43a6-4441-ac21-cc53b5b88b53",
+    "input": "How to find inner peace?",
+    "output": {
+      "error": "Task processing failed: 'AgentRegistry' object has no attribute 'find_agent'",
+      "status": 500
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:52:22.448313"
+  },
+  {
+    "task_id": "c56a4d4d-6019-4be1-a78a-f4f4d51fee15",
+    "input": "How to find inner peace?",
+    "output": {
+      "error": "Task processing failed: unhashable type: 'dict'",
+      "status": 500
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:53:41.436697"
+  },
+  {
+    "task_id": "31d1c2b5-8b80-4d77-8dd0-68b5e5ede36a",
+    "input": "How to find inner peace?",
+    "output": {
+      "error": "Task processing failed: unhashable type: 'dict'",
+      "status": 500
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:53:50.854692"
+  },
+  {
+    "task_id": "e4d5b947-7b49-4fe0-bcd6-441af7c6c56a",
+    "input": "How to find inner peace?",
+    "output": {
+      "error": "Task processing failed: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /vedas (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000207E7755910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "status": 500
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-21T15:55:11.815098"
+  },
+  {
+    "task_id": "f72d4053-504d-49fb-994d-76a0152bc4c9",
+    "input": "How to find inner peace?",
+    "output": {
+      "query_id": "eb6dc0d7-9ef3-4849-83b4-bee7a908c6bb",
+      "query": "How to find inner peace?",
+      "response": "My dear friend, I'm honored to share the timeless wisdom of the Vedas with you. Inner peace is not a destination, but a state of being that arises from aligning your thoughts, words, and actions with the divine. Here's a concise yet profound guidance:\n\n1. **Cultivate awareness**: Recognize that the root of inner peace lies within. Observe your thoughts, emotions, and actions without judgment. Witness them as mere ripples on the surface of the ocean of consciousness.\n2. **Purify the mind**: Regularly engage in self-reflection, meditation, and prayer to cleanse the mind of negative thoughts, emotions, and patterns. As you quiet the mind, you'll find clarity and a sense of inner calm.\n3. **Nurture a sense of oneness**: Understand that you are not separate from the universe. Recognize the interconnectedness of all beings and the divine. This awareness will foster compassion, love, and a sense of unity.\n4. **Embrace the present moment**: Let go of attachments to the past and future. Focus on the present, embracing each moment as an opportunity to experience the divine. As you do, you'll find inner peace in the midst of chaos.\n5. **Practice selfless service**: Engage in acts of kindness, charity, and service to others. This will help you transcend your ego and connect with the divine, leading to a sense of inner peace and fulfillment.\n6. **Develop a sense of gratitude**: Cultivate a heart full of gratitude for the blessings in your life. Recognize the divine in every moment, and you'll find inner peace and contentment.\n7. **Seek the guidance of the divine**: Connect with a higher power, whether through prayer, meditation, or spiritual practices. Seek guidance, and trust that the divine will lead you to inner peace.\n\nRemember, my friend, inner peace is not a destination, but a state of being that arises from living in harmony with the divine. May these ancient teachings guide you on your journey towards inner peace and spiritual enlightenment.",
+      "sources": [],
+      "timestamp": "2025-07-21T15:58:41.420221",
+      "endpoint": "ask-vedas",
+      "status": 200
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T15:58:41.426271"
+  },
+  {
+    "task_id": "2294cb03-d4e6-496f-b6bf-d486b7a7aaf7",
+    "input": "What is dharma according to Vedas?",
+    "output": {
+      "query_id": "e9f3bee3-8aa2-4244-8afa-8f8677ca95eb",
+      "query": "What is dharma according to Vedas?",
+      "response": "My dear friend, the concept of dharma is a cornerstone of Vedic wisdom. According to the Rigveda, the oldest of the four Vedas, dharma is the sacred duty or path that leads to happiness, prosperity, and spiritual growth.\n\nIn the Bhagavad Gita, Lord Krishna describes dharma as \"that which is in harmony with the natural order of the universe\" (Bhagavad Gita, Chapter 3, Verse 21). He further clarifies that dharma is not just a set of rules or rituals, but a way of living that is guided by compassion, wisdom, and self-discipline.\n\nThe Vedas also emphasize that dharma is not limited to a specific caste, class, or occupation. Instead, it is a universal principle that applies to all beings, regardless of their station in life. In the Mundaka Upanishad, it is written: \"Dharma is the law that governs all beings, from the highest gods to the lowest creatures\" (Mundaka Upanishad, 1.1.1).\n\nIn practical terms, dharma means living in harmony with nature, respecting the interconnectedness of all life, and fulfilling one's responsibilities with integrity and compassion. It involves cultivating virtues such as truthfulness, non-violence, and self-awareness, and embracing the natural order of the universe.\n\nIn summary, my dear friend, according to the Vedas, dharma is a sacred duty or path that leads to happiness and spiritual growth. It is a way of living that is guided by compassion, wisdom, and self-discipline, and is applicable to all beings. May you walk this path with integrity, respect, and harmony, and may you find peace and fulfillment on your journey.",
+      "sources": [],
+      "timestamp": "2025-07-21T15:59:15.378727",
+      "endpoint": "ask-vedas",
+      "status": 200
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T15:59:15.381741"
+  },
+  {
+    "task_id": "0ec2d594-c00d-4a9a-977c-dcae90b5bddc",
+    "input": "How to find inner peace?",
+    "output": {
+      "query_id": "f884298e-c742-4e9d-8b08-2456c0b200ce",
+      "query": "How to find inner peace?",
+      "response": "My dear friend, finding inner peace is not a destination, but a journey. It is a state of being that arises from the union of the individual self (jiva) with the universal consciousness (Brahman). Here are some ancient Vedic teachings to guide you on this path:\n\n1. **Cultivate Self-Reflection**: As the Upanishads say, \"Know thyself.\" Regular self-reflection helps you understand your thoughts, emotions, and actions. Observe your mind like a calm lake, and let go of negative patterns.\n2. **Practice Ahimsa (Non-Violence)**: Ahimsa is not just the absence of violence towards others, but also towards yourself. Treat your own thoughts and emotions with kindness, compassion, and understanding.\n3. **Embrace the Present Moment**: The Bhagavad Gita advises, \"Those who are able to see the Self in all beings and all beings in the Self, are in the state of yoga.\" Focus on the present, and let go of worries about the past or future.\n4. **Develop a Sense of Detachment**: The Bhagavata Purana says, \"One who is not attached to the fruits of work is not bound by karma.\" Cultivate detachment from external outcomes, and focus on your inner growth.\n5. **Nurture Spiritual Practices**: Regularly engage in practices like meditation, yoga, and japa (mantra recitation) to quiet the mind and connect with your inner Self.\n6. **Seek Guidance and Support**: Surround yourself with like-minded individuals who share your spiritual aspirations. Seek guidance from wise teachers and mentors who can illuminate your path.\n7. **Embrace Impermanence**: Recognize that everything in life is impermanent, including your thoughts, emotions, and physical body. Cultivate acceptance and equanimity in the face of change.\n8. **Cultivate Gratitude and Contentment**: Focus on the blessings you already have, and express gratitude for the present moment. This mindset will help you find peace in the midst of chaos.\n\nRemember, my friend, inner peace is not a goal to be achieved, but a state of being that arises from living in harmony with the universal principles of nature. May these ancient Vedic teachings guide you on your journey towards inner peace and self-realization.",
+      "sources": [],
+      "timestamp": "2025-07-21T15:59:30.324810",
+      "endpoint": "ask-vedas",
+      "status": 200
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T15:59:30.326820"
+  },
+  {
+    "task_id": "0df6d13c-7e20-4d1e-b907-bb0412c7e0e0",
+    "input": "What is machine learning?",
+    "output": {
+      "query_id": "3749079f-54d9-451c-94c3-65be92fbe01b",
+      "query": "What is machine learning?",
+      "response": "**Welcome to the Amazing World of Machine Learning!**\n\nImagine you're trying to teach a computer to recognize pictures of animals. You show it a few hundred pictures of dogs, cats, and birds, and ask it to identify which ones are which. At first, the computer might struggle, but with more practice and training, it starts to get better and better!\n\nThat's basically what machine learning is \u2013 teaching computers to learn from data, just like we do. It's a type of artificial intelligence that allows computers to improve their performance on a task over time, without being explicitly programmed.\n\n**How does it work?**\n\nMachine learning involves three main steps:\n\n1. **Data Collection**: Gathering a large dataset of examples, like pictures of animals.\n2. **Training**: Feeding the data into a computer program, which uses algorithms to analyze and learn patterns.\n3. **Testing**: Evaluating the program's performance on new, unseen data to see how well it's learned.\n\n**Practical Examples**\n\n1. **Image Recognition**: A self-driving car uses machine learning to recognize pedestrians, traffic lights, and road signs.\n2. **Language Translation**: Google Translate uses machine learning to translate languages, like Spanish to English.\n3. **Personalized Recommendations**: Netflix uses machine learning to suggest movies and TV shows based on your viewing history.\n\n**How is machine learning different from traditional programming?**\n\nTraditional programming is like writing a recipe for a computer. You specify exactly what to do, step by step. Machine learning is more like teaching a child, where you provide examples and guidance, and the computer learns to make its own decisions.\n\n**Why is machine learning important?**\n\nMachine learning has the potential to transform many areas of our lives, such as:\n\n1. **Healthcare**: Diagnosing diseases more accurately and efficiently.\n2. **Finance**: Predicting stock market trends and detecting fraud.\n3. **Education**: Creating personalized learning experiences for students.\n\n**Conclusion**\n\nMachine learning is an exciting and rapidly growing field that has the power to make a significant impact on our lives. By teaching computers to learn from data, we can solve complex problems and improve our lives in many ways. Who knows, maybe one day you'll create a machine learning algorithm that changes the world!\n\n**Additional Tips for Students**\n\n* Start by exploring online resources, such as Coursera, edX, and Kaggle, which offer machine learning courses and datasets.\n* Practice coding and experimenting with machine learning algorithms using platforms like TensorFlow and PyTorch.\n* Join online communities, like Reddit's Machine Learning community, to connect with other students and experts.\n\nNow, go forth and conquer the world of machine learning!",
+      "sources": [],
+      "timestamp": "2025-07-21T15:59:47.922708",
+      "endpoint": "edumentor",
+      "status": 200
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T15:59:47.925176"
+  },
+  {
+    "task_id": "fa465166-0a7d-4d77-9855-63e13ef0dea5",
+    "input": "How to reduce stress naturally?",
+    "output": {
+      "query_id": "062d581b-02f9-4584-8aff-55eca72b5470",
+      "query": "How to reduce stress naturally?",
+      "response": "My dear friend, I'm so glad you're reaching out for help with managing stress. It's completely normal to feel overwhelmed, and I'm here to support you every step of the way.\n\nReducing stress naturally is not only possible, but it's also essential for your overall wellbeing. When we're under stress, our bodies produce hormones like cortisol, which can lead to a range of negative effects if left unchecked. But don't worry, I've got some practical and actionable tips to help you reduce stress naturally.\n\n**1. Breathe, my friend, breathe!**\nDeep breathing exercises are a simple yet powerful way to calm your mind and body. Take slow, deliberate breaths in through your nose and out through your mouth. Focus on the sensation of the breath moving in and out of your body. You can do this anywhere, anytime, and it's a great way to reduce stress and anxiety.\n\n**2. Move your body, lovely!**\nExercise is a natural stress-reliever, and it's not just about physical health. Regular physical activity can help reduce symptoms of anxiety and depression, improve sleep, and boost your mood. Find an activity you enjoy, whether it's walking, yoga, or dancing, and make it a regular part of your routine.\n\n**3. Connect with nature, sweet one!**\nSpending time in nature has been shown to have a calming effect on the mind and body. Take a walk outside, sit in a park, or simply gaze out a window. Being in nature can help reduce stress, improve your mood, and even lower your blood pressure.\n\n**4. Practice self-care, darling!**\nTake care of your physical, emotional, and spiritual needs. Make time for activities that bring you joy, whether it's reading, painting, or spending time with loved ones. Prioritize your needs and don't be afraid to say \"no\" to things that drain your energy.\n\n**5. Get enough sleep, lovely!**\nSleep is essential for reducing stress and anxiety. Aim for 7-9 hours of sleep each night and establish a relaxing bedtime routine to help you wind down. Avoid screens and stimulating activities before bedtime, and create a sleep-conducive environment that promotes relaxation.\n\n**6. Eat a stress-reducing diet, sweet one!**\nA healthy diet rich in whole foods, fruits, and vegetables can help reduce stress and anxiety. Avoid processed foods, sugar, and caffeine, which can exacerbate stress symptoms. Stay hydrated by drinking plenty of water throughout the day.\n\n**7. Practice mindfulness, my friend!**\nMindfulness is the practice of being present in the moment, without judgment. It can help reduce stress and anxiety by teaching you to focus on the present and let go of worries about the past or future. You can practice mindfulness through meditation, yoga, or simply paying attention to your breath and body.\n\n**8. Seek social support, lovely!**\nSurround yourself with people who uplift and support you. Build strong relationships with loved ones, and don't be afraid to reach out for help when you need it. Social connections can help reduce stress and anxiety by providing a sense of belonging and connection.\n\nRemember, my dear friend, reducing stress is a process, and it's okay to take it one step at a time. Be patient and kind to yourself as you work through these tips, and don't hesitate to reach out if you need further support.\n\nYou are not alone, and you are capable of managing stress naturally.",
+      "sources": [],
+      "timestamp": "2025-07-21T16:00:14.356890",
+      "endpoint": "wellness",
+      "status": 200
+    },
+    "agent": "wellness_agent",
+    "model": "wellness_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T16:00:14.359910"
+  },
+  {
+    "task_id": "c04165f8-4538-4c2a-8a46-98f8a2b88cb3",
+    "input": "C:\\Users\\abc1\\AppData\\Local\\Temp\\tmpl9xj7rmx.pdf",
+    "output": {
+      "result": "Here's a summary of the text in 50-100 words:\n\nA 6-day sprint plan aims to integrate a reinforcement learning (RL) layer into an existing BHIV pipeline. The RL layer will record decisions, track rewards, and enable learning without disrupting the normal flow. Key changes include adding an RL observer that logs decisions and tracks rewards, simulating exploration by randomizing fallback agents, and implementing a reward schema. Components such as the agent router, LLM selector, and learning adapter will be integrated with the RL layer to enable logging, tracking, and learning from day one.",
+      "model": "archive_agent",
+      "tokens_used": 1960,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "pdf",
+        "summary"
+      ]
+    },
+    "agent": "archive_agent",
+    "model": "edumentor_agent",
+    "reward": 1.665,
+    "timestamp": "2025-07-21T16:01:09.262480"
+  },
+  {
+    "task_id": "c04165f8-4538-4c2a-8a46-98f8a2b88cb3",
+    "input": "Get main points from document",
+    "output": {
+      "result": "Here's a summary of the text in 50-100 words:\n\nA 6-day sprint plan aims to integrate a reinforcement learning (RL) layer into an existing BHIV pipeline. The RL layer will record decisions, track rewards, and enable learning without disrupting the normal flow. Key changes include adding an RL observer that logs decisions and tracks rewards, simulating exploration by randomizing fallback agents, and implementing a reward schema. Components such as the agent router, LLM selector, and learning adapter will be integrated with the RL layer to enable logging, tracking, and learning from day one.",
+      "model": "archive_agent",
+      "tokens_used": 1960,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "pdf",
+        "summary"
+      ]
+    },
+    "agent": "archive_agent",
+    "model": "edumentor_agent",
+    "reward": 1.665,
+    "timestamp": "2025-07-21T16:01:09.266496"
+  },
+  {
+    "task_id": "366f53b7-c9dc-4236-98cb-4016730049b5",
+    "input": "C:\\Users\\abc1\\AppData\\Local\\Temp\\tmpilqobkg8.png",
+    "output": {
+      "result": "a black and white font with the words ' this is a lot of work on all types of font",
+      "model": "image_agent",
+      "tokens_used": 20,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "image_agent",
+    "model": "edumentor_agent",
+    "reward": 1.3,
+    "timestamp": "2025-07-21T16:03:56.325487"
+  },
+  {
+    "task_id": "366f53b7-c9dc-4236-98cb-4016730049b5",
+    "input": "Describe what you see in this image",
+    "output": {
+      "result": "a black and white font with the words ' this is a lot of work on all types of font",
+      "model": "image_agent",
+      "tokens_used": 20,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "image_agent",
+    "model": "edumentor_agent",
+    "reward": 1.3,
+    "timestamp": "2025-07-21T16:03:56.334488"
+  },
+  {
+    "task_id": "4d81bb7e-75a6-4412-9734-c8dbdedf3d86",
+    "input": "C:\\Users\\abc1\\AppData\\Local\\Temp\\tmp7u40wkgy.png",
+    "output": {
+      "result": "a black and white font with the words ' this is a lot of work on all types of font",
+      "model": "image_agent",
+      "tokens_used": 20,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "image_agent",
+    "model": "edumentor_agent",
+    "reward": 1.3,
+    "timestamp": "2025-07-21T16:04:48.535940"
+  },
+  {
+    "task_id": "4d81bb7e-75a6-4412-9734-c8dbdedf3d86",
+    "input": "Analyze the contents of this image",
+    "output": {
+      "result": "a black and white font with the words ' this is a lot of work on all types of font",
+      "model": "image_agent",
+      "tokens_used": 20,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "image_agent",
+    "model": "edumentor_agent",
+    "reward": 1.3,
+    "timestamp": "2025-07-21T16:04:48.541989"
+  },
+  {
+    "task_id": "424aa35e-a5aa-4bb3-bc40-3fdbdf14d12d",
+    "input": "C:\\Users\\abc1\\AppData\\Local\\Temp\\tmpxwn0g9os.wav",
+    "output": {
+      "result": "the still smell of old buildings it takes heat to bring out the order I call dip restores health and fast pickle please find with him tacos Alpha store are my favourite is just for food is the hot cross bun",
+      "method": "speech_recognition",
+      "model": "audio_agent",
+      "tokens_used": 41,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "audio",
+        "transcription",
+        "speech_recognition"
+      ]
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5050000000000001,
+    "timestamp": "2025-07-21T16:05:50.433951"
+  },
+  {
+    "task_id": "424aa35e-a5aa-4bb3-bc40-3fdbdf14d12d",
+    "input": "Convert this speech to text",
+    "output": {
+      "result": "the still smell of old buildings it takes heat to bring out the order I call dip restores health and fast pickle please find with him tacos Alpha store are my favourite is just for food is the hot cross bun",
+      "method": "speech_recognition",
+      "model": "audio_agent",
+      "tokens_used": 41,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "audio",
+        "transcription",
+        "speech_recognition"
+      ]
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5050000000000001,
+    "timestamp": "2025-07-21T16:05:50.438979"
+  },
+  {
+    "task_id": "ada7e5d4-3469-42ed-bc39-628797f9c050",
+    "input": "C:\\Users\\abc1\\AppData\\Local\\Temp\\tmpqs_m75yk.wav",
+    "output": {
+      "result": "the still smell of old buildings it takes heat to bring out the order I call dip restores health and fast pickle please find with him tacos Alpha store are my favourite is just for food is the hot cross bun",
+      "method": "speech_recognition",
+      "model": "audio_agent",
+      "tokens_used": 41,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "audio",
+        "transcription",
+        "speech_recognition"
+      ]
+    },
+    "agent": "audio_agent",
+    "model": "audio_agent",
+    "reward": 1.5050000000000001,
+    "timestamp": "2025-07-21T16:08:45.513711"
+  },
+  {
+    "task_id": "ada7e5d4-3469-42ed-bc39-628797f9c050",
+    "input": "Convert this speech to text",
+    "output": {
+      "result": "the still smell of old buildings it takes heat to bring out the order I call dip restores health and fast pickle please find with him tacos Alpha store are my favourite is just for food is the hot cross bun",
+      "method": "speech_recognition",
+      "model": "audio_agent",
+      "tokens_used": 41,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "audio",
+        "transcription",
+        "speech_recognition"
+      ]
+    },
+    "agent": "audio_agent",
+    "model": "audio_agent",
+    "reward": 1.5050000000000001,
+    "timestamp": "2025-07-21T16:08:45.518368"
+  },
+  {
+    "task_id": "693b77cb-3be0-4063-a0dc-82df98c81b4a",
+    "input": "C:\\Users\\abc1\\AppData\\Local\\Temp\\tmp72m5wrss.png",
+    "output": {
+      "result": "a black and white font with the words ' this is a lot of work on all types of font",
+      "model": "image_agent",
+      "tokens_used": 20,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "image_agent",
+    "model": "image_agent",
+    "reward": 1.3,
+    "timestamp": "2025-07-21T16:09:12.282332"
+  },
+  {
+    "task_id": "693b77cb-3be0-4063-a0dc-82df98c81b4a",
+    "input": "Describe what you see in this image",
+    "output": {
+      "result": "a black and white font with the words ' this is a lot of work on all types of font",
+      "model": "image_agent",
+      "tokens_used": 20,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "image_agent",
+    "model": "image_agent",
+    "reward": 1.3,
+    "timestamp": "2025-07-21T16:09:12.288597"
+  },
+  {
+    "task_id": "737efa07-9041-4fd4-b77a-d3e605c6593c",
+    "input": "C:\\Users\\abc1\\AppData\\Local\\Temp\\tmpwwd3ae9h.png",
+    "output": {
+      "result": "a black and white font with the words ' this is a lot of work on all types of font",
+      "model": "image_agent",
+      "tokens_used": 20,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "image_agent",
+    "model": "edumentor_agent",
+    "reward": 1.3,
+    "timestamp": "2025-07-21T16:10:21.925563"
+  },
+  {
+    "task_id": "737efa07-9041-4fd4-b77a-d3e605c6593c",
+    "input": "Explain this image",
+    "output": {
+      "result": "a black and white font with the words ' this is a lot of work on all types of font",
+      "model": "image_agent",
+      "tokens_used": 20,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "image_agent",
+    "model": "edumentor_agent",
+    "reward": 1.3,
+    "timestamp": "2025-07-21T16:10:21.931067"
+  },
+  {
+    "task_id": "cf9e5425-2df9-4524-913b-ef0c513b8238",
+    "input": "C:\\Users\\abc1\\AppData\\Local\\Temp\\tmph_ivf8xx.wav",
+    "output": {
+      "result": "the still smell of old buildings it takes heat to bring out the order I call dip restores health and fast pickle please find with him tacos Alpha store are my favourite is just for food is the hot cross bun",
+      "method": "speech_recognition",
+      "model": "audio_agent",
+      "tokens_used": 41,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "audio",
+        "transcription",
+        "speech_recognition"
+      ]
+    },
+    "agent": "audio_agent",
+    "model": "audio_agent",
+    "reward": 1.5050000000000001,
+    "timestamp": "2025-07-21T16:13:21.406815"
+  },
+  {
+    "task_id": "cf9e5425-2df9-4524-913b-ef0c513b8238",
+    "input": "Describe this audio",
+    "output": {
+      "result": "the still smell of old buildings it takes heat to bring out the order I call dip restores health and fast pickle please find with him tacos Alpha store are my favourite is just for food is the hot cross bun",
+      "method": "speech_recognition",
+      "model": "audio_agent",
+      "tokens_used": 41,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "audio",
+        "transcription",
+        "speech_recognition"
+      ]
+    },
+    "agent": "audio_agent",
+    "model": "audio_agent",
+    "reward": 1.5050000000000001,
+    "timestamp": "2025-07-21T16:13:21.412838"
+  },
+  {
+    "task_id": "2789aeb4-9185-4e4a-a4fb-f6839f650578",
+    "input": "what is life",
+    "output": {
+      "query_id": "0d4aa26f-6846-4b87-993a-3927a523d537",
+      "query": "what is life",
+      "response": "My dear friend, the question \"what is life\" is a profound inquiry that has puzzled sages and seekers for centuries. According to the ancient Vedic wisdom, life is not just a mere existence, but a sacred journey of self-discovery and growth.\n\nAs the Rig Veda states, \"The Self is the source of all, and the source of all is the Self\" (Rig Veda 1.164.39). This means that the ultimate reality is not something external, but rather the essential nature of the Self, which is eternal, unchanging, and all-pervading.\n\nLife, then, is a manifestation of this Self, a play of consciousness that unfolds in the universe. It is a dance of energies, a symphony of thoughts, emotions, and actions, all guided by the highest intention of the Self.\n\nAs the Bhagavad Gita teaches, \"The Self is not born, nor does it die. It is eternal, unborn, and eternal\" (Bhagavad Gita 2.20). This means that the Self is beyond birth, death, and all the cycles of time. It is the unchanging essence that remains constant amidst the ever-changing world.\n\nSo, what is life? It is the expression of the Self, the unfolding of the divine intention in the world. It is a journey of exploration, discovery, and growth, where the individual self (jiva) is guided by the wisdom of the Higher Self (Paramatman).\n\nIn practical terms, this means that life is not just about fulfilling desires, achieving success, or accumulating wealth. Rather, it is about aligning with the highest values of truth, compassion, and wisdom. It is about embracing the present moment, letting go of attachments, and surrendering to the flow of life.\n\nAs the Upanishads say, \"The life that is lived in accordance with the highest principles is the highest life\" (Upanishads 2.4.6). This means that the quality of life is not determined by external circumstances, but by the quality of our inner intention, thought, and action.\n\nMay this wisdom guide you on your journey of self-discovery and help you realize the true nature of life.",
+      "sources": [],
+      "timestamp": "2025-07-21T16:14:33.975251",
+      "endpoint": "ask-vedas",
+      "status": 200
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T16:14:33.978299"
+  },
+  {
+    "task_id": "065cc030-7e28-4c1f-8be6-bfd7a833e134",
+    "input": "Transcribe this audio",
+    "output": {
+      "result": "the still smell of old buildings it takes heat to bring out the order I call dip restores health and fast pickle please find with him tacos Alpha store are my favourite is just for food is the hot cross bun",
+      "method": "speech_recognition",
+      "model": "audio_agent",
+      "tokens_used": 41,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "audio",
+        "transcription",
+        "speech_recognition"
+      ]
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5050000000000001,
+    "timestamp": "2025-07-21T17:34:39.357705"
+  },
+  {
+    "task_id": "56fa0e04-e469-479b-b090-db75dce55bff",
+    "input": "Summarize this research paper",
+    "output": {
+      "result": "Here's a summary of the text in 50-100 words:\n\nThe \"BHIV Core + Reinforcement Intelligence Layer\" sprint aims to integrate a lightweight reinforcement learning (RL) layer into a multimodal, agentic BHIV pipeline. The RL layer observes and logs decisions, tracks rewards, and enables learning. The sprint plan spans 6 days, integrating the RL layer into the existing pipeline components: Agent Router (Nisarg), LLM Selector (Vijay), and Learning Adapter (Nipun). Key milestones include setting up the RL logging infrastructure, defining the action space and reward schema, and implementing RL hooks and simulated feedback. The goal is to have a seamless integration with no friction to the normal flow.",
+      "model": "archive_agent",
+      "tokens_used": 1974,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "pdf",
+        "summary"
+      ],
+      "processing_time": 0.37478184700012207,
+      "inference_time": 0.37478184700012207,
+      "attempts": 1,
+      "text_length": 13152,
+      "text_truncated": true,
+      "agent": "archive_agent",
+      "input_type": "pdf",
+      "file_path": "C:\\Users\\abc1\\AppData\\Local\\Temp\\tmpzynrv4e1.pdf",
+      "content_length": 13152
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.7,
+    "timestamp": "2025-07-21T17:54:12.070873"
+  },
+  {
+    "task_id": "ce2bdf2d-ef90-4d3b-88ad-ec45f2d4c192",
+    "input": "What is machine learning?",
+    "output": {
+      "query_id": "f4cc540d-f6b4-4d4e-a3b1-cda3edba1bff",
+      "query": "What is machine learning?",
+      "response": "Let's dive into the fascinating world of machine learning!\n\nImagine you have a friend who's an expert at recognizing faces. You show them a picture of your favorite celebrity, and they instantly say, \"Ah, it's Taylor Swift!\" But how do they do it? Is it because they've seen Taylor Swift's face a million times? Or is it because they've learned to recognize patterns in faces?\n\nMachine learning is like training your friend's face-recognizing skills, but with computers! Instead of showing them pictures, we feed computers data, and they learn to recognize patterns, make predictions, and even make decisions on their own.\n\nHere's a simple example:\n\nLet's say you want to teach a computer to recognize dogs. You show it a bunch of pictures of dogs, along with the label \"dog.\" The computer starts to learn the patterns in those pictures \u2013 the shape of the ears, the color of the fur, the wagging tail. The more pictures it sees, the better it gets at recognizing dogs.\n\nBut here's the cool part: once the computer has learned to recognize dogs, you can ask it to identify new pictures of dogs it's never seen before. And it can do it! It uses the patterns it learned to make predictions and say, \"Ah, that's a dog!\"\n\nMachine learning is all about teaching computers to make predictions, classify things, and even make decisions, using patterns in data. It's like giving them a superpower!\n\nHere are some more practical examples:\n\n* Recommendation systems: When you're browsing a website, and it suggests products you might like, that's machine learning at work! The computer has learned to recognize your browsing habits and make predictions about what you might want to buy.\n* Self-driving cars: Machine learning helps self-driving cars recognize traffic lights, pedestrians, and other obstacles on the road. They learn to make decisions based on the data they collect and the patterns they recognize.\n* Language translation: When you use a translation app, machine learning is behind the scenes, learning patterns in language and making predictions to translate words and phrases.\n\nSo, what makes machine learning so powerful? It's because computers can process vast amounts of data quickly and accurately, learning from patterns and making predictions in real-time.\n\nIn conclusion, machine learning is a game-changer! It's like giving computers a superpower to recognize patterns, make predictions, and make decisions. By teaching computers to learn from data, we can create amazing applications that improve our lives and make the world a better place.\n\nNow, go ahead and impress your friends with your newfound knowledge of machine learning!",
+      "sources": [],
+      "timestamp": "2025-07-21T17:58:51.726827",
+      "endpoint": "edumentor",
+      "status": 200
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-21T17:58:51.738192"
+  },
+  {
+    "task_id": "3f668eef-f67c-496d-9e6e-1679b4e49848",
+    "input": "Summarize this research paper",
+    "output": {
+      "result": "Here's a summary of the text in 50-100 words:\n\nThe \"BHIV Core + Reinforcement Intelligence Layer\" sprint aims to integrate a reinforcement learning (RL) layer into the BHIV pipeline. The goal is to enhance the pipeline's decision-making capabilities without disrupting the existing workflow. The RL layer will log decisions, track rewards, and learn from experience. Key changes include adding a RL layer that tracks decisions and logs rewards, and implementing bandit logic to suggest model improvements. Over six days, the team will integrate the RL layer into the pipeline, log decisions, and observe reward trends, eventually enabling the pipeline to learn from experience.",
+      "model": "archive_agent",
+      "tokens_used": 1970,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "pdf",
+        "summary"
+      ],
+      "processing_time": 0.35403943061828613,
+      "inference_time": 0.35403943061828613,
+      "attempts": 1,
+      "text_length": 13152,
+      "text_truncated": true,
+      "agent": "archive_agent",
+      "input_type": "pdf",
+      "file_path": "C:\\Users\\abc1\\AppData\\Local\\Temp\\tmprafo3dlg.pdf",
+      "content_length": 13152
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.7,
+    "timestamp": "2025-07-21T17:59:02.854583"
+  },
+  {
+    "task_id": "f8088933-3119-49a1-b783-7830fd1e1367",
+    "input": "Convert this speech to text",
+    "output": {
+      "result": "the still smell of old buildings it takes heat to bring out the order I call dip restores health and fast pickle please find with him tacos Alpha store are my favourite is just for food is the hot cross bun",
+      "method": "speech_recognition",
+      "model": "audio_agent",
+      "tokens_used": 41,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "audio",
+        "transcription",
+        "speech_recognition"
+      ]
+    },
+    "agent": "audio_agent",
+    "model": "audio_agent",
+    "reward": 1.5050000000000001,
+    "timestamp": "2025-07-21T17:59:45.649978"
+  },
+  {
+    "task_id": "7a851383-cc54-463d-8f39-952a80621c6b",
+    "input": "What is machine learning?",
+    "output": {
+      "query_id": "6205c810-eff2-4d32-9d1b-a12ccb1b2eb3",
+      "query": "What is machine learning?",
+      "response": "Great question about 'What is machine learning?'! This is an important topic to understand. Let me break it down for you in simple terms with practical examples that will help you learn and remember the key concepts. The main idea is to understand the fundamental principles and how they apply in real-world situations.",
+      "sources": [],
+      "timestamp": "2025-07-22T15:09:45.789556",
+      "endpoint": "edumentor",
+      "status": 500
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.265,
+    "timestamp": "2025-07-22T15:09:45.908848"
+  },
+  {
+    "task_id": "a0809495-4bc5-4a0a-a8a4-923bfbe1fbf7",
+    "input": "What is machine learning?",
+    "output": {
+      "query_id": "46dfc1a6-4e58-4349-b8ec-0b2455fe5735",
+      "query": "What is machine learning?",
+      "response": "Great question about 'What is machine learning?'! This is an important topic to understand. Let me break it down for you in simple terms with practical examples that will help you learn and remember the key concepts. The main idea is to understand the fundamental principles and how they apply in real-world situations.",
+      "sources": [],
+      "timestamp": "2025-07-22T15:10:45.817083",
+      "endpoint": "edumentor",
+      "status": 500
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.265,
+    "timestamp": "2025-07-22T15:10:45.924021"
+  },
+  {
+    "task_id": "2b6334a1-02cb-4be9-995f-5c0655736b0e",
+    "input": "What is machine learning?",
+    "output": {
+      "error": "Task processing failed: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /edumentor (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000016AB2571E80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "status": 500
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-22T15:11:23.007238"
+  },
+  {
+    "task_id": "87ff3ecc-adfc-49f2-90cc-4b1ec5a838c0",
+    "input": "What is machine learning?",
+    "output": {
+      "query_id": "5b057dab-f035-4f1d-98f1-391bc1700e00",
+      "query": "What is machine learning?",
+      "response": "**What is Machine Learning?**\n\nImagine you're trying to teach a young child to recognize different pictures of animals. You show them a few pictures of cats, dogs, and birds, and they start to learn what makes each animal unique. After a while, they can recognize those animals even if they're shown a new picture they've never seen before!\n\nMachine learning is similar, but instead of teaching a child, we're teaching a computer to learn from data. It's a way for computers to automatically improve their performance on a task without being explicitly programmed.\n\n**How does it work?**\n\nMachine learning uses algorithms, which are like recipes for solving a problem. These algorithms analyze data, like the pictures of animals, and look for patterns or relationships. The more data they see, the better they become at recognizing those patterns and making predictions.\n\nLet's use an example to make it more concrete:\n\nSuppose we want to build a chatbot that can help customers with their orders. We give the chatbot some data, like a list of questions and answers about orders. The chatbot analyzes this data and starts to learn what questions are related to what answers.\n\nAs more customers interact with the chatbot, it learns to recognize patterns in their conversations and can provide more accurate answers. For instance, if a customer asks about shipping times, the chatbot might remember that customers with specific zip codes have faster shipping times. The more customers it interacts with, the more accurate it becomes at providing answers.\n\n**Types of Machine Learning**\n\nThere are three main types of machine learning:\n\n1. **Supervised Learning**: This is like teaching a child to recognize pictures of animals. We provide the computer with labeled data, like \"this is a cat,\" and it learns to recognize patterns to make predictions.\n2. **Unsupervised Learning**: This is like letting the child explore a room full of toys and objects. The computer discovers patterns and relationships on its own, without being explicitly told what to look for.\n3. **Reinforcement Learning**: This is like teaching a child to play a game. The computer makes decisions and receives feedback, like rewards or penalties, to learn what actions lead to the best outcomes.\n\n**Why is Machine Learning Important?**\n\nMachine learning is important because it allows computers to learn from data and improve their performance over time. This has many real-world applications, such as:\n\n* Personalized recommendations on websites\n* Self-driving cars that can navigate complex roads\n* Medical diagnosis tools that can identify diseases more accurately\n* Language translation tools that can communicate with people who speak different languages\n\n**Conclusion**\n\nMachine learning is a powerful technology that allows computers to learn from data and improve their performance over time. By understanding how machine learning works, you can appreciate the many ways it's being used to make our lives easier and more efficient. Who knows, maybe one day you'll create a machine learning algorithm that changes the world!",
+      "sources": [],
+      "timestamp": "2025-07-22T15:11:55.237227",
+      "endpoint": "edumentor",
+      "status": 200
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-22T15:11:55.331686"
+  },
+  {
+    "task_id": "4d2d8f2b-880c-4cbd-af86-4ac7dcb79de9",
+    "input": "Get main points from document",
+    "output": {
+      "result": "Here's a summary of the text in 50-100 words:\n\nA 6-day sprint plan aims to integrate a reinforcement learning (RL) layer into the BHIV pipeline. The RL layer will record decisions, track rewards, and enable learning without disrupting the normal flow. Key components include an RL agent selector, a model selector, and a learning adapter. Each day, specific tasks will be completed, such as setting up the registry and logging infrastructure, defining the action space, and implementing retry and fallback logic. By the end of the sprint, the RL layer will be fully integrated, and a lightweight bandit logic will be implemented to simulate feedback.",
+      "model": "archive_agent",
+      "tokens_used": 1972,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "pdf",
+        "summary"
+      ],
+      "processing_time": 1.1904728412628174,
+      "inference_time": 1.1904728412628174,
+      "attempts": 1,
+      "text_length": 13152,
+      "text_truncated": true,
+      "agent": "archive_agent",
+      "input_type": "pdf",
+      "file_path": "C:\\Users\\SURAJ\\AppData\\Local\\Temp\\tmp236dp6b5.pdf",
+      "content_length": 13152
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.7,
+    "timestamp": "2025-07-22T15:18:15.185224"
+  },
+  {
+    "task_id": "23c0561f-1804-4547-9b98-10aad70c0cc5",
+    "input": "Get main points from document",
+    "output": {
+      "result": "Here's a summary of the text in 50-100 words:\n\nThe goal of this 6-day sprint is to integrate a reinforcement learning (RL) layer into the BHIV pipeline. The RL layer will log decisions, track rewards, and enable learning without disrupting normal flow. The plan involves augmenting the existing pipeline with RL components, starting with logging and later adding suggestions. Key tasks include integrating RL with the agent router, defining action space and reward functions, and implementing replay memory and retry logic. The sprint aims to establish a foundation for future model training and learning. The outcome will be a unified pipeline with RL capabilities.",
+      "model": "archive_agent",
+      "tokens_used": 1971,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "pdf",
+        "summary"
+      ],
+      "processing_time": 2.2065975666046143,
+      "inference_time": 2.2065975666046143,
+      "attempts": 1,
+      "text_length": 13152,
+      "text_truncated": true,
+      "agent": "archive_agent",
+      "input_type": "pdf",
+      "file_path": "C:\\Users\\SURAJ\\AppData\\Local\\Temp\\tmpq38hbfz5.pdf",
+      "content_length": 13152
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.7,
+    "timestamp": "2025-07-22T15:44:43.018854"
+  },
+  {
+    "task_id": "1252ccc2-ec7e-440a-81be-1090fc0543b7",
+    "input": "temp/cb11b9c7-1bb2-461c-ade0-dbe78f515c65_test.wav",
+    "output": {
+      "error": "Audio file not found: temp/cb11b9c7-1bb2-461c-ade0-dbe78f515c65_test.wav",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-22T16:14:17.614727"
+  },
+  {
+    "task_id": "1252ccc2-ec7e-440a-81be-1090fc0543b7",
+    "input": "Convert this to text",
+    "output": {
+      "error": "Audio file not found: temp/cb11b9c7-1bb2-461c-ade0-dbe78f515c65_test.wav",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-22T16:14:17.652408"
+  },
+  {
+    "task_id": "26f94104-945c-47db-990d-cbf80171df3d",
+    "input": "temp/67485274-234f-432b-a321-7374531a211d_Task1.pdf",
+    "output": {
+      "result": "Here's a summary of the text in 50-100 words:\n\nThe \"Unified Sprint\" aims to integrate a reinforcement learning (RL) layer into the BHIV pipeline. This 6-day plan involves several components: adding RL logging and selection logic, defining the action space, implementing multimodal routing, and tracking rewards. The RL layer initially logs decisions and rewards, then starts making suggestions like a junior intern learning from experience. Key milestones include setting up the registry, MCP, and action space, and observing reward trends. By the end of the sprint, the RL layer will be fully integrated, and a lightweight reinforcement layer will be in place, enabling learning from Day 1.",
+      "model": "archive_agent",
+      "tokens_used": 1974,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "pdf",
+        "summary"
+      ],
+      "processing_time": 0.5897889137268066,
+      "inference_time": 0.5897889137268066,
+      "attempts": 1,
+      "text_length": 13152,
+      "text_truncated": true,
+      "agent": "archive_agent",
+      "input_type": "pdf",
+      "file_path": "temp/67485274-234f-432b-a321-7374531a211d_Task1.pdf",
+      "content_length": 13152
+    },
+    "agent": "archive_agent",
+    "model": "edumentor_agent",
+    "reward": 1.7,
+    "timestamp": "2025-07-22T16:15:51.379690"
+  },
+  {
+    "task_id": "26f94104-945c-47db-990d-cbf80171df3d",
+    "input": "Give main points of this pdf",
+    "output": {
+      "result": "Here's a summary of the text in 50-100 words:\n\nThe \"Unified Sprint\" aims to integrate a reinforcement learning (RL) layer into the BHIV pipeline. This 6-day plan involves several components: adding RL logging and selection logic, defining the action space, implementing multimodal routing, and tracking rewards. The RL layer initially logs decisions and rewards, then starts making suggestions like a junior intern learning from experience. Key milestones include setting up the registry, MCP, and action space, and observing reward trends. By the end of the sprint, the RL layer will be fully integrated, and a lightweight reinforcement layer will be in place, enabling learning from Day 1.",
+      "model": "archive_agent",
+      "tokens_used": 1974,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "pdf",
+        "summary"
+      ],
+      "processing_time": 0.5897889137268066,
+      "inference_time": 0.5897889137268066,
+      "attempts": 1,
+      "text_length": 13152,
+      "text_truncated": true,
+      "agent": "archive_agent",
+      "input_type": "pdf",
+      "file_path": "temp/67485274-234f-432b-a321-7374531a211d_Task1.pdf",
+      "content_length": 13152
+    },
+    "agent": "archive_agent",
+    "model": "edumentor_agent",
+    "reward": 1.7,
+    "timestamp": "2025-07-22T16:15:51.510617"
+  },
+  {
+    "task_id": "5248b678-1116-4edb-8f7c-d70ac1521e2e",
+    "input": "temp/1675aa21-ffe1-42e0-94a1-95fbeb148941_Task1.pdf",
+    "output": {
+      "result": "Here's a summary of the text in 50-100 words:\n\nA 6-day sprint plan aims to integrate a reinforcement learning (RL) layer into a multimodal BHIV pipeline. The goal is to create an agentic BHIV pipeline that logs decisions, tracks rewards, and enables learning without disrupting the normal flow. The RL layer will initially track and log decisions, then make suggestions. Each component (Agent Router, LLM Selector, and Learning Adapter) will be integrated with the RL layer. The plan includes setting up logging infrastructure, defining action spaces, and implementing retry and fallback logic, ultimately leading to end-to-end runs and simulated feedback.",
+      "model": "archive_agent",
+      "tokens_used": 1967,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "pdf",
+        "summary"
+      ],
+      "processing_time": 1.859466314315796,
+      "inference_time": 1.859466314315796,
+      "attempts": 1,
+      "text_length": 13152,
+      "text_truncated": true,
+      "agent": "archive_agent",
+      "input_type": "pdf",
+      "file_path": "temp/1675aa21-ffe1-42e0-94a1-95fbeb148941_Task1.pdf",
+      "content_length": 13152
+    },
+    "agent": "archive_agent",
+    "model": "edumentor_agent",
+    "reward": 1.7,
+    "timestamp": "2025-07-22T16:16:03.641161"
+  },
+  {
+    "task_id": "5248b678-1116-4edb-8f7c-d70ac1521e2e",
+    "input": "Give main points of this pdf",
+    "output": {
+      "result": "Here's a summary of the text in 50-100 words:\n\nA 6-day sprint plan aims to integrate a reinforcement learning (RL) layer into a multimodal BHIV pipeline. The goal is to create an agentic BHIV pipeline that logs decisions, tracks rewards, and enables learning without disrupting the normal flow. The RL layer will initially track and log decisions, then make suggestions. Each component (Agent Router, LLM Selector, and Learning Adapter) will be integrated with the RL layer. The plan includes setting up logging infrastructure, defining action spaces, and implementing retry and fallback logic, ultimately leading to end-to-end runs and simulated feedback.",
+      "model": "archive_agent",
+      "tokens_used": 1967,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "pdf",
+        "summary"
+      ],
+      "processing_time": 1.859466314315796,
+      "inference_time": 1.859466314315796,
+      "attempts": 1,
+      "text_length": 13152,
+      "text_truncated": true,
+      "agent": "archive_agent",
+      "input_type": "pdf",
+      "file_path": "temp/1675aa21-ffe1-42e0-94a1-95fbeb148941_Task1.pdf",
+      "content_length": 13152
+    },
+    "agent": "archive_agent",
+    "model": "edumentor_agent",
+    "reward": 1.7,
+    "timestamp": "2025-07-22T16:16:03.653149"
+  },
+  {
+    "task_id": "3996b81e-8473-4cca-8353-1bec31158445",
+    "input": "temp/b8b99679-64b9-49ed-a93d-63710c1ac4e7_test.wav",
+    "output": {
+      "result": "the still smell of old buildings it takes heat to bring out the order I call dip restores health and fast pickle please find with him tacos Alpha store are my favourite is just for food is the hot cross bun",
+      "method": "speech_recognition",
+      "model": "audio_agent",
+      "tokens_used": 41,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "audio",
+        "transcription",
+        "speech_recognition"
+      ]
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5050000000000001,
+    "timestamp": "2025-07-22T16:16:55.397924"
+  },
+  {
+    "task_id": "3996b81e-8473-4cca-8353-1bec31158445",
+    "input": "Convert this to text",
+    "output": {
+      "result": "the still smell of old buildings it takes heat to bring out the order I call dip restores health and fast pickle please find with him tacos Alpha store are my favourite is just for food is the hot cross bun",
+      "method": "speech_recognition",
+      "model": "audio_agent",
+      "tokens_used": 41,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "audio",
+        "transcription",
+        "speech_recognition"
+      ]
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5050000000000001,
+    "timestamp": "2025-07-22T16:16:55.433852"
+  },
+  {
+    "task_id": "696f33a1-0d2b-48c4-9b77-639e046c08f0",
+    "input": "temp/bd8a8523-ece1-44ec-8824-5ecf6abdffe7_test2.png",
+    "output": {
+      "error": "Image processing failed: [Errno 2] No such file or directory: 'temp/bd8a8523-ece1-44ec-8824-5ecf6abdffe7_test2.png'",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "image_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-22T16:18:32.260190"
+  },
+  {
+    "task_id": "696f33a1-0d2b-48c4-9b77-639e046c08f0",
+    "input": "describe the image",
+    "output": {
+      "error": "Image processing failed: [Errno 2] No such file or directory: 'temp/bd8a8523-ece1-44ec-8824-5ecf6abdffe7_test2.png'",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "image_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-22T16:18:32.275669"
+  },
+  {
+    "task_id": "5eedd808-9bb3-4796-a244-1126f437943d",
+    "input": "temp/2bd9be8b-07dc-4da0-b4fc-3a304f5ca521_test2.png",
+    "output": {
+      "result": "a black and white font with the words ' this is a lot of work on all types of font",
+      "model": "image_agent",
+      "tokens_used": 20,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "image_agent",
+    "model": "edumentor_agent",
+    "reward": 1.3,
+    "timestamp": "2025-07-22T16:25:55.886712"
+  },
+  {
+    "task_id": "5eedd808-9bb3-4796-a244-1126f437943d",
+    "input": "describe the image",
+    "output": {
+      "result": "a black and white font with the words ' this is a lot of work on all types of font",
+      "model": "image_agent",
+      "tokens_used": 20,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "image_agent",
+    "model": "edumentor_agent",
+    "reward": 1.3,
+    "timestamp": "2025-07-22T16:25:56.810246"
+  },
+  {
+    "task_id": "beecc2d4-ec8b-4fcc-9ff3-17c23703eb30",
+    "input": "temp/0f3eccfe-8e24-4fb0-8e94-9204108b859d_test_image.jpg",
+    "output": {
+      "result": "the cover of the book specs of odin twilight",
+      "model": "image_agent",
+      "tokens_used": 9,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "image_agent",
+    "model": "vedas_agent",
+    "reward": 1.2449999999999999,
+    "timestamp": "2025-07-22T16:27:03.288619"
+  },
+  {
+    "task_id": "beecc2d4-ec8b-4fcc-9ff3-17c23703eb30",
+    "input": "describe the image",
+    "output": {
+      "result": "the cover of the book specs of odin twilight",
+      "model": "image_agent",
+      "tokens_used": 9,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "image_agent",
+    "model": "vedas_agent",
+    "reward": 1.2449999999999999,
+    "timestamp": "2025-07-22T16:27:03.301322"
+  },
+  {
+    "task_id": "dee589ea-d7f2-4d16-bde2-36e451a716ff",
+    "input": "Explain quantum physics",
+    "output": {
+      "query_id": "5afb26e4-524f-45fd-9fee-edc664938859",
+      "query": "Explain quantum physics",
+      "response": "Quantum Physics: The Weird and Wonderful World of the Tiny!\n\n Imagine you're at a party, and you're chatting with a friend about the weirdness of the universe. You know, like how things can be in two places at once or how an object can be connected to another object even if they're on opposite sides of the universe. Your friend looks at you with a confused expression and says, \"Wait, what? That's not how the world works!\"\n\nAnd you're like, \"Oh, yeah, it does! It's called quantum physics!\"\n\nBut what is quantum physics, really? Let's dive in and explore this fascinating field together!\n\n**What is Quantum Physics?**\n\nQuantum physics is a branch of physics that studies the behavior of tiny things like atoms, particles, and even energy itself. It's called \"quantum\" because it's all about the tiny, tiny, tiny scales. Think about it like this: when you're not looking at something, it can be in multiple places at once, just like how a coin can land on its edge or its side. That's because, at the quantum level, things can exist in multiple states simultaneously!\n\n**The Weirdness of Quantum Physics**\n\nHere are some mind-blowing examples that show just how weird quantum physics can be:\n\n1. **Schr\u00f6dinger's Cat**: Imagine you have a cat in a box with a tiny bit of radioactive material and a vial of poison. If the material decays, the vial breaks, and the cat dies. But here's the thing: until you open the box and observe the cat, the cat is BOTH alive AND dead at the same time! It's like the cat is in a state of superposition, where it's both possibilities exist simultaneously.\n2. **Quantum Entanglement**: Imagine you have two toy cars, one red and one blue, connected by a spring. If you push the red car, the blue car will move too, even if they're on opposite sides of the universe! That's because, at the quantum level, particles can be connected in such a way that what happens to one particle instantly affects the other, no matter how far apart they are.\n3. **Wave-Particle Duality**: Imagine you're at the beach, and you see a wave crashing against the shore. But what if I told you that, at the quantum level, that wave can also behave like a particle? It's like the wave is saying, \"Hey, I'm a wave... and I'm a particle... and I'm both!\"\n\n**So, What Does this Mean?**\n\nSo, what does it mean that quantum physics can be so weird and wonderful? Well, it means that our understanding of the world is still evolving, and there's so much more to discover!\n\n**Practical Applications of Quantum Physics**\n\nBelieve it or not, quantum physics has some amazing practical applications:\n\n1. **Computing**: Quantum computers can solve problems that traditional computers can't, like cracking complex codes or simulating complex systems.\n2. **Cryptography**: Quantum cryptography can create unbreakable codes to secure sensitive information.\n3. **Magnetic Resonance Imaging (MRI)**: Quantum physics helps us understand how MRI machines work, allowing us to create detailed images of our bodies.\n\n**Conclusion**\n\nQuantum physics might seem weird and confusing at first, but it's actually a fascinating field that can help us understand the world in new and exciting ways. By understanding the weirdness of quantum physics, we can unlock new technologies and discoveries that can change our lives.\n\nSo, next time you're at a party and someone mentions quantum physics, you can say, \"Oh, yeah, it's the study of the tiny, tiny things that can be in multiple places at once... and it's actually really cool!\"\n\n**Fun Quiz Time!**\n\nTest your understanding of quantum physics with this quick quiz:\n\n1. What is the name of the thought experiment that shows how something can be in multiple states simultaneously?\na) Schr\u00f6dinger's Cat\nb) Quantum Entanglement\nc) Wave-Particle Duality\n\nAnswer: a) Schr\u00f6dinger's Cat\n\n2. What is the name of the phenomenon where two particles are connected in such a way that what happens to one particle affects the other?\na) Quantum Entanglement\nb) Schr\u00f6dinger's Cat\nc) Wave-Particle Duality\n\nAnswer: a) Quantum Entanglement\n\n3. What is the name of the principle that shows how particles can behave like both waves and particles?\na) Wave-Particle Duality\nb) Schr\u00f6dinger's Cat\nc) Quantum Entanglement\n\nAnswer: a) Wave-Particle Duality\n\nHow did you do? Share your results in the comments below!",
+      "sources": [],
+      "timestamp": "2025-07-23T12:13:47.368898",
+      "endpoint": "edumentor",
+      "status": 200
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-23T12:13:47.455907"
+  },
+  {
+    "task_id": "eecb9263-61ae-4fef-8de8-3e5760d95670",
+    "input": "C:\\Users\\abc1\\AppData\\Local\\Temp\\tmpe6ou17qf.pdf",
+    "output": {
+      "result": "Here's a summary of the text in 50-100 words:\n\nThe \"Unified Sprint\" aims to integrate a reinforcement learning (RL) layer into the existing BHIV pipeline. The goal is to enable the pipeline to learn from its decisions and adapt over time. The RL layer will track and log decisions, and later make suggestions. The sprint is divided into 6 days, with each day focusing on integrating the RL layer with different components of the pipeline, including the agent router, LLM selector, and learning adapter. The plan involves simulating exploration, defining the action space, and implementing retry logic and reward logging.",
+      "model": "archive_agent",
+      "tokens_used": 1967,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "pdf",
+        "summary"
+      ],
+      "processing_time": 0.3835256099700928,
+      "inference_time": 0.3835256099700928,
+      "attempts": 1,
+      "text_length": 13152,
+      "text_truncated": true,
+      "agent": "archive_agent",
+      "input_type": "pdf",
+      "file_path": "C:\\Users\\abc1\\AppData\\Local\\Temp\\tmpe6ou17qf.pdf",
+      "content_length": 13152
+    },
+    "agent": "archive_agent",
+    "model": "edumentor_agent",
+    "reward": 1.7,
+    "timestamp": "2025-07-23T12:15:22.349368"
+  },
+  {
+    "task_id": "eecb9263-61ae-4fef-8de8-3e5760d95670",
+    "input": "Extract main points from the pdf",
+    "output": {
+      "result": "Here's a summary of the text in 50-100 words:\n\nThe \"Unified Sprint\" aims to integrate a reinforcement learning (RL) layer into the existing BHIV pipeline. The goal is to enable the pipeline to learn from its decisions and adapt over time. The RL layer will track and log decisions, and later make suggestions. The sprint is divided into 6 days, with each day focusing on integrating the RL layer with different components of the pipeline, including the agent router, LLM selector, and learning adapter. The plan involves simulating exploration, defining the action space, and implementing retry logic and reward logging.",
+      "model": "archive_agent",
+      "tokens_used": 1967,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "pdf",
+        "summary"
+      ],
+      "processing_time": 0.3835256099700928,
+      "inference_time": 0.3835256099700928,
+      "attempts": 1,
+      "text_length": 13152,
+      "text_truncated": true,
+      "agent": "archive_agent",
+      "input_type": "pdf",
+      "file_path": "C:\\Users\\abc1\\AppData\\Local\\Temp\\tmpe6ou17qf.pdf",
+      "content_length": 13152
+    },
+    "agent": "archive_agent",
+    "model": "edumentor_agent",
+    "reward": 1.7,
+    "timestamp": "2025-07-23T12:15:22.412088"
+  },
+  {
+    "task_id": "efe139e3-ea15-4093-833b-529c8b1d0e88",
+    "input": "C:\\Users\\abc1\\AppData\\Local\\Temp\\tmpq0jdbnb5.png",
+    "output": {
+      "result": "a black and white font with the words ' this is a lot of work on all types of font",
+      "model": "image_agent",
+      "tokens_used": 20,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "image_agent",
+    "model": "image_agent",
+    "reward": 1.3,
+    "timestamp": "2025-07-23T12:18:13.036863"
+  },
+  {
+    "task_id": "efe139e3-ea15-4093-833b-529c8b1d0e88",
+    "input": "Describe the image",
+    "output": {
+      "result": "a black and white font with the words ' this is a lot of work on all types of font",
+      "model": "image_agent",
+      "tokens_used": 20,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "image",
+        "caption"
+      ]
+    },
+    "agent": "image_agent",
+    "model": "image_agent",
+    "reward": 1.3,
+    "timestamp": "2025-07-23T12:18:13.052592"
+  },
+  {
+    "task_id": "3ab50faa-5f65-4392-b59c-3618c325def3",
+    "input": "temp/7038bf40-c2cf-4c89-8943-c33cce1591b9_test.wav",
+    "output": {
+      "result": "the still smell of old buildings it takes heat to bring out the order I call dip restores health and fast pickle please find with him tacos Alpha store are my favourite is just for food is the hot cross bun",
+      "method": "speech_recognition",
+      "model": "audio_agent",
+      "tokens_used": 41,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "audio",
+        "transcription",
+        "speech_recognition"
+      ]
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5050000000000001,
+    "timestamp": "2025-07-23T12:22:12.198914"
+  },
+  {
+    "task_id": "3ab50faa-5f65-4392-b59c-3618c325def3",
+    "input": "Convert this to text",
+    "output": {
+      "result": "the still smell of old buildings it takes heat to bring out the order I call dip restores health and fast pickle please find with him tacos Alpha store are my favourite is just for food is the hot cross bun",
+      "method": "speech_recognition",
+      "model": "audio_agent",
+      "tokens_used": 41,
+      "cost_estimate": 0.0,
+      "status": 200,
+      "keywords": [
+        "audio",
+        "transcription",
+        "speech_recognition"
+      ]
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 1.5050000000000001,
+    "timestamp": "2025-07-23T12:22:12.206198"
+  },
+  {
+    "task_id": "2e9397dc-dfa9-4d49-b378-33e18a25e5d7",
+    "input": "Benefits of Satvik Aahar",
+    "output": {
+      "query_id": "f7000853-a3ea-4472-a846-9c4a99f84e5f",
+      "query": "Benefits of Satvik Aahar",
+      "response": "My dear friend, I'm delighted to share with you the profound wisdom of Satvik Aahar, a vital aspect of Vedic living. As stated in the sacred texts, \"Aahar\" refers to the food we consume, and \"Satvik\" signifies the quality of purity, simplicity, and self-control.\n\nBenefits of Satvik Aahar:\n\n1. **Cleansing the Body and Mind**: Satvik Aahar purifies the body, freeing it from toxins and impurities, just as the Ganges River purifies the soul. This, in turn, clarifies the mind, allowing for greater spiritual awareness and inner peace.\n2. **Strengthening the Immune System**: Consuming Satvik food enhances the body's natural defense mechanisms, protecting against diseases and promoting overall well-being.\n3. **Awakening Spiritual Consciousness**: By adopting a Satvik diet, one develops greater self-discipline, self-awareness, and detachment, ultimately leading to a deeper connection with the divine.\n4. **Enhancing Mental Clarity and Focus**: Satvik Aahar nourishes the brain, improving mental agility, concentration, and decision-making abilities, allowing for a clearer understanding of life's purposes.\n5. **Fostering Compassion and Kindness**: By eating food that is pure, simple, and selfless, one's heart becomes more compassionate, kind, and generous, radiating positivity and love to all beings.\n6. **Supporting the Three Gunas**: Satvik Aahar balances the three fundamental energies (Sattva, Rajas, and Tamas) within us, promoting harmony, stability, and spiritual growth.\n\nTo cultivate Satvik Aahar, remember:\n\n* Eat food that is fresh, seasonal, and locally sourced.\n* Favor simple, whole foods over processed and artificial products.\n* Prepare meals with love, intention, and gratitude.\n* Practice self-control and moderation in your eating habits.\n* Offer the first portion of your meal to the divine or a worthy recipient.\n\nBy embracing Satvik Aahar, you will not only nourish your physical body but also cultivate a deeper connection with your inner self, the universe, and the divine. May this wisdom guide you on your journey towards spiritual growth, inner peace, and harmony.",
+      "sources": [],
+      "timestamp": "2025-07-26T12:58:36.228895",
+      "endpoint": "ask-vedas",
+      "status": 200
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 1.5,
+    "timestamp": "2025-07-26T12:58:36.345257"
+  },
+  {
+    "task_id": "1fc53241-955b-4165-bd2b-d99ae085dd36",
+    "input": "Give me the analysis of the above",
+    "output": {
+      "error": "Task processing failed: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable",
+      "status": 500
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-28T15:03:03.981482"
+  },
+  {
+    "task_id": "8bc97adc-a4b8-432b-90e9-231c5d56dca6",
+    "input": "Give me the analysis of the above",
+    "output": {
+      "error": "Task processing failed: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable",
+      "status": 500
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-28T15:03:35.467231"
+  },
+  {
+    "task_id": "4eaea7a2-c04f-4a12-9f3c-6da808b886b9",
+    "input": "Analyze the result",
+    "output": {
+      "error": "Task processing failed: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable",
+      "status": 500
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-28T15:15:41.190500"
+  },
+  {
+    "task_id": "7a53f3d3-09bf-4dfd-abe4-8bf91c2379f3",
+    "input": "Give me the analysis of the above",
+    "output": {
+      "error": "Task processing failed: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable",
+      "status": 500
+    },
+    "agent": "edumentor_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-28T15:19:35.294385"
+  },
+  {
+    "task_id": "04726ac5-6830-482c-a9de-5dc36cd29557",
+    "input": "Meaning of life",
+    "output": {
+      "error": "Task processing failed: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /ask-vedas (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFFC3825C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "status": 500
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-28T15:29:30.154467"
+  },
+  {
+    "task_id": "6ceedbbe-7efd-4f94-9089-72f3cccedab5",
+    "input": "Meaning of life",
+    "output": {
+      "error": "Task processing failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6887493f81f54daa73cf719b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>",
+      "status": 500
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-28T15:30:56.682689"
+  },
+  {
+    "task_id": "f2be1de4-12b4-4ae1-837c-6f8114529bf9",
+    "input": "What is life",
+    "output": {
+      "error": "Task execution failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/handle_task",
+      "status": 500,
+      "processing_time": 10.286389,
+      "file_path": "",
+      "input_type": "text",
+      "agent": "vedas_agent",
+      "task_id": "f2be1de4-12b4-4ae1-837c-6f8114529bf9"
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-29T14:30:08.576921"
+  },
+  {
+    "task_id": "8769e2d6-811f-4e34-a694-fe55378ced0f",
+    "input": "What is life",
+    "output": {
+      "error": "Task execution failed: 500 Server Error: Internal Server Error for url: http://localhost:8002/handle_task",
+      "status": 500,
+      "processing_time": 10.22867,
+      "file_path": "",
+      "input_type": "text",
+      "agent": "vedas_agent",
+      "task_id": "8769e2d6-811f-4e34-a694-fe55378ced0f"
+    },
+    "agent": "vedas_agent",
+    "model": "vedas_agent",
+    "reward": 0.0,
+    "timestamp": "2025-07-29T15:27:16.261417"
+  }
+]

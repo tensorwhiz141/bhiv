@@ -1,0 +1,46 @@
+2025-07-31 10:55:26,208 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-31 10:55:26,213 - INFO - __main__ - Sending request to http://localhost:8002/query-kb with payload: {
+  "query": "What is the meaning of life according to Rigveda",
+  "filters": {
+    "book": "rigveda"
+  },
+  "task_id": "184cab60-444b-4805-999a-05d17eb83aa2",
+  "tags": [
+    "semantic_search"
+  ]
+}
+2025-07-31 10:55:28,269 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: 184cab60-444b-4805-999a-05d17eb83aa2 | Query: What is the meaning of life according to Rigveda
+2025-07-31 10:55:32,563 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-31 10:55:32,564 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-31 10:55:39,204 - INFO - agents.knowledge_agent - [KnowledgeAgent] Task 184cab60-444b-4805-999a-05d17eb83aa2: Querying Qdrant with query: What is the meaning of life according to Rigveda, filters: {'book': 'rigveda'}, tags: ['semantic_search']
+2025-07-31 10:55:43,702 - ERROR - agents.knowledge_agent - [KnowledgeAgent] Task 184cab60-444b-4805-999a-05d17eb83aa2: Query failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-31 10:55:43,756 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 184cab60-444b-4805-999a-05d17eb83aa2
+2025-07-31 10:55:43,756 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '184cab60-444b-4805-999a-05d17eb83aa2', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-31T10:55:43.756953'}
+2025-07-31 10:55:43,757 - INFO - reinforcement.rl_context - Logged RL action: {'task_id': '184cab60-444b-4805-999a-05d17eb83aa2', 'agent': 'knowledge_agent', 'model': 'knowledge_agent', 'action': 'query_knowledge_base', 'reward': 0.0, 'metadata': {'filters': {'book': 'rigveda'}, 'tags': ['semantic_search']}, 'timestamp': '2025-07-31T10:55:43.757955'}
+2025-07-31 10:55:43,764 - INFO - __main__ - Task completed: 184cab60-444b-4805-999a-05d17eb83aa2, Status: success
+2025-07-31 11:19:53,130 - INFO - mcp_bridge - MongoDB client closed
+2025-07-31 11:20:48,669 - INFO - mcp_bridge - MongoDB client closed
+2025-07-31 11:21:15,409 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-31 11:21:15,414 - INFO - __main__ - Sending request to http://localhost:8002/query-kb with payload: {
+  "query": "What is the meaning of life according to Rigveda",
+  "filters": {
+    "book": "rigveda"
+  },
+  "task_id": "a9b90d7b-0830-4a6f-84c2-c6f848f72aa0",
+  "tags": [
+    "semantic_search"
+  ]
+}
+2025-07-31 11:21:17,500 - INFO - mcp_bridge - [MCP_BRIDGE] Query KB Task ID: a9b90d7b-0830-4a6f-84c2-c6f848f72aa0 | Query: What is the meaning of life according to Rigveda
+2025-07-31 11:21:17,583 - INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-07-31 11:21:17,590 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-31 11:21:17,591 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-31 11:21:22,181 - INFO - agents.knowledge_agent - [KnowledgeAgent] Task a9b90d7b-0830-4a6f-84c2-c6f848f72aa0: Querying Qdrant with query: What is the meaning of life according to Rigveda, filters: {'book': 'rigveda'}, tags: ['semantic_search']
+2025-07-31 11:21:22,531 - INFO - httpx - HTTP Request: POST http://localhost:6333/collections/vedas_knowledge_base/points/search "HTTP/1.1 404 Not Found"
+2025-07-31 11:21:22,532 - ERROR - agents.knowledge_agent - [KnowledgeAgent] Task a9b90d7b-0830-4a6f-84c2-c6f848f72aa0: Query failed: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'{"status":{"error":"Not found: Collection `vedas_knowledge_base` doesn\'t exist!"},"time":6.636e-6}'
+2025-07-31 11:21:22,534 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task a9b90d7b-0830-4a6f-84c2-c6f848f72aa0
+2025-07-31 11:21:22,535 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': 'a9b90d7b-0830-4a6f-84c2-c6f848f72aa0', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-31T11:21:22.535755'}
+2025-07-31 11:21:22,535 - INFO - reinforcement.rl_context - Logged RL action: {'task_id': 'a9b90d7b-0830-4a6f-84c2-c6f848f72aa0', 'agent': 'knowledge_agent', 'model': 'knowledge_agent', 'action': 'query_knowledge_base', 'reward': 0.0, 'metadata': {'filters': {'book': 'rigveda'}, 'tags': ['semantic_search']}, 'timestamp': '2025-07-31T11:21:22.535755'}
+2025-07-31 11:21:22,538 - INFO - __main__ - Task completed: a9b90d7b-0830-4a6f-84c2-c6f848f72aa0, Status: success

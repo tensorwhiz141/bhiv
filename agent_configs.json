@@ -1,0 +1,47 @@
+{
+    "vedas_agent": {
+        "id": "vedas_agent",
+        "name": "Vedas Agent",
+        "description": "Agent for spiritual wisdom from Vedic texts",
+        "connection_type": "http_api",
+        "endpoint": "http://localhost:8001/ask-vedas",
+        "headers": {"Content-Type": "application/json"},
+        "health_check": "http://localhost:8001/status",
+        "keywords": ["vedas", "spiritual", "wisdom"],
+        "patterns": ["vedas\\s+(.+)", "spiritual\\s+(.+)"],
+        "input_types": ["text", "json"],
+        "output_types": ["json"],
+        "enabled": true,
+        "created_at": "2025-07-16T15:59:09.872111"
+    },
+    "edumentor_agent": {
+        "id": "edumentor_agent",
+        "name": "EduMentor Agent",
+        "description": "Agent for educational content",
+        "connection_type": "http_api",
+        "endpoint": "http://localhost:8001/edumentor",
+        "headers": {"Content-Type": "application/json"},
+        "health_check": "http://localhost:8001/status",
+        "keywords": ["education", "learning", "study"],
+        "patterns": ["education\\s+(.+)", "learning\\s+(.+)"],
+        "input_types": ["text", "json"],
+        "output_types": ["json"],
+        "enabled": true,
+        "created_at": "2025-07-16T15:59:09.872111"
+    },
+    "wellness_agent": {
+        "id": "wellness_agent",
+        "name": "Wellness Agent",
+        "description": "Agent for wellness advice",
+        "connection_type": "http_api",
+        "endpoint": "http://localhost:8001/wellness",
+        "headers": {"Content-Type": "application/json"},
+        "health_check": "http://localhost:8001/status",
+        "keywords": ["wellness", "health", "wellbeing"],
+        "patterns": ["wellness\\s+(.+)", "health\\s+(.+)"],
+        "input_types": ["text", "json"],
+        "output_types": ["json"],
+        "enabled": true,
+        "created_at": "2025-07-16T15:59:09.872111"
+    }
+}

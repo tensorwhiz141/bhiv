@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BHIV Core Learning Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f8f9fa;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .stat-card .icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+        
+        .stat-card .value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .stat-card .label {
+            color: #7f8c8d;
+            font-size: 1.1em;
+        }
+        
+        .charts-section {
+            padding: 30px;
+        }
+        
+        .chart-container {
+            background: white;
+            margin-bottom: 30px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        .chart-title {
+            font-size: 1.5em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        .data-table th,
+        .data-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .data-table th {
+            background: #f8f9fa;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .data-table tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .refresh-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1em;
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .refresh-btn:hover {
+            background: #2980b9;
+            transform: scale(1.05);
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #7f8c8d;
+        }
+        
+        .file-input {
+            margin: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .file-input input {
+            margin: 10px;
+            padding: 10px;
+            border: 2px dashed #3498db;
+            border-radius: 5px;
+            background: white;
+        }
+        
+        .instructions {
+            background: #e8f4fd;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
+        }
+        
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        
+        button:hover {
+            background: #2980b9;
+        }
+        
+        textarea {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 BHIV Core Learning Dashboard</h1>
+            <p>Real-time Analytics & Performance Monitoring</p>
+            <p id="lastUpdated">Ready to load data...</p>
+        </div>
+        
+        <div class="instructions">
+            <h3>📁 How to Load Your Data:</h3>
+            <p><strong>Option 1:</strong> Click "Choose File" and select <code>logs/learning_log.json</code></p>
+            <p><strong>Option 2:</strong> Copy content from <code>logs/learning_log.json</code> and paste below</p>
+            <p><strong>Option 3:</strong> Click "Sample Data" to see demo with fake data</p>
+        </div>
+        
+        <div class="file-input">
+            <input type="file" id="fileInput" accept=".json" placeholder="Enter file"/>
+            <button onclick="loadFromFile()">📁 Load from File</button>
+            <button onclick="generateSampleData()">📊 Sample Data</button>
+            <br><br>
+            <textarea id="dataInput" placeholder="Or paste your learning_log.json content here..." rows="5"></textarea>
+            <br>
+            <button onclick="loadFromText()">📋 Load from Text</button>
+            <button onclick="clearData()">🗑️ Clear</button>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="icon">📊</div>
+                <div class="value" id="totalTasks">-</div>
+                <div class="label">Total Tasks</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="icon">🎯</div>
+                <div class="value" id="avgReward">-</div>
+                <div class="label">Avg Reward</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="icon">⚡</div>
+                <div class="value" id="successRate">-</div>
+                <div class="label">Success Rate</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="icon">🤖</div>
+                <div class="value" id="activeModels">-</div>
+                <div class="label">Active Models</div>
+            </div>
+        </div>
+        
+        <div class="charts-section">
+            <div class="chart-container">
+                <div class="chart-title">Model Performance Comparison</div>
+                <canvas id="modelPerformanceChart" width="400" height="200"></canvas>
+            </div>
+            
+            <div class="chart-container">
+                <div class="chart-title">Reward Trends Over Time</div>
+                <canvas id="rewardTrendChart" width="400" height="200"></canvas>
+            </div>
+            
+            <div class="chart-container">
+                <div class="chart-title">Recent Tasks</div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Task ID</th>
+                            <th>Model</th>
+                            <th>Reward</th>
+                            <th>Status</th>
+                            <th>Timestamp</th>
+                        </tr>
+                    </thead>
+                    <tbody id="recentTasksBody">
+                        <tr><td colspan="5" class="loading">Load data to see tasks...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let modelPerformanceChart;
+        let rewardTrendChart;
+        
+        function loadFromFile() {
+            const fileInput = document.getElementById('fileInput');
+            const file = fileInput.files[0];
+            
+            if (!file) {
+                alert('Please select a file first');
+                return;
+            }
+            
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    processData(data);
+                } catch (error) {
+                    alert('Error parsing JSON file: ' + error.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+        
+        function loadFromText() {
+            const textInput = document.getElementById('dataInput');
+            const text = textInput.value.trim();
+            
+            if (!text) {
+                alert('Please paste some data first');
+                return;
+            }
+            
+            try {
+                const data = JSON.parse(text);
+                processData(data);
+            } catch (error) {
+                alert('Error parsing JSON data: ' + error.message);
+            }
+        }
+        
+        function clearData() {
+            document.getElementById('dataInput').value = '';
+            document.getElementById('fileInput').value = '';
+            document.getElementById('totalTasks').textContent = '-';
+            document.getElementById('avgReward').textContent = '-';
+            document.getElementById('successRate').textContent = '-';
+            document.getElementById('activeModels').textContent = '-';
+            document.getElementById('recentTasksBody').innerHTML = '<tr><td colspan="5" class="loading">Load data to see tasks...</td></tr>';
+            document.getElementById('lastUpdated').textContent = 'Ready to load data...';
+            
+            if (modelPerformanceChart) modelPerformanceChart.destroy();
+            if (rewardTrendChart) rewardTrendChart.destroy();
+        }
+        
+        function generateSampleData() {
+            const models = ['edumentor_agent', 'vedas_agent', 'wellness_agent', 'image_agent', 'audio_agent'];
+            const data = [];
+            
+            for (let i = 0; i < 50; i++) {
+                const model = models[Math.floor(Math.random() * models.length)];
+                const reward = Math.random() * 1.5 + 0.5;
+                const status = Math.random() > 0.2 ? 200 : 500;
+                
+                data.push({
+                    task_id: `sample-task-${i + 1}`,
+                    model: model,
+                    agent: model,
+                    reward: reward,
+                    timestamp: new Date(Date.now() - Math.random() * 7 * 24 * 60 * 60 * 1000).toISOString(),
+                    output: {
+                        status: status,
+                        result: status === 200 ? 'Success response' : 'Error occurred'
+                    }
+                });
+            }
+            
+            processData(data);
+        }
+        
+        function processData(data) {
+            if (!Array.isArray(data)) {
+                alert('Data should be an array of tasks');
+                return;
+            }
+            
+            const analysis = analyzeData(data);
+            
+            updateStats(analysis);
+            createModelPerformanceChart(analysis.modelStats);
+            createRewardTrendChart(data);
+            updateRecentTasksTable(data);
+            
+            document.getElementById('lastUpdated').textContent = `Last Updated: ${new Date().toLocaleString()} (${data.length} tasks loaded)`;
+        }
+        
+        function analyzeData(data) {
+            const modelStats = {};
+            let totalReward = 0;
+            let successCount = 0;
+            
+            data.forEach(task => {
+                const model = task.model || task.agent || 'unknown';
+                if (!modelStats[model]) {
+                    modelStats[model] = {
+                        rewards: [],
+                        count: 0,
+                        successCount: 0
+                    };
+                }
+                
+                const reward = task.reward || 0;
+                modelStats[model].rewards.push(reward);
+                modelStats[model].count++;
+                totalReward += reward;
+                
+                const isSuccess = task.output && (task.output.status === 200 || task.output.status === "200") && !task.output.error;
+                if (isSuccess) {
+                    modelStats[model].successCount++;
+                    successCount++;
+                }
+            });
+            
+            Object.keys(modelStats).forEach(model => {
+                const stats = modelStats[model];
+                stats.avgReward = stats.rewards.reduce((a, b) => a + b, 0) / stats.rewards.length;
+                stats.successRate = stats.successCount / stats.count;
+            });
+            
+            return {
+                modelStats,
+                totalTasks: data.length,
+                avgReward: data.length > 0 ? totalReward / data.length : 0,
+                successRate: data.length > 0 ? successCount / data.length : 0,
+                activeModels: Object.keys(modelStats).length
+            };
+        }
+        
+        function updateStats(analysis) {
+            document.getElementById('totalTasks').textContent = analysis.totalTasks;
+            document.getElementById('avgReward').textContent = analysis.avgReward.toFixed(3);
+            document.getElementById('successRate').textContent = (analysis.successRate * 100).toFixed(1) + '%';
+            document.getElementById('activeModels').textContent = analysis.activeModels;
+        }
+        
+        function createModelPerformanceChart(modelStats) {
+            const ctx = document.getElementById('modelPerformanceChart').getContext('2d');
+            
+            if (modelPerformanceChart) {
+                modelPerformanceChart.destroy();
+            }
+            
+            const models = Object.keys(modelStats);
+            const rewards = models.map(model => modelStats[model].avgReward);
+            const colors = ['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6', '#1abc9c'];
+            
+            modelPerformanceChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: models,
+                    datasets: [{
+                        label: 'Average Reward',
+                        data: rewards,
+                        backgroundColor: colors.slice(0, models.length),
+                        borderColor: colors.slice(0, models.length),
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 2.0
+                        }
+                    }
+                }
+            });
+        }
+        
+        function createRewardTrendChart(data) {
+            const ctx = document.getElementById('rewardTrendChart').getContext('2d');
+            
+            if (rewardTrendChart) {
+                rewardTrendChart.destroy();
+            }
+            
+            const sortedData = data.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp)).slice(-20);
+            const labels = sortedData.map((_, index) => `Task ${index + 1}`);
+            const rewards = sortedData.map(task => task.reward || 0);
+            
+            rewardTrendChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Reward',
+                        data: rewards,
+                        borderColor: '#3498db',
+                        backgroundColor: 'rgba(52, 152, 219, 0.1)',
+                        tension: 0.4,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 2.0
+                        }
+                    }
+                }
+            });
+        }
+        
+        function updateRecentTasksTable(data) {
+            const tbody = document.getElementById('recentTasksBody');
+            const recentTasks = data.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp)).slice(0, 10);
+            
+            tbody.innerHTML = recentTasks.map(task => {
+                const isSuccess = task.output && (task.output.status === 200 || task.output.status === "200") && !task.output.error;
+                return `
+                    <tr>
+                        <td>${(task.task_id || 'unknown').substring(0, 8)}...</td>
+                        <td>${task.model || task.agent || 'unknown'}</td>
+                        <td>${(task.reward || 0).toFixed(3)}</td>
+                        <td>${isSuccess ? '✅ Success' : '❌ Error'}</td>
+                        <td>${new Date(task.timestamp).toLocaleString()}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+    </script>
+</body>
+</html>

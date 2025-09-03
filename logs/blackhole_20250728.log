@@ -1,0 +1,136 @@
+2025-07-28 13:08:56,824 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 13:09:50,753 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-28 13:09:50,754 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-28 13:16:56,607 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 13:17:02,720 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-28 13:17:02,720 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-28 13:17:06,903 - WARNING - integration.nipun_adapter - spaCy model 'en_core_web_sm' not found. Install with: python -m spacy download en_core_web_sm
+2025-07-28 13:17:39,906 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 13:17:45,751 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-28 13:17:45,752 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-28 14:39:50,134 - INFO - agents.agent_registry - Loaded 8 agents from config/agent_configs.json
+2025-07-28 14:39:50,139 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 14:39:50,139 - INFO - utils.mongo_logger - MongoDB logger initialized successfully
+2025-07-28 14:40:13,461 - INFO - agents.agent_registry - Loaded 8 agents from config/agent_configs.json
+2025-07-28 14:40:13,461 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 14:40:13,472 - INFO - utils.mongo_logger - MongoDB logger initialized successfully
+2025-07-28 14:40:49,945 - INFO - agents.agent_registry - Loaded 8 agents from config/agent_configs.json
+2025-07-28 14:40:49,958 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 14:40:49,964 - INFO - utils.mongo_logger - MongoDB logger initialized successfully
+2025-07-28 14:45:48,810 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 14:46:03,357 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-28 14:46:03,357 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-28 14:51:01,391 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 14:51:07,536 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-28 14:51:07,536 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-28 14:51:14,166 - INFO - __main__ - ✅ Nipun adapter loaded successfully
+2025-07-28 14:52:01,826 - WARNING - passlib.handlers.bcrypt - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\nisar\AppData\Local\Programs\Python\Python310\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-07-28 14:53:03,444 - ERROR - __main__ - Error getting NLOs: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6887410ad66e1ed0dffa55ef, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-28 15:00:44,711 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 15:00:53,517 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-28 15:00:53,519 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-28 15:00:59,827 - INFO - __main__ - ✅ Nipun adapter loaded successfully
+2025-07-28 15:02:12,189 - WARNING - passlib.handlers.bcrypt - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\nisar\AppData\Local\Programs\Python\Python310\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-07-28 15:03:02,886 - INFO - mcp_bridge - [MCP_BRIDGE] Task ID: 1fc53241-955b-4165-bd2b-d99ae085dd36 | Agent: vedas_agent | Input: Give me the analysis of the above... | File: temp/025db512-6dcf-42e0-8866-e09385a8cd45_CleverTap Test Allotment.pdf | Type: pdf
+2025-07-28 15:03:03,981 - ERROR - mcp_bridge - [MCP_BRIDGE] Error processing task 1fc53241-955b-4165-bd2b-d99ae085dd36: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+2025-07-28 15:03:03,981 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 1fc53241-955b-4165-bd2b-d99ae085dd36
+2025-07-28 15:03:03,981 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '1fc53241-955b-4165-bd2b-d99ae085dd36', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-28T15:03:03.981482'}
+2025-07-28 15:03:03,998 - INFO - reinforcement.replay_buffer - Saved replay buffer to logs/learning_log.json
+2025-07-28 15:03:03,998 - INFO - reinforcement.replay_buffer - Added run to replay buffer: 1fc53241-955b-4165-bd2b-d99ae085dd36
+2025-07-28 15:03:03,998 - INFO - reinforcement.rl_context - Logged RL task: {'task_id': '1fc53241-955b-4165-bd2b-d99ae085dd36', 'input': 'Give me the analysis of the above', 'output': {'error': 'Task processing failed: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable', 'status': 500}, 'agent': 'vedas_agent', 'model': 'vedas_agent', 'timestamp': '2025-07-28T15:03:03.998488'}
+2025-07-28 15:03:13,843 - ERROR - __main__ - Error getting NLOs: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 688743532e047504e13c5d4a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-28 15:03:35,467 - INFO - mcp_bridge - [MCP_BRIDGE] Task ID: 8bc97adc-a4b8-432b-90e9-231c5d56dca6 | Agent: edumentor_agent | Input: Give me the analysis of the above... | File: temp/c114e5e8-598b-494c-8bfc-09f74d6ce4a5_CleverTap Test Allotment.pdf | Type: pdf
+2025-07-28 15:03:35,467 - ERROR - mcp_bridge - [MCP_BRIDGE] Error processing task 8bc97adc-a4b8-432b-90e9-231c5d56dca6: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+2025-07-28 15:03:35,467 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 8bc97adc-a4b8-432b-90e9-231c5d56dca6
+2025-07-28 15:03:35,467 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '8bc97adc-a4b8-432b-90e9-231c5d56dca6', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-28T15:03:35.467231'}
+2025-07-28 15:03:35,482 - INFO - reinforcement.replay_buffer - Saved replay buffer to logs/learning_log.json
+2025-07-28 15:03:35,482 - INFO - reinforcement.replay_buffer - Added run to replay buffer: 8bc97adc-a4b8-432b-90e9-231c5d56dca6
+2025-07-28 15:03:35,482 - INFO - reinforcement.rl_context - Logged RL task: {'task_id': '8bc97adc-a4b8-432b-90e9-231c5d56dca6', 'input': 'Give me the analysis of the above', 'output': {'error': 'Task processing failed: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable', 'status': 500}, 'agent': 'edumentor_agent', 'model': 'edumentor_agent', 'timestamp': '2025-07-28T15:03:35.482115'}
+2025-07-28 15:03:48,176 - ERROR - integration.nipun_adapter - Error retrieving NLO by task ID: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6887434d2e047504e13c5d49, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-28 15:03:48,176 - ERROR - __main__ - Error downloading NLO: 404: NLO not found
+2025-07-28 15:14:35,088 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 15:14:41,575 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-28 15:14:41,576 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-28 15:14:49,732 - INFO - __main__ - ✅ Nipun adapter loaded successfully
+2025-07-28 15:15:07,321 - WARNING - passlib.handlers.bcrypt - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\nisar\AppData\Local\Programs\Python\Python310\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-07-28 15:15:41,190 - INFO - mcp_bridge - [MCP_BRIDGE] Task ID: 4eaea7a2-c04f-4a12-9f3c-6da808b886b9 | Agent: edumentor_agent | Input: Analyze the result... | File: temp/0e2eb99c-0064-424b-89e5-c3200fb0f5ea_ZRESULT_DISP_DJ_8056.pdf | Type: pdf
+2025-07-28 15:15:41,190 - ERROR - mcp_bridge - [MCP_BRIDGE] Error processing task 4eaea7a2-c04f-4a12-9f3c-6da808b886b9: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+2025-07-28 15:15:41,190 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 4eaea7a2-c04f-4a12-9f3c-6da808b886b9
+2025-07-28 15:15:41,190 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '4eaea7a2-c04f-4a12-9f3c-6da808b886b9', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-28T15:15:41.190500'}
+2025-07-28 15:15:41,208 - INFO - reinforcement.replay_buffer - Saved replay buffer to logs/learning_log.json
+2025-07-28 15:15:41,208 - INFO - reinforcement.replay_buffer - Added run to replay buffer: 4eaea7a2-c04f-4a12-9f3c-6da808b886b9
+2025-07-28 15:15:41,208 - INFO - reinforcement.rl_context - Logged RL task: {'task_id': '4eaea7a2-c04f-4a12-9f3c-6da808b886b9', 'input': 'Analyze the result', 'output': {'error': 'Task processing failed: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable', 'status': 500}, 'agent': 'edumentor_agent', 'model': 'edumentor_agent', 'timestamp': '2025-07-28T15:15:41.208133'}
+2025-07-28 15:16:08,508 - ERROR - __main__ - Error getting NLOs: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6887469179495be5ea30a41e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-28 15:18:54,158 - INFO - agents.agent_registry - Loaded 8 agents from config/agent_configs.json
+2025-07-28 15:18:54,179 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 15:18:54,184 - INFO - utils.mongo_logger - MongoDB logger initialized successfully
+2025-07-28 15:19:35,290 - INFO - mcp_bridge - [MCP_BRIDGE] Task ID: 7a53f3d3-09bf-4dfd-abe4-8bf91c2379f3 | Agent: edumentor_agent | Input: Give me the analysis of the above... | File: temp/1647e74e-9e08-431f-877e-9ec3d7cfabd4_Final year topic finalisation notice July 2025.pdf | Type: pdf
+2025-07-28 15:19:35,294 - ERROR - mcp_bridge - [MCP_BRIDGE] Error processing task 7a53f3d3-09bf-4dfd-abe4-8bf91c2379f3: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+2025-07-28 15:19:35,294 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 7a53f3d3-09bf-4dfd-abe4-8bf91c2379f3
+2025-07-28 15:19:35,294 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '7a53f3d3-09bf-4dfd-abe4-8bf91c2379f3', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-28T15:19:35.294385'}
+2025-07-28 15:19:35,310 - INFO - reinforcement.replay_buffer - Saved replay buffer to logs/learning_log.json
+2025-07-28 15:19:35,310 - INFO - reinforcement.replay_buffer - Added run to replay buffer: 7a53f3d3-09bf-4dfd-abe4-8bf91c2379f3
+2025-07-28 15:19:35,310 - INFO - reinforcement.rl_context - Logged RL task: {'task_id': '7a53f3d3-09bf-4dfd-abe4-8bf91c2379f3', 'input': 'Give me the analysis of the above', 'output': {'error': 'Task processing failed: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable', 'status': 500}, 'agent': 'edumentor_agent', 'model': 'edumentor_agent', 'timestamp': '2025-07-28T15:19:35.310719'}
+2025-07-28 15:20:23,216 - ERROR - __main__ - Error getting NLOs: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6887469179495be5ea30a41e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-28 15:23:29,374 - INFO - agents.agent_registry - Loaded 8 agents from config/agent_configs.json
+2025-07-28 15:23:29,392 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 15:23:29,394 - INFO - utils.mongo_logger - MongoDB logger initialized successfully
+2025-07-28 15:24:07,903 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 15:24:14,507 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cpu
+2025-07-28 15:24:14,507 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-28 15:24:21,363 - INFO - __main__ - ✅ Nipun adapter loaded successfully
+2025-07-28 15:24:35,739 - WARNING - passlib.handlers.bcrypt - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\nisar\AppData\Local\Programs\Python\Python310\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-07-28 15:25:23,367 - INFO - agents.agent_registry - Loaded 8 agents from config/agent_configs.json
+2025-07-28 15:25:23,367 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 15:25:23,367 - INFO - utils.mongo_logger - MongoDB logger initialized successfully
+2025-07-28 15:25:36,964 - ERROR - __main__ - Error getting NLOs: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 688748cd3fc084c5b5bd98f9, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-28 15:26:15,807 - INFO - agents.agent_registry - Loaded 8 agents from config/agent_configs.json
+2025-07-28 15:26:15,807 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 15:26:15,807 - INFO - utils.mongo_logger - MongoDB logger initialized successfully
+2025-07-28 15:27:44,845 - ERROR - __main__ - Error getting NLOs: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 688748cd3fc084c5b5bd98f9, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-28 15:29:23,964 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 15:29:23,967 - INFO - __main__ - RL Configuration: use_rl=True, exploration_rate=0.2
+2025-07-28 15:29:26,036 - INFO - mcp_bridge - [MCP_BRIDGE] Task ID: 04726ac5-6830-482c-a9de-5dc36cd29557 | Agent: vedas_agent | Input: Meaning of life... | File:  | Type: text
+2025-07-28 15:29:30,139 - ERROR - mcp_bridge - [MCP_BRIDGE] Error processing task 04726ac5-6830-482c-a9de-5dc36cd29557: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /ask-vedas (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFFC3825C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-07-28 15:29:30,139 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 04726ac5-6830-482c-a9de-5dc36cd29557
+2025-07-28 15:29:30,139 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '04726ac5-6830-482c-a9de-5dc36cd29557', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-28T15:29:30.139134'}
+2025-07-28 15:29:30,139 - INFO - reinforcement.replay_buffer - Saved replay buffer to logs/learning_log.json
+2025-07-28 15:29:30,139 - INFO - reinforcement.replay_buffer - Added run to replay buffer: 04726ac5-6830-482c-a9de-5dc36cd29557
+2025-07-28 15:29:30,139 - INFO - reinforcement.rl_context - Logged RL task: {'task_id': '04726ac5-6830-482c-a9de-5dc36cd29557', 'input': 'Meaning of life', 'output': {'error': "Task processing failed: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /ask-vedas (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFFC3825C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))", 'status': 500}, 'agent': 'vedas_agent', 'model': 'vedas_agent', 'timestamp': '2025-07-28T15:29:30.139134'}
+2025-07-28 15:29:30,152 - INFO - __main__ - CLI task completed in 6.19s: 04726ac5-6830-482c-a9de-5dc36cd29557
+2025-07-28 15:29:30,153 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 04726ac5-6830-482c-a9de-5dc36cd29557
+2025-07-28 15:29:30,153 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '04726ac5-6830-482c-a9de-5dc36cd29557', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-28T15:29:30.153345'}
+2025-07-28 15:29:30,160 - INFO - reinforcement.replay_buffer - Saved replay buffer to logs/learning_log.json
+2025-07-28 15:29:30,161 - INFO - reinforcement.replay_buffer - Added run to replay buffer: 04726ac5-6830-482c-a9de-5dc36cd29557
+2025-07-28 15:29:30,161 - INFO - reinforcement.rl_context - Logged RL task: {'task_id': '04726ac5-6830-482c-a9de-5dc36cd29557', 'input': 'Meaning of life', 'output': {'error': "Task processing failed: HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /ask-vedas (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFFC3825C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))", 'status': 500}, 'agent': 'vedas_agent', 'model': 'vedas_agent', 'timestamp': '2025-07-28T15:29:30.161143'}
+2025-07-28 15:30:20,814 - INFO - reinforcement.replay_buffer - Loaded replay buffer from logs/learning_log.json
+2025-07-28 15:30:20,814 - INFO - __main__ - RL Configuration: use_rl=True, exploration_rate=0.2
+2025-07-28 15:30:22,898 - INFO - mcp_bridge - [MCP_BRIDGE] Task ID: 6ceedbbe-7efd-4f94-9089-72f3cccedab5 | Agent: vedas_agent | Input: Meaning of life... | File:  | Type: text
+2025-07-28 15:30:56,666 - ERROR - mcp_bridge - [MCP_BRIDGE] Error processing task 6ceedbbe-7efd-4f94-9089-72f3cccedab5: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6887493f81f54daa73cf719b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-28 15:30:56,666 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 6ceedbbe-7efd-4f94-9089-72f3cccedab5
+2025-07-28 15:30:56,666 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '6ceedbbe-7efd-4f94-9089-72f3cccedab5', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-28T15:30:56.666774'}
+2025-07-28 15:30:56,671 - INFO - reinforcement.replay_buffer - Saved replay buffer to logs/learning_log.json
+2025-07-28 15:30:56,671 - INFO - reinforcement.replay_buffer - Added run to replay buffer: 6ceedbbe-7efd-4f94-9089-72f3cccedab5
+2025-07-28 15:30:56,671 - INFO - reinforcement.rl_context - Logged RL task: {'task_id': '6ceedbbe-7efd-4f94-9089-72f3cccedab5', 'input': 'Meaning of life', 'output': {'error': "Task processing failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6887493f81f54daa73cf719b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>", 'status': 500}, 'agent': 'vedas_agent', 'model': 'vedas_agent', 'timestamp': '2025-07-28T15:30:56.671461'}
+2025-07-28 15:30:56,680 - INFO - __main__ - CLI task completed in 35.87s: 6ceedbbe-7efd-4f94-9089-72f3cccedab5
+2025-07-28 15:30:56,681 - INFO - reinforcement.reward_functions - Computed reward 0.0 for task 6ceedbbe-7efd-4f94-9089-72f3cccedab5
+2025-07-28 15:30:56,681 - INFO - reinforcement.rl_context - Logged RL reward: {'task_id': '6ceedbbe-7efd-4f94-9089-72f3cccedab5', 'reward': 0.0, 'metrics': {'clarity_score': 0.0, 'tag_count': 0, 'status': 500}, 'timestamp': '2025-07-28T15:30:56.681828'}
+2025-07-28 15:30:56,687 - INFO - reinforcement.replay_buffer - Saved replay buffer to logs/learning_log.json
+2025-07-28 15:30:56,688 - INFO - reinforcement.replay_buffer - Added run to replay buffer: 6ceedbbe-7efd-4f94-9089-72f3cccedab5
+2025-07-28 15:30:56,689 - INFO - reinforcement.rl_context - Logged RL task: {'task_id': '6ceedbbe-7efd-4f94-9089-72f3cccedab5', 'input': 'Meaning of life', 'output': {'error': "Task processing failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6887493f81f54daa73cf719b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>", 'status': 500}, 'agent': 'vedas_agent', 'model': 'vedas_agent', 'timestamp': '2025-07-28T15:30:56.689214'}

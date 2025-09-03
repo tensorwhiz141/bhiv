@@ -1,0 +1,45 @@
+fastapi
+uvicorn
+requests
+requests-toolbelt
+pydantic
+motor
+pyPDF2
+python-dotenv
+langchain-core
+langchain-groq
+langchain-huggingface
+langchain-community
+sentence-transformers
+transformers
+speechrecognition
+pillow
+pytest
+pytest-asyncio
+python-multipart
+torch
+torchaudio
+soundfile
+librosa
+pydub
+pymongo
+nltk
+spacy
+tqdm
+jinja2
+python-jose[cryptography]
+passlib[bcrypt]
+passlib
+# Voice Processing Dependencies
+openai-whisper
+gtts
+pyttsx3
+pvporcupine
+webrtcvad
+pyaudio
+numpy
+# Vector Database
+qdrant-client
+# Additional Audio Processing
+websockets
+fastapi-websocket
