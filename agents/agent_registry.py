@@ -1,9 +1,11 @@
 import json
 import os
+import uuid  # Add this import
 from typing import Dict, Any, Optional
 from utils.logger import get_logger
 from reinforcement.agent_selector import AgentSelector
 from reinforcement.rl_context import RLContext
+from config.settings import RL_CONFIG  # Import RL_CONFIG instead
 
 logger = get_logger(__name__)
 
@@ -69,15 +71,18 @@ class AgentRegistry:
     
     def find_agent(self, task_context: Dict[str, Any]) -> str:
         """Find appropriate agent based on task context with RL support."""
-        task_id = task_context.get("task_id", str(uuid.uuid4()))
+        task_id = task_context.get("task_id", str(uuid.uuid4()))  # Use uuid here
         task = task_context.get("task", "summarize")
         
         # Use RL-based selection if enabled in settings
-        from config.settings import settings
-        use_rl = settings.get("use_rl", False)
+        use_rl = RL_CONFIG.get("use_rl", False)
         
         if use_rl:
-            selected_agent = self.agent_selector.select_agent(task, task_context)
+            selected_agent = self.agent_selector.select_agent(task_context)  # Pass the whole context
+            # Handle case where select_agent returns None
+            if selected_agent is None:
+                selected_agent = "edumentor_agent"  # Default fallback
+            
             self.rl_context.log_action(
                 task_id=task_id,
                 agent=selected_agent,

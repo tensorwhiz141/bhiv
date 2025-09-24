@@ -7,6 +7,7 @@ from utils.logger import get_logger
 from reinforcement.reward_functions import get_reward_from_output
 from reinforcement.replay_buffer import replay_buffer
 from config.settings import MODEL_CONFIG
+from agents.base_agent import BaseAgent
 
 # Try to import Whisper
 try:
@@ -17,9 +18,10 @@ except ImportError:
 
 logger = get_logger(__name__)
 
-class AudioAgent:
+class AudioAgent(BaseAgent):
     """Agent for processing audio inputs using multiple fallback methods."""
     def __init__(self):
+        super().__init__()
         self.recognizer = sr.Recognizer()
         self.model_config = MODEL_CONFIG.get("edumentor_agent", {})
         
@@ -296,8 +298,33 @@ class AudioAgent:
             logger.error(f"Traceback: {traceback.format_exc()}")
             return {"error": error_msg, "status": 500, "keywords": []}
 
-    def run(self, input_path: str, live_feed: str = "", model: str = "edumentor_agent", input_type: str = "audio", task_id: str = None) -> Dict[str, Any]:
-        task_id = task_id or str(uuid.uuid4())
+    def run(self, input_data: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Standard interface for AudioAgent.
+        
+        Args:
+            input_data: Dictionary containing input parameters
+                Required keys:
+                    - input: The audio file path to process
+                    - task_id: Unique identifier for the task (optional)
+                Optional keys:
+                    - input_type: Type of input (default: audio)
+                    - model: Model to use for processing (default: edumentor_agent)
+                    - tags: List of tags for the task
+                    - live_feed: Live feed data (for streaming)
+                    - retries: Number of retry attempts (default: 3)
+        
+        Returns:
+            Dictionary with processing results in standardized format
+        """
+        task_id = input_data.get('task_id', str(uuid.uuid4()))
+        input_path = input_data.get('input', '')
+        input_type = input_data.get('input_type', 'audio')
+        model = input_data.get('model', 'edumentor_agent')
+        tags = input_data.get('tags', [])
+        live_feed = input_data.get('live_feed', '')
+        retries = input_data.get('retries', 3)
+        
         logger.info(f"AudioAgent processing task {task_id}, input: {input_path}")
         result = self.process_audio(input_path, task_id)
         reward = get_reward_from_output(result, task_id)
@@ -307,5 +334,11 @@ class AudioAgent:
 if __name__ == "__main__":
     agent = AudioAgent()
     test_input = "test_audio.wav"
-    result = agent.run(test_input, input_type="audio")
+    
+    # Test with new interface
+    input_data = {
+        "input": test_input,
+        "input_type": "audio"
+    }
+    result = agent.run(input_data)
     print(result)

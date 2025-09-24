@@ -1894,5 +1894,85 @@
     "model": "vedas_agent",
     "reward": 0.0,
     "timestamp": "2025-07-29T15:27:16.261417"
+  },
+  {
+    "task_id": "test-text-001",
+    "input": "Artificial intelligence is a wonderful field that is developing rapidly.",
+    "output": {
+      "error": "Text processing failed after 3 attempts: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "status": 500,
+      "keywords": [],
+      "processing_time": 3.468737840652466,
+      "attempts": 3,
+      "agent": "text_agent",
+      "input_type": "text",
+      "input_length": 72
+    },
+    "agent": "text_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-09-24T10:06:31.974977"
+  },
+  {
+    "task_id": "test-audio-001",
+    "input": "nonexistent_audio.wav",
+    "output": {
+      "error": "Audio file not found: nonexistent_audio.wav",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-09-24T10:07:21.846598"
+  },
+  {
+    "task_id": "test-1",
+    "input": "Explain AI in simple terms",
+    "output": {
+      "error": "Text processing failed after 3 attempts: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "status": 500,
+      "keywords": [],
+      "processing_time": 3.494161367416382,
+      "attempts": 3,
+      "agent": "text_agent",
+      "input_type": "text",
+      "input_length": 26
+    },
+    "agent": "text_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-09-24T10:12:36.758858"
+  },
+  {
+    "task_id": "test-text-001",
+    "input": "Artificial intelligence is a wonderful field that is developing rapidly.",
+    "output": {
+      "error": "Text processing failed after 3 attempts: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "status": 500,
+      "keywords": [],
+      "processing_time": 3.1651611328125,
+      "attempts": 3,
+      "agent": "text_agent",
+      "input_type": "text",
+      "input_length": 72
+    },
+    "agent": "text_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-09-24T10:12:53.361663"
+  },
+  {
+    "task_id": "test-audio-001",
+    "input": "nonexistent_audio.wav",
+    "output": {
+      "error": "Audio file not found: nonexistent_audio.wav",
+      "status": 500,
+      "keywords": []
+    },
+    "agent": "audio_agent",
+    "model": "edumentor_agent",
+    "reward": 0.0,
+    "timestamp": "2025-09-24T10:13:03.127622"
   }
 ]
